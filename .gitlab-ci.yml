@@ -12,6 +12,8 @@ sony-pack-deploy:
   stage: sony-pack-deploy
   image: "registry.gitlab.com/modmyclassic/docker-autodevops-buildenvs/mmc-crosscompiler-docker-image:latest_internal"
   script:
+    - apt-get update
+    - apt-get install -y cmake
     - cd ppssppbuild
     - make
     - arm-linux-gnueabihf-strip PPSSPPSDL
