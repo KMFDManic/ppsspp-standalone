@@ -13,7 +13,7 @@ sony-pack-deploy:
   image: "registry.gitlab.com/modmyclassic/docker-autodevops-buildenvs/mmc-crosscompiler-docker-image:latest_internal"
   script:
     - apt-get update
-    - apt-get install -y cmake snappy libsnappy-dev
+    - apt-get install -y cmake libsnappy-dev
     - git submodule update --init --recursive --remote
     - cd ppssppbuild
     - cmake .
