@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libxbrz.a  CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o
+/usr/bin/ranlib lib/libxbrz.a

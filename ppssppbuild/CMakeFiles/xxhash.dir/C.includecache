@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Storage/Files/build/ppsspp/ext/xxhash.c
+ppsspp_config.h
+/Storage/Files/build/ppsspp/ext/ppsspp_config.h
+xxhash.h
+/Storage/Files/build/ppsspp/ext/xxhash.h
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+
+/Storage/Files/build/ppsspp/ext/xxhash.h
+stddef.h
+-
+
+/Storage/Files/build/ppsspp/ppsspp_config.h
+TargetConditionals.h
+-
+

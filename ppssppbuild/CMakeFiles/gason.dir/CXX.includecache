@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Storage/Files/build/ppsspp/ext/native/ext/gason/gason.cpp
+gason.h
+/Storage/Files/build/ppsspp/ext/native/ext/gason/gason.h
+stdlib.h
+-
+
+/Storage/Files/build/ppsspp/ext/native/ext/gason/gason.h
+stdint.h
+-
+stddef.h
+-
+assert.h
+-
+

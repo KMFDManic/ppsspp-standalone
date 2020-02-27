@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libudis86.a  CMakeFiles/udis86.dir/decode.c.o CMakeFiles/udis86.dir/itab.c.o CMakeFiles/udis86.dir/syn-att.c.o CMakeFiles/udis86.dir/syn-intel.c.o CMakeFiles/udis86.dir/syn.c.o CMakeFiles/udis86.dir/udis86.c.o
+/usr/bin/ranlib ../../lib/libudis86.a

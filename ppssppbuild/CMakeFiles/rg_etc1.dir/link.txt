@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/librg_etc1.a  CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o
+/usr/bin/ranlib lib/librg_etc1.a

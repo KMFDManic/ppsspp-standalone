@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Storage/Files/build/ppsspp/ext/xbrz/config.h
+
+/Storage/Files/build/ppsspp/ext/xbrz/xbrz.cpp
+xbrz.h
+/Storage/Files/build/ppsspp/ext/xbrz/xbrz.h
+cmath
+-
+cassert
+-
+algorithm
+-
+limits
+-
+vector
+-
+
+/Storage/Files/build/ppsspp/ext/xbrz/xbrz.h
+cstddef
+-
+stdint.h
+-
+cstdint
+-
+limits
+-
+config.h
+/Storage/Files/build/ppsspp/ext/xbrz/config.h
+

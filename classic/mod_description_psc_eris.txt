@@ -1,0 +1,2 @@
+ppsspp is a highly portable HLE emulator
+for PSP games and demos.

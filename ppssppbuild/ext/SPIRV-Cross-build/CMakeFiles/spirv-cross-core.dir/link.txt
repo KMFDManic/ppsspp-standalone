@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libspirv-cross-core.a  CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cross.cpp.o CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cross_util.cpp.o CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cfg.cpp.o CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cross_parsed_ir.cpp.o CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_parser.cpp.o
+/usr/bin/ranlib ../../lib/libspirv-cross-core.a

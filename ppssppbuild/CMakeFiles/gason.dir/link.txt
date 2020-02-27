@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libgason.a  CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o
+/usr/bin/ranlib lib/libgason.a

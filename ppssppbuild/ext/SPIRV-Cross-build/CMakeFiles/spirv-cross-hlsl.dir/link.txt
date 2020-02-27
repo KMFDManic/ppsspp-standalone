@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libspirv-cross-hlsl.a  CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o
+/usr/bin/ranlib ../../lib/libspirv-cross-hlsl.a

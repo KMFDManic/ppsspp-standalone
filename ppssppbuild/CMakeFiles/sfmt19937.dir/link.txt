@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libsfmt19937.a  CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o
+/usr/bin/ranlib lib/libsfmt19937.a

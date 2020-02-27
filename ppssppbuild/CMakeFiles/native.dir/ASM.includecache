@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Storage/Files/build/ppsspp/ext/native/math/fast/fast_matrix_neon.S
+ppsspp_config.h
+/Storage/Files/build/ppsspp/ext/native/math/fast/ppsspp_config.h
+
+/Storage/Files/build/ppsspp/ppsspp_config.h
+TargetConditionals.h
+-
+

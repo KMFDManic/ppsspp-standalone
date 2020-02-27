@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.o"
+  "CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.o"
+  "PPSSPPSDL.pdb"
+  "PPSSPPSDL"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/PPSSPPSDL.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

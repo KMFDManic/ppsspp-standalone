@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libsnappy.a  CMakeFiles/snappy.dir/snappy-c.cpp.o CMakeFiles/snappy.dir/snappy.cpp.o
+/usr/bin/ranlib ../../lib/libsnappy.a

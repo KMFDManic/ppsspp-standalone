@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Storage/Files/build/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp
+rg_etc1.h
+/Storage/Files/build/ppsspp/ext/native/ext/rg_etc1/rg_etc1.h
+stdlib.h
+-
+memory.h
+-
+assert.h
+-
+math.h
+-
+
+/Storage/Files/build/ppsspp/ext/native/ext/rg_etc1/rg_etc1.h
+
