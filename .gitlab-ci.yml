@@ -15,6 +15,7 @@ sony-pack-deploy:
     - apt-get update
     - apt-get install -y cmake
     - cd ppssppbuild
+    - cmake .
     - make
     - arm-linux-gnueabihf-strip PPSSPPSDL
     - mv PPSSPPSDL assets ../classic/psc_eris/media/project_eris/etc/project_eris/SUP/launchers/ppsspp/
