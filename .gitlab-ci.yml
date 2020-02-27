@@ -13,11 +13,11 @@ sony-pack-deploy:
   image: "registry.gitlab.com/modmyclassic/docker-autodevops-buildenvs/mmc-crosscompiler-docker-image:latest_internal"
   script:
     - apt-get update
-    - apt-get install -y cmake
+    - apt-get install -y cmake snappy libsnappy-dev
     - git submodule update --init --recursive --remote
     - cd ppssppbuild
     - cmake .
-    - make
+    - make -j4
     - arm-linux-gnueabihf-strip PPSSPPSDL
     - mv PPSSPPSDL assets ../classic/psc_eris/media/project_eris/etc/project_eris/SUP/launchers/ppsspp/
     - cd ../classic && make -f Makefile.pack_psc_eris
