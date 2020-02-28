@@ -20,6 +20,7 @@ sony-pack-deploy:
     - cd /builds/modmyclassic/ports/ppsspp/ppsspp/ffmpeg
     - ./linux_armhf.sh
     - cd /builds/modmyclassic/ports/ppsspp/ppssppbuild
+    - export CPPFLAGS="-DPNG_ARM_NEON_OPT=0"
     - cmake .
     - make -j4
     - arm-linux-gnueabihf-strip PPSSPPSDL
