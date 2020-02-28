@@ -15,7 +15,9 @@ sony-pack-deploy:
     - apt-get update
     - apt-get install -y cmake
     - git submodule update --init --recursive
-    - cd ppssppbuild
+    - cd /builds/modmyclassic/ports/ppsspp/ppsspp/ffmpeg
+    - ./linux_armhf.sh
+    - cd /builds/modmyclassic/ports/ppsspp/ppssppbuild
     - cmake .
     - make -j4
     - arm-linux-gnueabihf-strip PPSSPPSDL
