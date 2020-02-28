@@ -534,7 +534,7 @@ USE_SYSTEM_LIBZIP:BOOL=OFF
 USE_SYSTEM_SNAPPY:BOOL=OFF
 
 //Enable or disable Wayland WSI support for Vulkan
-USE_WAYLAND_WSI:BOOL=ON
+USE_WAYLAND_WSI:BOOL=OFF
 
 //Set to ON if target environment uses EGL
 USING_EGL:BOOL=OFF
