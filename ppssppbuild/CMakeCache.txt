@@ -15,7 +15,7 @@
 ########################
 
 //Set to ON if targeting an ARM processor
-ARM:BOOL=OFF
+ARM:BOOL=ON
 
 //Enable regexp expression functions
 ARMIPS_REGEXP:BOOL=OFF
