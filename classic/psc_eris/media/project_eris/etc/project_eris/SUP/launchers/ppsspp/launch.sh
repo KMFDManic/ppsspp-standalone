@@ -1,3 +1,6 @@
 #!/bin/bash
-declare -x XDG_CONFIG_HOME=/media/project_eris/etc/project_eris/SUP/launchers/ppsspp
-exec /media/project_eris/etc/project_eris/SUP/launchers/ppsspp/PPSSPPSDL
+source "/var/volatile/project_eris.cfg"
+cd "/var/volatile/launchtmp"
+chmod +x "PPSSPPSDL"
+XDG_CONFIG_HOME="/var/volatile/launchtmp" ./PPSSPPSDL > "${RUNTIME_LOG_PATH}/ppsspp.log" 2>&1
+chmod +x "PPSSPPSDL"
