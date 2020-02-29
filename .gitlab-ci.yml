@@ -18,12 +18,14 @@ sony-pack-deploy:
     - . classic_set_env_psc_6
     - git submodule update --init --recursive
     - cd /builds/modmyclassic/ports/ppsspp/ppsspp/ffmpeg
+    - cat /builds/modmyclassic/ports/ppsspp/classic/custom_ffmpeg_armhf_make.sh > linux_armhf.sh
     - ./linux_armhf.sh
     - cd /builds/modmyclassic/ports/ppsspp/ppssppbuild
     - export CPPFLAGS="-DPNG_ARM_NEON_OPT=0"
     - cmake .
     - make -j4
     - arm-linux-gnueabihf-strip PPSSPPSDL
+    - readelf -a PPSSPPDL | grep -i SHARED
     - mv PPSSPPSDL assets ../classic/psc_eris/media/project_eris/etc/project_eris/SUP/launchers/ppsspp/
     - cd ../classic && make -f Makefile.pack_psc_eris
     - echo -e "cd /var/www/html/project_eris/mods/\nput *.mod" | sftp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.keys/release_private_key.pem docker@classicmodscloud.com
