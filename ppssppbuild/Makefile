@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles /Storage/Files/build/ppssppbuild/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -532,19 +532,6 @@ spirv-cross-msl: cmake_check_build_system
 spirv-cross-msl/fast:
 	$(MAKE) -f ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-msl.dir/build.make ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-msl.dir/build
 .PHONY : spirv-cross-msl/fast
-
-#=============================================================================
-# Target rules for targets named ppsspp_libretro
-
-# Build rule for target.
-ppsspp_libretro: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ppsspp_libretro
-.PHONY : ppsspp_libretro
-
-# fast build rule for target.
-ppsspp_libretro/fast:
-	$(MAKE) -f libretro/CMakeFiles/ppsspp_libretro.dir/build.make libretro/CMakeFiles/ppsspp_libretro.dir/build
-.PHONY : ppsspp_libretro/fast
 
 Common/ABI.o: Common/ABI.cpp.o
 
@@ -14540,7 +14527,6 @@ help:
 	@echo "... spirv-cross-core"
 	@echo "... spirv-cross-cpp"
 	@echo "... spirv-cross-msl"
-	@echo "... ppsspp_libretro"
 	@echo "... Common/ABI.o"
 	@echo "... Common/ABI.i"
 	@echo "... Common/ABI.s"
