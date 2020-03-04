@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Storage/Files/build/ppsspp/ext/glslang
-BuildDirectory: /Storage/Files/build/ppsspp/build/ext/glslang
+SourceDirectory: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang
+BuildDirectory: /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang
 
 # Where to place the cost data store
 CostDataFile: 
@@ -14,7 +14,7 @@ CostDataFile:
 Site: smithmedia
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-arm-linux-gnueabihf-g++-8
+BuildName: Linux-arm-linux-gnueabihf-g++-6
 
 # Subprojects
 LabelsForSubprojects: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/Storage/Files/build/ppsspp/ext/glslang"
+ConfigureCommand: "/usr/bin/cmake" "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -72,8 +72,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/arm-linux-gnueabihf-g++-8
-CompilerVersion: 8.3.0
+Compiler: /usr/bin/arm-linux-gnueabihf-g++-6
+CompilerVersion: 6.5.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

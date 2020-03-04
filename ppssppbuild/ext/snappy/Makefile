@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles /Storage/Files/build/ppssppbuild/ext/snappy/CMakeFiles/progress.marks
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy/CMakeFiles/progress.marks
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/clean
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext/snappy/CMakeFiles/snappy.dir/rule:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/CMakeFiles/snappy.dir/rule
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/snappy/CMakeFiles/snappy.dir/rule
 .PHONY : ext/snappy/CMakeFiles/snappy.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ snappy: ext/snappy/CMakeFiles/snappy.dir/rule
 
 # fast build rule for target.
 snappy/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/build
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/build
 .PHONY : snappy/fast
 
 snappy-c.o: snappy-c.cpp.o
@@ -177,7 +177,7 @@ snappy-c.o: snappy-c.cpp.o
 
 # target to build an object file
 snappy-c.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.o
 .PHONY : snappy-c.cpp.o
 
 snappy-c.i: snappy-c.cpp.i
@@ -186,7 +186,7 @@ snappy-c.i: snappy-c.cpp.i
 
 # target to preprocess a source file
 snappy-c.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.i
 .PHONY : snappy-c.cpp.i
 
 snappy-c.s: snappy-c.cpp.s
@@ -195,7 +195,7 @@ snappy-c.s: snappy-c.cpp.s
 
 # target to generate assembly for a file
 snappy-c.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.s
 .PHONY : snappy-c.cpp.s
 
 snappy.o: snappy.cpp.o
@@ -204,7 +204,7 @@ snappy.o: snappy.cpp.o
 
 # target to build an object file
 snappy.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.o
 .PHONY : snappy.cpp.o
 
 snappy.i: snappy.cpp.i
@@ -213,7 +213,7 @@ snappy.i: snappy.cpp.i
 
 # target to preprocess a source file
 snappy.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.i
 .PHONY : snappy.cpp.i
 
 snappy.s: snappy.cpp.s
@@ -222,7 +222,7 @@ snappy.s: snappy.cpp.s
 
 # target to generate assembly for a file
 snappy.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.s
 .PHONY : snappy.cpp.s
 
 # Help Target
@@ -255,6 +255,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

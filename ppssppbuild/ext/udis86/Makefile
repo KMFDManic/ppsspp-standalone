@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles /Storage/Files/build/ppssppbuild/ext/udis86/CMakeFiles/progress.marks
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/udis86/CMakeFiles/progress.marks
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/clean
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext/udis86/CMakeFiles/udis86.dir/rule:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/CMakeFiles/udis86.dir/rule
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/udis86/CMakeFiles/udis86.dir/rule
 .PHONY : ext/udis86/CMakeFiles/udis86.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ udis86: ext/udis86/CMakeFiles/udis86.dir/rule
 
 # fast build rule for target.
 udis86/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/build
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/build
 .PHONY : udis86/fast
 
 decode.o: decode.c.o
@@ -177,7 +177,7 @@ decode.o: decode.c.o
 
 # target to build an object file
 decode.c.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/decode.c.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/decode.c.o
 .PHONY : decode.c.o
 
 decode.i: decode.c.i
@@ -186,7 +186,7 @@ decode.i: decode.c.i
 
 # target to preprocess a source file
 decode.c.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/decode.c.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/decode.c.i
 .PHONY : decode.c.i
 
 decode.s: decode.c.s
@@ -195,7 +195,7 @@ decode.s: decode.c.s
 
 # target to generate assembly for a file
 decode.c.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/decode.c.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/decode.c.s
 .PHONY : decode.c.s
 
 itab.o: itab.c.o
@@ -204,7 +204,7 @@ itab.o: itab.c.o
 
 # target to build an object file
 itab.c.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/itab.c.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/itab.c.o
 .PHONY : itab.c.o
 
 itab.i: itab.c.i
@@ -213,7 +213,7 @@ itab.i: itab.c.i
 
 # target to preprocess a source file
 itab.c.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/itab.c.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/itab.c.i
 .PHONY : itab.c.i
 
 itab.s: itab.c.s
@@ -222,7 +222,7 @@ itab.s: itab.c.s
 
 # target to generate assembly for a file
 itab.c.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/itab.c.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/itab.c.s
 .PHONY : itab.c.s
 
 syn-att.o: syn-att.c.o
@@ -231,7 +231,7 @@ syn-att.o: syn-att.c.o
 
 # target to build an object file
 syn-att.c.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-att.c.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-att.c.o
 .PHONY : syn-att.c.o
 
 syn-att.i: syn-att.c.i
@@ -240,7 +240,7 @@ syn-att.i: syn-att.c.i
 
 # target to preprocess a source file
 syn-att.c.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-att.c.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-att.c.i
 .PHONY : syn-att.c.i
 
 syn-att.s: syn-att.c.s
@@ -249,7 +249,7 @@ syn-att.s: syn-att.c.s
 
 # target to generate assembly for a file
 syn-att.c.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-att.c.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-att.c.s
 .PHONY : syn-att.c.s
 
 syn-intel.o: syn-intel.c.o
@@ -258,7 +258,7 @@ syn-intel.o: syn-intel.c.o
 
 # target to build an object file
 syn-intel.c.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-intel.c.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-intel.c.o
 .PHONY : syn-intel.c.o
 
 syn-intel.i: syn-intel.c.i
@@ -267,7 +267,7 @@ syn-intel.i: syn-intel.c.i
 
 # target to preprocess a source file
 syn-intel.c.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-intel.c.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-intel.c.i
 .PHONY : syn-intel.c.i
 
 syn-intel.s: syn-intel.c.s
@@ -276,7 +276,7 @@ syn-intel.s: syn-intel.c.s
 
 # target to generate assembly for a file
 syn-intel.c.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-intel.c.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn-intel.c.s
 .PHONY : syn-intel.c.s
 
 syn.o: syn.c.o
@@ -285,7 +285,7 @@ syn.o: syn.c.o
 
 # target to build an object file
 syn.c.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn.c.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn.c.o
 .PHONY : syn.c.o
 
 syn.i: syn.c.i
@@ -294,7 +294,7 @@ syn.i: syn.c.i
 
 # target to preprocess a source file
 syn.c.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn.c.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn.c.i
 .PHONY : syn.c.i
 
 syn.s: syn.c.s
@@ -303,7 +303,7 @@ syn.s: syn.c.s
 
 # target to generate assembly for a file
 syn.c.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn.c.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/syn.c.s
 .PHONY : syn.c.s
 
 udis86.o: udis86.c.o
@@ -312,7 +312,7 @@ udis86.o: udis86.c.o
 
 # target to build an object file
 udis86.c.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/udis86.c.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/udis86.c.o
 .PHONY : udis86.c.o
 
 udis86.i: udis86.c.i
@@ -321,7 +321,7 @@ udis86.i: udis86.c.i
 
 # target to preprocess a source file
 udis86.c.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/udis86.c.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/udis86.c.i
 .PHONY : udis86.c.i
 
 udis86.s: udis86.c.s
@@ -330,7 +330,7 @@ udis86.s: udis86.c.s
 
 # target to generate assembly for a file
 udis86.c.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/udis86.c.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/udis86/CMakeFiles/udis86.dir/build.make ext/udis86/CMakeFiles/udis86.dir/udis86.c.s
 .PHONY : udis86.c.s
 
 # Help Target
@@ -375,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

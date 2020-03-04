@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/ext/native/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/basictypes.h
 cstdint
 -
 cstdlib
@@ -14,27 +14,27 @@ cstdlib
 tchar.h
 -
 
-/Storage/Files/build/ppsspp/ext/snappy/snappy-c.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.cpp
 snappy.h
-/Storage/Files/build/ppsspp/ext/snappy/snappy.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.h
 snappy-c.h
-/Storage/Files/build/ppsspp/ext/snappy/snappy-c.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.h
 
-/Storage/Files/build/ppsspp/ext/snappy/snappy-c.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.h
 stddef.h
 -
 
-/Storage/Files/build/ppsspp/ext/snappy/snappy-internal.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-internal.h
 snappy-stubs-internal.h
-/Storage/Files/build/ppsspp/ext/snappy/snappy-stubs-internal.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-stubs-internal.h
 
-/Storage/Files/build/ppsspp/ext/snappy/snappy-sinksource.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-sinksource.h
 stddef.h
 -
 
-/Storage/Files/build/ppsspp/ext/snappy/snappy-stubs-internal.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-stubs-internal.h
 config.h
-/Storage/Files/build/ppsspp/ext/snappy/config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/config.h
 string
 -
 assert.h
@@ -46,7 +46,7 @@ string.h
 sys/mman.h
 -
 snappy-stubs-public.h
-/Storage/Files/build/ppsspp/ext/snappy/snappy-stubs-public.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-stubs-public.h
 sys/byteorder.h
 -
 sys/endian.h
@@ -58,19 +58,19 @@ libkern/OSByteOrder.h
 byteswap.h
 -
 
-/Storage/Files/build/ppsspp/ext/snappy/snappy-stubs-public.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-stubs-public.h
 base/basictypes.h
-/Storage/Files/build/ppsspp/ext/snappy/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/base/basictypes.h
 string
 -
 
-/Storage/Files/build/ppsspp/ext/snappy/snappy.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.cpp
 snappy.h
-/Storage/Files/build/ppsspp/ext/snappy/snappy.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.h
 snappy-internal.h
-/Storage/Files/build/ppsspp/ext/snappy/snappy-internal.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-internal.h
 snappy-sinksource.h
-/Storage/Files/build/ppsspp/ext/snappy/snappy-sinksource.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-sinksource.h
 stdio.h
 -
 algorithm
@@ -80,21 +80,11 @@ string
 vector
 -
 
-/Storage/Files/build/ppsspp/ext/snappy/snappy.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.h
 stddef.h
 -
 string
 -
 snappy-stubs-public.h
-/Storage/Files/build/ppsspp/ext/snappy/snappy-stubs-public.h
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/mman.h
-features.h
--
-bits/types.h
--
-stddef.h
--
-bits/mman.h
--
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-stubs-public.h
 

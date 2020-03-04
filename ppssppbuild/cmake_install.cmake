@@ -1,4 +1,4 @@
-# Install script for directory: /Storage/Files/build/ppsspp
+# Install script for directory: /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Storage/Files/build/ppssppbuild/ext/cmake_install.cmake")
-  include("/Storage/Files/build/ppssppbuild/libretro/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Storage/Files/build/ppssppbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/builds/modmyclassic/ports/ppsspp/ppssppbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

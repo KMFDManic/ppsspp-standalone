@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles /Storage/Files/build/ppssppbuild/ext/glslang/External/CMakeFiles/progress.marks
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/External/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/External/CMakeFiles/progress.marks
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/External/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/External/clean
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/External/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/External/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/External/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/External/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/External/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

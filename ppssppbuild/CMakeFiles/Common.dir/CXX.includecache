@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/Common/ABI.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ABI.cpp
 x64Emitter.h
-/Storage/Files/build/ppsspp/Common/x64Emitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/x64Emitter.h
 ABI.h
-/Storage/Files/build/ppsspp/Common/ABI.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ABI.h
 
-/Storage/Files/build/ppsspp/Common/ABI.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ABI.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 
-/Storage/Files/build/ppsspp/Common/Arm64Emitter.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Arm64Emitter.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 limits
 -
 algorithm
@@ -34,61 +34,61 @@ stdlib.h
 string.h
 -
 base/basictypes.h
-/Storage/Files/build/ppsspp/Common/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/basictypes.h
 Arm64Emitter.h
-/Storage/Files/build/ppsspp/Common/Arm64Emitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Arm64Emitter.h
 MathUtil.h
-/Storage/Files/build/ppsspp/Common/MathUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MathUtil.h
 CommonTypes.h
-/Storage/Files/build/ppsspp/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonTypes.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 CPUDetect.h
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 libkern/OSCacheControl.h
 -
 
-/Storage/Files/build/ppsspp/Common/Arm64Emitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Arm64Emitter.h
 functional
 -
 ArmCommon.h
-/Storage/Files/build/ppsspp/Common/ArmCommon.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ArmCommon.h
 BitSet.h
-/Storage/Files/build/ppsspp/Common/BitSet.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/BitSet.h
 CodeBlock.h
-/Storage/Files/build/ppsspp/Common/CodeBlock.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CodeBlock.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 
-/Storage/Files/build/ppsspp/Common/ArmCPUDetect.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ArmCPUDetect.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 ctype.h
 -
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 CPUDetect.h
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 FileUtil.h
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 util/text/utf8.h
-/Storage/Files/build/ppsspp/Common/util/text/utf8.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/util/text/utf8.h
 windows.h
 -
 
-/Storage/Files/build/ppsspp/Common/ArmCommon.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ArmCommon.h
 CommonTypes.h
-/Storage/Files/build/ppsspp/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonTypes.h
 
-/Storage/Files/build/ppsspp/Common/ArmEmitter.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ArmEmitter.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 base/logging.h
-/Storage/Files/build/ppsspp/Common/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/logging.h
 assert.h
 -
 stdarg.h
@@ -106,57 +106,57 @@ libkern/OSCacheControl.h
 sys/mman.h
 -
 MemoryUtil.h
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 ArmEmitter.h
-/Storage/Files/build/ppsspp/Common/ArmEmitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ArmEmitter.h
 CPUDetect.h
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 
-/Storage/Files/build/ppsspp/Common/ArmEmitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ArmEmitter.h
 vector
 -
 cstdint
 -
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 ArmCommon.h
-/Storage/Files/build/ppsspp/Common/ArmCommon.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ArmCommon.h
 CodeBlock.h
-/Storage/Files/build/ppsspp/Common/CodeBlock.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CodeBlock.h
 MsgHandler.h
-/Storage/Files/build/ppsspp/Common/MsgHandler.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MsgHandler.h
 
-/Storage/Files/build/ppsspp/Common/Atomic_GCC.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Atomic_GCC.h
 CommonTypes.h
-/Storage/Files/build/ppsspp/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonTypes.h
 
-/Storage/Files/build/ppsspp/Common/Atomic_Win32.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Atomic_Win32.h
 intrin.h
 -
 CommonTypes.h
-/Storage/Files/build/ppsspp/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonTypes.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 
-/Storage/Files/build/ppsspp/Common/Atomics.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Atomics.h
 Atomic_Win32.h
-/Storage/Files/build/ppsspp/Common/Atomic_Win32.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Atomic_Win32.h
 Atomic_GCC.h
-/Storage/Files/build/ppsspp/Common/Atomic_GCC.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Atomic_GCC.h
 
-/Storage/Files/build/ppsspp/Common/BitSet.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/BitSet.h
 cstddef
 -
 CommonTypes.h
-/Storage/Files/build/ppsspp/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonTypes.h
 intrin.h
 -
 
-/Storage/Files/build/ppsspp/Common/CPUDetect.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 sys/stat.h
 -
 fcntl.h
@@ -168,19 +168,19 @@ memory.h
 set
 -
 base/logging.h
-/Storage/Files/build/ppsspp/Common/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/logging.h
 base/basictypes.h
-/Storage/Files/build/ppsspp/Common/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/basictypes.h
 file/file_util.h
-/Storage/Files/build/ppsspp/Common/file/file_util.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/file/file_util.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 CPUDetect.h
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 FileUtil.h
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 Windows.h
 -
 intrin.h
@@ -188,13 +188,13 @@ intrin.h
 emmintrin.h
 -
 
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 string
 -
 
-/Storage/Files/build/ppsspp/Common/ChunkFile.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ChunkFile.cpp
 cstdlib
 -
 cstring
@@ -202,13 +202,13 @@ cstring
 snappy-c.h
 -
 ChunkFile.h
-/Storage/Files/build/ppsspp/Common/ChunkFile.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ChunkFile.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 
-/Storage/Files/build/ppsspp/Common/ChunkFile.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ChunkFile.h
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 cstdlib
 -
 map
@@ -224,75 +224,75 @@ set
 type_traits
 -
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 Swap.h
-/Storage/Files/build/ppsspp/Common/Swap.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Swap.h
 FileUtil.h
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 
-/Storage/Files/build/ppsspp/Common/CodeBlock.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CodeBlock.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 MemoryUtil.h
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 
-/Storage/Files/build/ppsspp/Common/ColorConv.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ColorConv.cpp
 ColorConv.h
-/Storage/Files/build/ppsspp/Common/ColorConv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ColorConv.h
 ColorConvNEON.h
-/Storage/Files/build/ppsspp/Common/ColorConvNEON.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ColorConvNEON.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 CPUDetect.h
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 emmintrin.h
 -
 smmintrin.h
 -
 
-/Storage/Files/build/ppsspp/Common/ColorConv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ColorConv.h
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 CommonTypes.h
-/Storage/Files/build/ppsspp/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonTypes.h
 ColorConvNEON.h
-/Storage/Files/build/ppsspp/Common/ColorConvNEON.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ColorConvNEON.h
 
-/Storage/Files/build/ppsspp/Common/ColorConvNEON.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ColorConvNEON.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 arm64_neon.h
 -
 arm_neon.h
 -
 ColorConvNEON.h
-/Storage/Files/build/ppsspp/Common/ColorConvNEON.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ColorConvNEON.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 CPUDetect.h
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 
-/Storage/Files/build/ppsspp/Common/ColorConvNEON.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ColorConvNEON.h
 ColorConv.h
-/Storage/Files/build/ppsspp/Common/ColorConv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ColorConv.h
 
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 stdarg.h
 -
 Log.h
-/Storage/Files/build/ppsspp/Common/Log.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Log.h
 CommonTypes.h
-/Storage/Files/build/ppsspp/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonTypes.h
 CommonFuncs.h
-/Storage/Files/build/ppsspp/Common/CommonFuncs.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonFuncs.h
 crtdbg.h
 -
 limits.h
 -
 
-/Storage/Files/build/ppsspp/Common/CommonFuncs.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonFuncs.h
 CommonTypes.h
-/Storage/Files/build/ppsspp/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonTypes.h
 unistd.h
 -
 errno.h
@@ -300,13 +300,13 @@ errno.h
 signal.h
 -
 
-/Storage/Files/build/ppsspp/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonTypes.h
 
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 Windows.h
 -
 
-/Storage/Files/build/ppsspp/Common/ConsoleListener.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ConsoleListener.cpp
 algorithm
 -
 string
@@ -316,7 +316,7 @@ math.h
 process.h
 -
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 array
 -
 stdarg.h
@@ -324,69 +324,69 @@ stdarg.h
 unistd.h
 -
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 thread/threadutil.h
-/Storage/Files/build/ppsspp/Common/thread/threadutil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/thread/threadutil.h
 util/text/utf8.h
-/Storage/Files/build/ppsspp/Common/util/text/utf8.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/util/text/utf8.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 ConsoleListener.h
-/Storage/Files/build/ppsspp/Common/ConsoleListener.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ConsoleListener.h
 Atomics.h
-/Storage/Files/build/ppsspp/Common/Atomics.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Atomics.h
 
-/Storage/Files/build/ppsspp/Common/ConsoleListener.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ConsoleListener.h
 LogManager.h
-/Storage/Files/build/ppsspp/Common/LogManager.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/LogManager.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 
-/Storage/Files/build/ppsspp/Common/Crypto/md5.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/md5.cpp
 polarssl/md5.h
-/Storage/Files/build/ppsspp/Common/Crypto/polarssl/md5.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/polarssl/md5.h
 md5.h
-/Storage/Files/build/ppsspp/Common/Crypto/md5.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/md5.h
 string.h
 -
 
-/Storage/Files/build/ppsspp/Common/Crypto/md5.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/md5.h
 
-/Storage/Files/build/ppsspp/Common/Crypto/sha1.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/sha1.cpp
 polarssl/config.h
-/Storage/Files/build/ppsspp/Common/Crypto/polarssl/config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/polarssl/config.h
 polarssl/sha1.h
-/Storage/Files/build/ppsspp/Common/Crypto/polarssl/sha1.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/polarssl/sha1.h
 sha1.h
-/Storage/Files/build/ppsspp/Common/Crypto/sha1.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/sha1.h
 string.h
 -
 stdio.h
 -
 
-/Storage/Files/build/ppsspp/Common/Crypto/sha1.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/sha1.h
 
-/Storage/Files/build/ppsspp/Common/Crypto/sha256.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/sha256.cpp
 string.h
 -
 sha256.h
-/Storage/Files/build/ppsspp/Common/Crypto/sha256.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/sha256.h
 
-/Storage/Files/build/ppsspp/Common/Crypto/sha256.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Crypto/sha256.h
 inttypes.h
 -
 
-/Storage/Files/build/ppsspp/Common/FileUtil.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 memory
 -
 FileUtil.h
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 Windows.h
 -
 shlobj.h
@@ -420,11 +420,11 @@ CoreFoundation/CFBundle.h
 mach-o/dyld.h
 -
 util/text/utf8.h
-/Storage/Files/build/ppsspp/Common/util/text/utf8.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/util/text/utf8.h
 sys/stat.h
 -
 
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 fstream
 -
 cstdio
@@ -436,9 +436,9 @@ vector
 time.h
 -
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 
-/Storage/Files/build/ppsspp/Common/KeyMap.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/KeyMap.cpp
 set
 -
 algorithm
@@ -446,25 +446,25 @@ algorithm
 SDL_keyboard.h
 -
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 base/logging.h
-/Storage/Files/build/ppsspp/Common/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/logging.h
 base/NativeApp.h
-/Storage/Files/build/ppsspp/Common/base/NativeApp.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/NativeApp.h
 file/ini_file.h
-/Storage/Files/build/ppsspp/Common/file/ini_file.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/file/ini_file.h
 input/input_state.h
-/Storage/Files/build/ppsspp/Common/input/input_state.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/input/input_state.h
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 KeyMap.h
-/Storage/Files/build/ppsspp/Common/KeyMap.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/KeyMap.h
 Core/HLE/sceUtility.h
-/Storage/Files/build/ppsspp/Common/Core/HLE/sceUtility.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Core/HLE/sceUtility.h
 Core/Config.h
-/Storage/Files/build/ppsspp/Common/Core/Config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Core/Config.h
 
-/Storage/Files/build/ppsspp/Common/KeyMap.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/KeyMap.h
 string
 -
 map
@@ -474,91 +474,93 @@ vector
 set
 -
 input/input_state.h
-/Storage/Files/build/ppsspp/Common/input/input_state.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/input/input_state.h
 input/keycodes.h
-/Storage/Files/build/ppsspp/Common/input/keycodes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/input/keycodes.h
 ../Core/HLE/sceCtrl.h
-/Storage/Files/build/ppsspp/Core/HLE/sceCtrl.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCtrl.h
 
-/Storage/Files/build/ppsspp/Common/Log.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Log.h
 cassert
 -
 cstdio
 -
 CommonFuncs.h
-/Storage/Files/build/ppsspp/Common/CommonFuncs.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonFuncs.h
 Common/MsgHandler.h
-/Storage/Files/build/ppsspp/Common/Common/MsgHandler.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common/MsgHandler.h
 android/log.h
 -
 
-/Storage/Files/build/ppsspp/Common/LogManager.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/LogManager.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 algorithm
 -
 base/logging.h
-/Storage/Files/build/ppsspp/Common/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/logging.h
 util/text/utf8.h
-/Storage/Files/build/ppsspp/Common/util/text/utf8.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/util/text/utf8.h
 LogManager.h
-/Storage/Files/build/ppsspp/Common/LogManager.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/LogManager.h
 ConsoleListener.h
-/Storage/Files/build/ppsspp/Common/ConsoleListener.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ConsoleListener.h
 Timer.h
-/Storage/Files/build/ppsspp/Common/Timer.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Timer.h
 FileUtil.h
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 Core/Config.h
-/Storage/Files/build/ppsspp/Common/Core/Config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Core/Config.h
 
-/Storage/Files/build/ppsspp/Common/LogManager.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/LogManager.h
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 vector
 -
 mutex
 -
 file/ini_file.h
-/Storage/Files/build/ppsspp/Common/file/ini_file.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/file/ini_file.h
 Log.h
-/Storage/Files/build/ppsspp/Common/Log.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Log.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 FileUtil.h
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 
-/Storage/Files/build/ppsspp/Common/MakeUnique.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MakeUnique.h
 memory
 -
 type_traits
 -
 
-/Storage/Files/build/ppsspp/Common/MathUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MathUtil.h
 
-/Storage/Files/build/ppsspp/Common/MemArena.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemArena.h
 cstdint
 -
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 mach/mach.h
 -
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 
-/Storage/Files/build/ppsspp/Common/MemArenaAndroid.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemArenaAndroid.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 base/logging.h
-/Storage/Files/build/ppsspp/Common/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/logging.h
+base/NativeApp.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/NativeApp.h
 MemoryUtil.h
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 MemArena.h
-/Storage/Files/build/ppsspp/Common/MemArena.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemArena.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 sys/stat.h
 -
 fcntl.h
@@ -571,20 +573,22 @@ sys/ioctl.h
 -
 linux/ashmem.h
 -
+dlfcn.h
+-
 
-/Storage/Files/build/ppsspp/Common/MemArenaDarwin.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemArenaDarwin.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 string
 -
 inttypes.h
 -
 FileUtil.h
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 MemoryUtil.h
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 MemArena.h
-/Storage/Files/build/ppsspp/Common/MemArena.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemArena.h
 sys/stat.h
 -
 fcntl.h
@@ -600,17 +604,17 @@ mach/mach.h
 mach/vm_map.h
 -
 
-/Storage/Files/build/ppsspp/Common/MemArenaPosix.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemArenaPosix.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 string
 -
 FileUtil.h
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 MemoryUtil.h
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 MemArena.h
-/Storage/Files/build/ppsspp/Common/MemArena.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemArena.h
 sys/stat.h
 -
 fcntl.h
@@ -622,27 +626,27 @@ cerrno
 cstring
 -
 
-/Storage/Files/build/ppsspp/Common/MemArenaWin32.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemArenaWin32.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 MemArena.h
-/Storage/Files/build/ppsspp/Common/MemArena.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemArena.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 
-/Storage/Files/build/ppsspp/Common/MemoryUtil.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 base/logging.h
-/Storage/Files/build/ppsspp/Common/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/logging.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 MemoryUtil.h
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 errno.h
 -
 stdio.h
@@ -656,25 +660,25 @@ mach/vm_param.h
 unistd.h
 -
 
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 sys/mman.h
 -
 stdint.h
 -
 
-/Storage/Files/build/ppsspp/Common/MipsCPUDetect.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MipsCPUDetect.cpp
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 CPUDetect.h
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 FileUtil.h
-/Storage/Files/build/ppsspp/Common/FileUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/FileUtil.h
 
-/Storage/Files/build/ppsspp/Common/MipsEmitter.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MipsEmitter.cpp
 base/logging.h
-/Storage/Files/build/ppsspp/Common/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/logging.h
 assert.h
 -
 stdarg.h
@@ -688,13 +692,13 @@ stdlib.h
 string.h
 -
 MemoryUtil.h
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 MipsEmitter.h
-/Storage/Files/build/ppsspp/Common/MipsEmitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MipsEmitter.h
 CPUDetect.h
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 
-/Storage/Files/build/ppsspp/Common/MipsEmitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MipsEmitter.h
 functional
 -
 vector
@@ -702,111 +706,111 @@ vector
 stdint.h
 -
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 MsgHandler.h
-/Storage/Files/build/ppsspp/Common/MsgHandler.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MsgHandler.h
 
-/Storage/Files/build/ppsspp/Common/Misc.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Misc.cpp
 util/text/utf8.h
-/Storage/Files/build/ppsspp/Common/util/text/utf8.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/util/text/utf8.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 string.h
 -
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 
-/Storage/Files/build/ppsspp/Common/MsgHandler.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MsgHandler.cpp
 string
 -
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 base/logging.h
-/Storage/Files/build/ppsspp/Common/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/base/logging.h
 util/text/utf8.h
-/Storage/Files/build/ppsspp/Common/util/text/utf8.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/util/text/utf8.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 
-/Storage/Files/build/ppsspp/Common/MsgHandler.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MsgHandler.h
 
-/Storage/Files/build/ppsspp/Common/OSVersion.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/OSVersion.cpp
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 cstdint
 -
 vector
 -
 OSVersion.h
-/Storage/Files/build/ppsspp/Common/OSVersion.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/OSVersion.h
 Common/CommonWindows.h
-/Storage/Files/build/ppsspp/Common/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common/CommonWindows.h
 
-/Storage/Files/build/ppsspp/Common/OSVersion.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/OSVersion.h
 string
 -
 
-/Storage/Files/build/ppsspp/Common/StringUtils.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.cpp
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 base/stringutil.h
 -
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 
-/Storage/Files/build/ppsspp/Common/Swap.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Swap.h
 cstdlib
 -
 Common/CommonTypes.h
-/Storage/Files/build/ppsspp/Common/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common/CommonTypes.h
 sys/endian.h
 -
 sys/endian.h
 -
 
-/Storage/Files/build/ppsspp/Common/ThreadPools.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ThreadPools.cpp
 ThreadPools.h
-/Storage/Files/build/ppsspp/Common/ThreadPools.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ThreadPools.h
 ../Core/Config.h
-/Storage/Files/build/ppsspp/Core/Config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Config.h
 Common/MakeUnique.h
-/Storage/Files/build/ppsspp/Common/Common/MakeUnique.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common/MakeUnique.h
 
-/Storage/Files/build/ppsspp/Common/ThreadPools.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ThreadPools.h
 thread/threadpool.h
-/Storage/Files/build/ppsspp/Common/thread/threadpool.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/thread/threadpool.h
 
-/Storage/Files/build/ppsspp/Common/Thunk.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Thunk.cpp
 MemoryUtil.h
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 ABI.h
-/Storage/Files/build/ppsspp/Common/ABI.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ABI.h
 Thunk.h
-/Storage/Files/build/ppsspp/Common/Thunk.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Thunk.h
 
-/Storage/Files/build/ppsspp/Common/Thunk.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Thunk.h
 map
 -
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 x64Emitter.h
-/Storage/Files/build/ppsspp/Common/x64Emitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/x64Emitter.h
 
-/Storage/Files/build/ppsspp/Common/Timer.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Timer.cpp
 time.h
 -
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 mmsystem.h
 -
 sys/timeb.h
@@ -814,17 +818,17 @@ sys/timeb.h
 sys/time.h
 -
 Timer.h
-/Storage/Files/build/ppsspp/Common/Timer.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Timer.h
 StringUtils.h
-/Storage/Files/build/ppsspp/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/StringUtils.h
 
-/Storage/Files/build/ppsspp/Common/Timer.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Timer.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 string
 -
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanContext.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanContext.cpp
 cstdlib
 -
 cstdint
@@ -836,21 +840,21 @@ cstring
 iostream
 -
 base/basictypes.h
-/Storage/Files/build/ppsspp/Common/Vulkan/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/base/basictypes.h
 base/display.h
-/Storage/Files/build/ppsspp/Common/Vulkan/base/display.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/base/display.h
 VulkanContext.h
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanContext.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanContext.h
 GPU/Common/ShaderCommon.h
-/Storage/Files/build/ppsspp/Common/Vulkan/GPU/Common/ShaderCommon.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/GPU/Common/ShaderCommon.h
 Common/StringUtils.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/StringUtils.h
 Core/Config.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Core/Config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Core/Config.h
 ext/glslang/SPIRV/GlslangToSpv.h
-/Storage/Files/build/ppsspp/Common/Vulkan/ext/glslang/SPIRV/GlslangToSpv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/ext/glslang/SPIRV/GlslangToSpv.h
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanContext.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanContext.h
 cassert
 -
 string
@@ -860,11 +864,11 @@ vector
 utility
 -
 base/logging.h
-/Storage/Files/build/ppsspp/Common/Vulkan/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/base/logging.h
 Common/Vulkan/VulkanLoader.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanLoader.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanLoader.h
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanDebug.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanDebug.cpp
 string
 -
 cassert
@@ -872,111 +876,111 @@ cassert
 sstream
 -
 Common/Vulkan/VulkanContext.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanContext.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanContext.h
 Common/Vulkan/VulkanDebug.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanDebug.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanDebug.h
 base/logging.h
-/Storage/Files/build/ppsspp/Common/Vulkan/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/base/logging.h
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanDebug.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanDebug.h
 Common/Vulkan/VulkanContext.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanContext.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanContext.h
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanImage.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanImage.cpp
 Common/Vulkan/VulkanImage.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanImage.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanImage.h
 Common/Vulkan/VulkanMemory.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanMemory.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanMemory.h
 Common/Log.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Log.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Log.h
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanImage.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanImage.h
 Common/Vulkan/VulkanContext.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanContext.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanContext.h
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanLoader.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanLoader.cpp
 Common/Vulkan/VulkanLoader.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanLoader.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanLoader.h
 vector
 -
 string
 -
 base/logging.h
-/Storage/Files/build/ppsspp/Common/Vulkan/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/base/logging.h
 base/basictypes.h
-/Storage/Files/build/ppsspp/Common/Vulkan/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/base/basictypes.h
 base/NativeApp.h
-/Storage/Files/build/ppsspp/Common/Vulkan/base/NativeApp.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/base/NativeApp.h
 dlfcn.h
 -
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanLoader.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanLoader.h
 ext/vulkan/vulkan.h
-/Storage/Files/build/ppsspp/Common/Vulkan/ext/vulkan/vulkan.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/ext/vulkan/vulkan.h
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanMemory.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanMemory.cpp
 Common/Log.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Log.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Log.h
 Common/Vulkan/VulkanMemory.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanMemory.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanMemory.h
 base/timeutil.h
-/Storage/Files/build/ppsspp/Common/Vulkan/base/timeutil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/base/timeutil.h
 math/math_util.h
-/Storage/Files/build/ppsspp/Common/Vulkan/math/math_util.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/math/math_util.h
 
-/Storage/Files/build/ppsspp/Common/Vulkan/VulkanMemory.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/VulkanMemory.h
 vector
 -
 unordered_map
 -
 Common/Vulkan/VulkanContext.h
-/Storage/Files/build/ppsspp/Common/Vulkan/Common/Vulkan/VulkanContext.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Vulkan/Common/Vulkan/VulkanContext.h
 
-/Storage/Files/build/ppsspp/Common/stdafx.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/stdafx.cpp
 stdafx.h
-/Storage/Files/build/ppsspp/Common/stdafx.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/stdafx.h
 
-/Storage/Files/build/ppsspp/Common/stdafx.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/stdafx.h
 CommonWindows.h
-/Storage/Files/build/ppsspp/Common/CommonWindows.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CommonWindows.h
 tchar.h
 -
 vector
 -
 
-/Storage/Files/build/ppsspp/Common/x64Analyzer.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/x64Analyzer.cpp
 x64Analyzer.h
-/Storage/Files/build/ppsspp/Common/x64Analyzer.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/x64Analyzer.h
 
-/Storage/Files/build/ppsspp/Common/x64Analyzer.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/x64Analyzer.h
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 
-/Storage/Files/build/ppsspp/Common/x64Emitter.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/x64Emitter.cpp
 cstring
 -
 x64Emitter.h
-/Storage/Files/build/ppsspp/Common/x64Emitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/x64Emitter.h
 ABI.h
-/Storage/Files/build/ppsspp/Common/ABI.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ABI.h
 CPUDetect.h
-/Storage/Files/build/ppsspp/Common/CPUDetect.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CPUDetect.h
 MemoryUtil.h
-/Storage/Files/build/ppsspp/Common/MemoryUtil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MemoryUtil.h
 MsgHandler.h
-/Storage/Files/build/ppsspp/Common/MsgHandler.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/MsgHandler.h
 
-/Storage/Files/build/ppsspp/Common/x64Emitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/x64Emitter.h
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Common/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/ppsspp_config.h
 cstddef
 -
 Common.h
-/Storage/Files/build/ppsspp/Common/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/Common.h
 CodeBlock.h
-/Storage/Files/build/ppsspp/Common/CodeBlock.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Common/CodeBlock.h
 
-/Storage/Files/build/ppsspp/Core/Config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Config.h
 string
 -
 map
@@ -984,13 +988,13 @@ map
 vector
 -
 ppsspp_config.h
-/Storage/Files/build/ppsspp/Core/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/ppsspp_config.h
 Common/CommonTypes.h
-/Storage/Files/build/ppsspp/Core/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Common/CommonTypes.h
 Core/ConfigValues.h
-/Storage/Files/build/ppsspp/Core/Core/ConfigValues.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Core/ConfigValues.h
 
-/Storage/Files/build/ppsspp/Core/ConfigValues.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/ConfigValues.h
 cstdint
 -
 string
@@ -998,67 +1002,67 @@ string
 strings.h
 -
 Common/CommonFuncs.h
-/Storage/Files/build/ppsspp/Core/Common/CommonFuncs.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Common/CommonFuncs.h
 
-/Storage/Files/build/ppsspp/Core/HLE/sceCtrl.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCtrl.h
 Common/CommonTypes.h
-/Storage/Files/build/ppsspp/Core/HLE/Common/CommonTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/Common/CommonTypes.h
 
-/Storage/Files/build/ppsspp/Core/HLE/sceUtility.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUtility.h
 algorithm
 -
 map
 -
 
-/Storage/Files/build/ppsspp/Core/Util/DisArm64.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/DisArm64.cpp
 stdlib.h
 -
 Common/Arm64Emitter.h
-/Storage/Files/build/ppsspp/Core/Util/Common/Arm64Emitter.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/Common/Arm64Emitter.h
 Common/StringUtils.h
-/Storage/Files/build/ppsspp/Core/Util/Common/StringUtils.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/Common/StringUtils.h
 Core/Util/DisArm64.h
-/Storage/Files/build/ppsspp/Core/Util/Core/Util/DisArm64.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/Core/Util/DisArm64.h
 
-/Storage/Files/build/ppsspp/Core/Util/DisArm64.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/DisArm64.h
 stdint.h
 -
 
-/Storage/Files/build/ppsspp/GPU/Common/ShaderCommon.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderCommon.h
 cstdint
 -
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GlslangToSpv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GlslangToSpv.h
 SpvTools.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/SpvTools.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SpvTools.h
 ../glslang/Include/intermediate.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/intermediate.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/intermediate.h
 string
 -
 vector
 -
 Logger.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/Logger.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/Logger.h
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/Logger.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/Logger.h
 string
 -
 vector
 -
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/SpvTools.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SpvTools.h
 vector
 -
 ostream
 -
 ../glslang/MachineIndependent/localintermediate.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/MachineIndependent/localintermediate.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/localintermediate.h
 Logger.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/Logger.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/Logger.h
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/BaseTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/BaseTypes.h
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/Common.h
 sstream
 -
 basetsd.h
@@ -1092,15 +1096,15 @@ cstdlib
 cassert
 -
 PoolAlloc.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/PoolAlloc.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/PoolAlloc.h
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/ConstantUnion.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/ConstantUnion.h
 ../Include/Common.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/Common.h
 ../Include/BaseTypes.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/BaseTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/BaseTypes.h
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/PoolAlloc.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/PoolAlloc.h
 cstddef
 -
 cstring
@@ -1108,41 +1112,41 @@ cstring
 vector
 -
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/ResourceLimits.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/ResourceLimits.h
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/Types.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/Types.h
 ../Include/Common.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/Common.h
 ../Include/BaseTypes.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/BaseTypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/BaseTypes.h
 ../Public/ShaderLang.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Public/ShaderLang.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Public/ShaderLang.h
 arrays.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/arrays.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/arrays.h
 algorithm
 -
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/arrays.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/arrays.h
 algorithm
 -
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/intermediate.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/intermediate.h
 ../Include/Common.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/Common.h
 ../Include/Types.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/Types.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/Types.h
 ../Include/ConstantUnion.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/ConstantUnion.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/ConstantUnion.h
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.h
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/MachineIndependent/localintermediate.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/localintermediate.h
 ../Include/intermediate.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/intermediate.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/intermediate.h
 ../Public/ShaderLang.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Public/ShaderLang.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Public/ShaderLang.h
 Versions.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.h
 string
 -
 vector
@@ -1154,11 +1158,11 @@ set
 array
 -
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Public/ShaderLang.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Public/ShaderLang.h
 ../Include/ResourceLimits.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/ResourceLimits.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/ResourceLimits.h
 ../MachineIndependent/Versions.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.h
 cstring
 -
 vector
@@ -1170,13 +1174,15 @@ string
 utility
 -
 
-/Storage/Files/build/ppsspp/ext/native/base/NativeApp.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/NativeApp.h
 string
 -
+vector
+-
 
-/Storage/Files/build/ppsspp/ext/native/base/backtrace.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/backtrace.h
 
-/Storage/Files/build/ppsspp/ext/native/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/basictypes.h
 cstdint
 -
 cstdlib
@@ -1184,17 +1190,17 @@ cstdlib
 tchar.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/base/display.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/display.h
 math/lin/matrix4x4.h
-/Storage/Files/build/ppsspp/ext/native/base/math/lin/matrix4x4.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/math/lin/matrix4x4.h
 
-/Storage/Files/build/ppsspp/ext/native/base/logging.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/logging.h
 cstring
 -
 ppsspp_config.h
-/Storage/Files/build/ppsspp/ext/native/base/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/ppsspp_config.h
 base/backtrace.h
-/Storage/Files/build/ppsspp/ext/native/base/base/backtrace.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/base/backtrace.h
 stdio.h
 -
 android/log.h
@@ -1202,7 +1208,7 @@ android/log.h
 stdio.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/base/stringutil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/stringutil.h
 cstdlib
 -
 cstdio
@@ -1218,11 +1224,13 @@ stdarg.h
 vector
 -
 base/basictypes.h
-/Storage/Files/build/ppsspp/ext/native/base/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/base/basictypes.h
+strings.h
+-
 
-/Storage/Files/build/ppsspp/ext/native/base/timeutil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/timeutil.h
 
-/Storage/Files/build/ppsspp/ext/native/file/file_util.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/file_util.h
 string
 -
 vector
@@ -1232,7 +1240,7 @@ stdio.h
 inttypes.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/file/ini_file.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/ini_file.h
 string
 -
 vector
@@ -1240,9 +1248,9 @@ vector
 map
 -
 base/stringutil.h
-/Storage/Files/build/ppsspp/ext/native/file/base/stringutil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/base/stringutil.h
 
-/Storage/Files/build/ppsspp/ext/native/input/input_state.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/input_state.h
 map
 -
 vector
@@ -1250,33 +1258,33 @@ vector
 mutex
 -
 math/lin/vec3.h
-/Storage/Files/build/ppsspp/ext/native/input/math/lin/vec3.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/math/lin/vec3.h
 base/basictypes.h
-/Storage/Files/build/ppsspp/ext/native/input/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/base/basictypes.h
 input/keycodes.h
-/Storage/Files/build/ppsspp/ext/native/input/input/keycodes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/input/keycodes.h
 
-/Storage/Files/build/ppsspp/ext/native/input/keycodes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/keycodes.h
 
-/Storage/Files/build/ppsspp/ext/native/math/lin/matrix4x4.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/matrix4x4.h
 math/lin/vec3.h
-/Storage/Files/build/ppsspp/ext/native/math/lin/math/lin/vec3.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/math/lin/vec3.h
 
-/Storage/Files/build/ppsspp/ext/native/math/lin/vec3.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/vec3.h
 math.h
 -
 string.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/math/math_util.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/math_util.h
 cmath
 -
 cstring
 -
 base/basictypes.h
-/Storage/Files/build/ppsspp/ext/native/math/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/base/basictypes.h
 
-/Storage/Files/build/ppsspp/ext/native/thread/threadpool.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadpool.h
 functional
 -
 memory
@@ -1290,99 +1298,99 @@ mutex
 condition_variable
 -
 
-/Storage/Files/build/ppsspp/ext/native/thread/threadutil.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadutil.h
 
-/Storage/Files/build/ppsspp/ext/native/util/text/utf8.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/utf8.h
 base/basictypes.h
-/Storage/Files/build/ppsspp/ext/native/util/text/base/basictypes.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/base/basictypes.h
 string
 -
 
-/Storage/Files/build/ppsspp/ext/snappy/./snappy-c.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/./snappy-c.h
 stddef.h
 -
 
-/Storage/Files/build/ppsspp/ext/vulkan/vk_platform.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vk_platform.h
 stddef.h
 -
 stdint.h
 -
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan.h
 vk_platform.h
-/Storage/Files/build/ppsspp/ext/vulkan/vk_platform.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vk_platform.h
 vulkan_core.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_core.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_core.h
 vulkan_android.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_android.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_android.h
 zircon/types.h
 -
 vulkan_fuchsia.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_fuchsia.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_fuchsia.h
 vulkan_ios.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_ios.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_ios.h
 vulkan_macos.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_macos.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_macos.h
 vulkan_metal.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_metal.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_metal.h
 vulkan_vi.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_vi.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_vi.h
 wayland-client.h
 -
 vulkan_wayland.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_wayland.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_wayland.h
 windows.h
 -
 vulkan_win32.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_win32.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_win32.h
 xcb/xcb.h
 -
 vulkan_xcb.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_xcb.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_xcb.h
 X11/Xlib.h
 -
 vulkan_xlib.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_xlib.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_xlib.h
 X11/Xlib.h
 -
 X11/extensions/Xrandr.h
 -
 vulkan_xlib_xrandr.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_xlib_xrandr.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_xlib_xrandr.h
 ggp_c/vulkan_types.h
 -
 vulkan_ggp.h
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_ggp.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_ggp.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_android.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_android.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_core.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_core.h
 vk_platform.h
-/Storage/Files/build/ppsspp/ext/vulkan/vk_platform.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vk_platform.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_fuchsia.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_fuchsia.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_ggp.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_ggp.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_ios.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_ios.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_macos.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_macos.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_metal.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_metal.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_vi.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_vi.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_wayland.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_wayland.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_win32.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_win32.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_xcb.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_xcb.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_xlib.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_xlib.h
 
-/Storage/Files/build/ppsspp/ext/vulkan/vulkan_xlib_xrandr.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/vulkan/vulkan_xlib_xrandr.h
 
-/Storage/Files/build/ppsspp/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ppsspp_config.h
 TargetConditionals.h
 -
 
@@ -1574,151 +1582,29 @@ close_code.h
 
 /usr/arm-linux-gnueabihf/psc_SDK/SDL2/close_code.h
 
-/usr/arm-linux-gnueabihf/psc_SDK/sys/ioctl.h
-features.h
+/usr/local/include/wayland-client-core.h
+stdint.h
 -
-bits/ioctls.h
--
-bits/ioctl-types.h
--
-sys/ttydefaults.h
--
+wayland-util.h
+/usr/local/include/wayland-util.h
+wayland-version.h
+/usr/local/include/wayland-version.h
 
-/usr/arm-linux-gnueabihf/psc_SDK/sys/mman.h
-features.h
--
-bits/types.h
--
-stddef.h
--
-bits/mman.h
--
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/param.h
-stddef.h
--
-sys/types.h
--
-limits.h
--
-endian.h
--
-signal.h
--
-bits/param.h
--
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/select.h
-features.h
--
-bits/types.h
--
-bits/select.h
--
-bits/types/sigset_t.h
--
-bits/types/time_t.h
--
-bits/types/struct_timeval.h
--
-bits/types/struct_timespec.h
--
-bits/select2.h
--
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/stat.h
-features.h
--
-bits/types.h
--
-bits/types/struct_timespec.h
--
-bits/types/time_t.h
--
-bits/stat.h
--
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/sysctl.h
-features.h
--
-stddef.h
--
-linux/sysctl.h
--
-bits/sysctl.h
--
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/sysmacros.h
-features.h
--
-bits/types.h
--
-bits/sysmacros.h
--
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/time.h
-features.h
--
-bits/types.h
--
-bits/types/time_t.h
--
-bits/types/struct_timeval.h
--
-sys/select.h
--
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/timeb.h
-features.h
--
-bits/types/time_t.h
--
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/ttydefaults.h
-
-/usr/arm-linux-gnueabihf/psc_SDK/sys/types.h
-features.h
--
-bits/types.h
--
-bits/types/clock_t.h
--
-bits/types/clockid_t.h
--
-bits/types/time_t.h
--
-bits/types/timer_t.h
--
-stddef.h
--
-bits/stdint-intn.h
--
-endian.h
--
-sys/select.h
--
-sys/sysmacros.h
--
-bits/pthreadtypes.h
--
-
-/usr/arm-linux-gnueabihf/psc_SDK/wayland-client-protocol.h
+/usr/local/include/wayland-client-protocol.h
 stdint.h
 -
 stddef.h
 -
 wayland-client.h
-/usr/arm-linux-gnueabihf/psc_SDK/wayland-client.h
+/usr/local/include/wayland-client.h
 
-/usr/arm-linux-gnueabihf/psc_SDK/wayland-client.h
-wayland-util.h
-/usr/arm-linux-gnueabihf/psc_SDK/wayland-util.h
-wayland-version.h
-/usr/arm-linux-gnueabihf/psc_SDK/wayland-version.h
+/usr/local/include/wayland-client.h
+wayland-client-core.h
+/usr/local/include/wayland-client-core.h
 wayland-client-protocol.h
-/usr/arm-linux-gnueabihf/psc_SDK/wayland-client-protocol.h
+/usr/local/include/wayland-client-protocol.h
 
-/usr/arm-linux-gnueabihf/psc_SDK/wayland-util.h
+/usr/local/include/wayland-util.h
 math.h
 -
 stddef.h
@@ -1728,5 +1614,5 @@ inttypes.h
 stdarg.h
 -
 
-/usr/arm-linux-gnueabihf/psc_SDK/wayland-version.h
+/usr/local/include/wayland-version.h
 

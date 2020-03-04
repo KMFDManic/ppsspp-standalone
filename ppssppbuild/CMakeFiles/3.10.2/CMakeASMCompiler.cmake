@@ -1,4 +1,4 @@
-set(CMAKE_ASM_COMPILER "/usr/bin/arm-linux-gnueabihf-gcc-8")
+set(CMAKE_ASM_COMPILER "/usr/bin/arm-linux-gnueabihf-gcc-6")
 set(CMAKE_ASM_COMPILER_ARG1 "")
 set(CMAKE_AR "/usr/bin/ar")
 set(CMAKE_ASM_COMPILER_AR "/usr/bin/gcc-ar")

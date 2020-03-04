@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/depend.make
@@ -58,17 +58,17 @@ include ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/progress.make
 include ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/flags.make
 
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o: ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/flags.make
-ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o: /Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_hlsl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o"
-	cd /Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o -c /Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_hlsl.cpp
+ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_hlsl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o"
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_hlsl.cpp
 
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.i"
-	cd /Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_hlsl.cpp > CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_hlsl.cpp > CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.i
 
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.s"
-	cd /Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_hlsl.cpp -o CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_hlsl.cpp -o CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.s
 
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o.requires:
 
@@ -91,9 +91,9 @@ spirv__cross__hlsl_EXTERNAL_OBJECTS =
 lib/libspirv-cross-hlsl.a: ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/__/SPIRV-Cross/spirv_hlsl.cpp.o
 lib/libspirv-cross-hlsl.a: ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/build.make
 lib/libspirv-cross-hlsl.a: ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libspirv-cross-hlsl.a"
-	cd /Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build && $(CMAKE_COMMAND) -P CMakeFiles/spirv-cross-hlsl.dir/cmake_clean_target.cmake
-	cd /Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spirv-cross-hlsl.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libspirv-cross-hlsl.a"
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && $(CMAKE_COMMAND) -P CMakeFiles/spirv-cross-hlsl.dir/cmake_clean_target.cmake
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spirv-cross-hlsl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/build: lib/libspirv-cross-hlsl.a
@@ -105,10 +105,10 @@ ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/requires: ext/SPIRV-Cross-
 .PHONY : ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/requires
 
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/clean:
-	cd /Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build && $(CMAKE_COMMAND) -P CMakeFiles/spirv-cross-hlsl.dir/cmake_clean.cmake
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && $(CMAKE_COMMAND) -P CMakeFiles/spirv-cross-hlsl.dir/cmake_clean.cmake
 .PHONY : ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/clean
 
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp/ext/SPIRV-Cross-build /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build /Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross-build /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-hlsl.dir/depend
 

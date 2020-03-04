@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/depend.make
@@ -58,17 +58,17 @@ include ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/progress
 include ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/flags.make
 
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o: ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/flags.make
-ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o: /Storage/Files/build/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o"
-	cd /Storage/Files/build/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSDependent.dir/ossource.cpp.o -c /Storage/Files/build/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp
+ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o"
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSDependent.dir/ossource.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp
 
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSDependent.dir/ossource.cpp.i"
-	cd /Storage/Files/build/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp > CMakeFiles/OSDependent.dir/ossource.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp > CMakeFiles/OSDependent.dir/ossource.cpp.i
 
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSDependent.dir/ossource.cpp.s"
-	cd /Storage/Files/build/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp -o CMakeFiles/OSDependent.dir/ossource.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp -o CMakeFiles/OSDependent.dir/ossource.cpp.s
 
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o.requires:
 
@@ -91,9 +91,9 @@ OSDependent_EXTERNAL_OBJECTS =
 lib/libOSDependent.a: ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o
 lib/libOSDependent.a: ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/build.make
 lib/libOSDependent.a: ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../../lib/libOSDependent.a"
-	cd /Storage/Files/build/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && $(CMAKE_COMMAND) -P CMakeFiles/OSDependent.dir/cmake_clean_target.cmake
-	cd /Storage/Files/build/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OSDependent.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../../lib/libOSDependent.a"
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && $(CMAKE_COMMAND) -P CMakeFiles/OSDependent.dir/cmake_clean_target.cmake
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OSDependent.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/build: lib/libOSDependent.a
@@ -105,10 +105,10 @@ ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/requires: ext/gl
 .PHONY : ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/requires
 
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/clean:
-	cd /Storage/Files/build/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && $(CMAKE_COMMAND) -P CMakeFiles/OSDependent.dir/cmake_clean.cmake
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && $(CMAKE_COMMAND) -P CMakeFiles/OSDependent.dir/cmake_clean.cmake
 .PHONY : ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/clean
 
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp/ext/glslang/glslang/OSDependent/Unix /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/ext/glslang/glslang/OSDependent/Unix /Storage/Files/build/ppssppbuild/ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/depend
 

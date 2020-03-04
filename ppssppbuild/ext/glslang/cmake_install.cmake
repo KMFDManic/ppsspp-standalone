@@ -1,4 +1,4 @@
-# Install script for directory: /Storage/Files/build/ppsspp/ext/glslang
+# Install script for directory: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Storage/Files/build/ppssppbuild/ext/glslang/External/cmake_install.cmake")
-  include("/Storage/Files/build/ppssppbuild/ext/glslang/glslang/cmake_install.cmake")
-  include("/Storage/Files/build/ppssppbuild/ext/glslang/OGLCompilersDLL/cmake_install.cmake")
-  include("/Storage/Files/build/ppssppbuild/ext/glslang/SPIRV/cmake_install.cmake")
-  include("/Storage/Files/build/ppssppbuild/ext/glslang/gtests/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/External/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/OGLCompilersDLL/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/gtests/cmake_install.cmake")
 
 endif()
 

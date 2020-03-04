@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include ext/armips/CMakeFiles/armips-bin.dir/depend.make
@@ -58,17 +58,17 @@ include ext/armips/CMakeFiles/armips-bin.dir/progress.make
 include ext/armips/CMakeFiles/armips-bin.dir/flags.make
 
 ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.o: ext/armips/CMakeFiles/armips-bin.dir/flags.make
-ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.o: /Storage/Files/build/ppsspp/ext/armips/Main/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.o"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/armips-bin.dir/Main/main.cpp.o -c /Storage/Files/build/ppsspp/ext/armips/Main/main.cpp
+ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/Main/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.o"
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/armips-bin.dir/Main/main.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/Main/main.cpp
 
 ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armips-bin.dir/Main/main.cpp.i"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/ext/armips/Main/main.cpp > CMakeFiles/armips-bin.dir/Main/main.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/Main/main.cpp > CMakeFiles/armips-bin.dir/Main/main.cpp.i
 
 ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armips-bin.dir/Main/main.cpp.s"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/ext/armips/Main/main.cpp -o CMakeFiles/armips-bin.dir/Main/main.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/Main/main.cpp -o CMakeFiles/armips-bin.dir/Main/main.cpp.s
 
 ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.o.requires:
 
@@ -82,17 +82,17 @@ ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.o.provides.build: ext/armips/
 
 
 ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.o: ext/armips/CMakeFiles/armips-bin.dir/flags.make
-ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.o: /Storage/Files/build/ppsspp/ext/armips/Main/Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.o"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/armips-bin.dir/Main/Tests.cpp.o -c /Storage/Files/build/ppsspp/ext/armips/Main/Tests.cpp
+ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/Main/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.o"
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/armips-bin.dir/Main/Tests.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/Main/Tests.cpp
 
 ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armips-bin.dir/Main/Tests.cpp.i"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/ext/armips/Main/Tests.cpp > CMakeFiles/armips-bin.dir/Main/Tests.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/Main/Tests.cpp > CMakeFiles/armips-bin.dir/Main/Tests.cpp.i
 
 ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armips-bin.dir/Main/Tests.cpp.s"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/ext/armips/Main/Tests.cpp -o CMakeFiles/armips-bin.dir/Main/Tests.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/Main/Tests.cpp -o CMakeFiles/armips-bin.dir/Main/Tests.cpp.s
 
 ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.o.requires:
 
@@ -106,17 +106,17 @@ ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.o.provides.build: ext/armips
 
 
 ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.o: ext/armips/CMakeFiles/armips-bin.dir/flags.make
-ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.o: /Storage/Files/build/ppsspp/ext/armips/stdafx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.o"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/armips-bin.dir/stdafx.cpp.o -c /Storage/Files/build/ppsspp/ext/armips/stdafx.cpp
+ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/stdafx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.o"
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/armips-bin.dir/stdafx.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/stdafx.cpp
 
 ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armips-bin.dir/stdafx.cpp.i"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/ext/armips/stdafx.cpp > CMakeFiles/armips-bin.dir/stdafx.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/stdafx.cpp > CMakeFiles/armips-bin.dir/stdafx.cpp.i
 
 ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armips-bin.dir/stdafx.cpp.s"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/ext/armips/stdafx.cpp -o CMakeFiles/armips-bin.dir/stdafx.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips/stdafx.cpp -o CMakeFiles/armips-bin.dir/stdafx.cpp.s
 
 ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.o.requires:
 
@@ -144,8 +144,8 @@ ext/armips/armips: ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.o
 ext/armips/armips: ext/armips/CMakeFiles/armips-bin.dir/build.make
 ext/armips/armips: lib/libarmips.a
 ext/armips/armips: ext/armips/CMakeFiles/armips-bin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable armips"
-	cd /Storage/Files/build/ppssppbuild/ext/armips && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/armips-bin.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable armips"
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/armips-bin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext/armips/CMakeFiles/armips-bin.dir/build: ext/armips/armips
@@ -159,10 +159,10 @@ ext/armips/CMakeFiles/armips-bin.dir/requires: ext/armips/CMakeFiles/armips-bin.
 .PHONY : ext/armips/CMakeFiles/armips-bin.dir/requires
 
 ext/armips/CMakeFiles/armips-bin.dir/clean:
-	cd /Storage/Files/build/ppssppbuild/ext/armips && $(CMAKE_COMMAND) -P CMakeFiles/armips-bin.dir/cmake_clean.cmake
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips && $(CMAKE_COMMAND) -P CMakeFiles/armips-bin.dir/cmake_clean.cmake
 .PHONY : ext/armips/CMakeFiles/armips-bin.dir/clean
 
 ext/armips/CMakeFiles/armips-bin.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp/ext/armips /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/ext/armips /Storage/Files/build/ppssppbuild/ext/armips/CMakeFiles/armips-bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp/ext/armips /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips/CMakeFiles/armips-bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext/armips/CMakeFiles/armips-bin.dir/depend
 

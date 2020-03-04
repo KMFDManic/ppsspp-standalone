@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles /Storage/Files/build/ppssppbuild/ext/armips/CMakeFiles/progress.marks
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips/CMakeFiles/progress.marks
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/clean
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext/armips/CMakeFiles/armips-bin.dir/rule:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/CMakeFiles/armips-bin.dir/rule
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/CMakeFiles/armips-bin.dir/rule
 .PHONY : ext/armips/CMakeFiles/armips-bin.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ armips-bin: ext/armips/CMakeFiles/armips-bin.dir/rule
 
 # fast build rule for target.
 armips-bin/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/build
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/build
 .PHONY : armips-bin/fast
 
 # Convenience name for target.
 ext/armips/CMakeFiles/armips.dir/rule:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/CMakeFiles/armips.dir/rule
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/CMakeFiles/armips.dir/rule
 .PHONY : ext/armips/CMakeFiles/armips.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ armips: ext/armips/CMakeFiles/armips.dir/rule
 
 # fast build rule for target.
 armips/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/build
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/build
 .PHONY : armips/fast
 
 # Convenience name for target.
 ext/armips/CMakeFiles/armipstests.dir/rule:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/CMakeFiles/armipstests.dir/rule
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/armips/CMakeFiles/armipstests.dir/rule
 .PHONY : ext/armips/CMakeFiles/armipstests.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ armipstests: ext/armips/CMakeFiles/armipstests.dir/rule
 
 # fast build rule for target.
 armipstests/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/build
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/build
 .PHONY : armipstests/fast
 
 Archs/ARM/Arm.o: Archs/ARM/Arm.cpp.o
@@ -207,7 +207,7 @@ Archs/ARM/Arm.o: Archs/ARM/Arm.cpp.o
 
 # target to build an object file
 Archs/ARM/Arm.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Arm.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Arm.cpp.o
 .PHONY : Archs/ARM/Arm.cpp.o
 
 Archs/ARM/Arm.i: Archs/ARM/Arm.cpp.i
@@ -216,7 +216,7 @@ Archs/ARM/Arm.i: Archs/ARM/Arm.cpp.i
 
 # target to preprocess a source file
 Archs/ARM/Arm.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Arm.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Arm.cpp.i
 .PHONY : Archs/ARM/Arm.cpp.i
 
 Archs/ARM/Arm.s: Archs/ARM/Arm.cpp.s
@@ -225,7 +225,7 @@ Archs/ARM/Arm.s: Archs/ARM/Arm.cpp.s
 
 # target to generate assembly for a file
 Archs/ARM/Arm.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Arm.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Arm.cpp.s
 .PHONY : Archs/ARM/Arm.cpp.s
 
 Archs/ARM/ArmElfRelocator.o: Archs/ARM/ArmElfRelocator.cpp.o
@@ -234,7 +234,7 @@ Archs/ARM/ArmElfRelocator.o: Archs/ARM/ArmElfRelocator.cpp.o
 
 # target to build an object file
 Archs/ARM/ArmElfRelocator.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmElfRelocator.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmElfRelocator.cpp.o
 .PHONY : Archs/ARM/ArmElfRelocator.cpp.o
 
 Archs/ARM/ArmElfRelocator.i: Archs/ARM/ArmElfRelocator.cpp.i
@@ -243,7 +243,7 @@ Archs/ARM/ArmElfRelocator.i: Archs/ARM/ArmElfRelocator.cpp.i
 
 # target to preprocess a source file
 Archs/ARM/ArmElfRelocator.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmElfRelocator.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmElfRelocator.cpp.i
 .PHONY : Archs/ARM/ArmElfRelocator.cpp.i
 
 Archs/ARM/ArmElfRelocator.s: Archs/ARM/ArmElfRelocator.cpp.s
@@ -252,7 +252,7 @@ Archs/ARM/ArmElfRelocator.s: Archs/ARM/ArmElfRelocator.cpp.s
 
 # target to generate assembly for a file
 Archs/ARM/ArmElfRelocator.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmElfRelocator.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmElfRelocator.cpp.s
 .PHONY : Archs/ARM/ArmElfRelocator.cpp.s
 
 Archs/ARM/ArmExpressionFunctions.o: Archs/ARM/ArmExpressionFunctions.cpp.o
@@ -261,7 +261,7 @@ Archs/ARM/ArmExpressionFunctions.o: Archs/ARM/ArmExpressionFunctions.cpp.o
 
 # target to build an object file
 Archs/ARM/ArmExpressionFunctions.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmExpressionFunctions.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmExpressionFunctions.cpp.o
 .PHONY : Archs/ARM/ArmExpressionFunctions.cpp.o
 
 Archs/ARM/ArmExpressionFunctions.i: Archs/ARM/ArmExpressionFunctions.cpp.i
@@ -270,7 +270,7 @@ Archs/ARM/ArmExpressionFunctions.i: Archs/ARM/ArmExpressionFunctions.cpp.i
 
 # target to preprocess a source file
 Archs/ARM/ArmExpressionFunctions.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmExpressionFunctions.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmExpressionFunctions.cpp.i
 .PHONY : Archs/ARM/ArmExpressionFunctions.cpp.i
 
 Archs/ARM/ArmExpressionFunctions.s: Archs/ARM/ArmExpressionFunctions.cpp.s
@@ -279,7 +279,7 @@ Archs/ARM/ArmExpressionFunctions.s: Archs/ARM/ArmExpressionFunctions.cpp.s
 
 # target to generate assembly for a file
 Archs/ARM/ArmExpressionFunctions.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmExpressionFunctions.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmExpressionFunctions.cpp.s
 .PHONY : Archs/ARM/ArmExpressionFunctions.cpp.s
 
 Archs/ARM/ArmOpcodes.o: Archs/ARM/ArmOpcodes.cpp.o
@@ -288,7 +288,7 @@ Archs/ARM/ArmOpcodes.o: Archs/ARM/ArmOpcodes.cpp.o
 
 # target to build an object file
 Archs/ARM/ArmOpcodes.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmOpcodes.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmOpcodes.cpp.o
 .PHONY : Archs/ARM/ArmOpcodes.cpp.o
 
 Archs/ARM/ArmOpcodes.i: Archs/ARM/ArmOpcodes.cpp.i
@@ -297,7 +297,7 @@ Archs/ARM/ArmOpcodes.i: Archs/ARM/ArmOpcodes.cpp.i
 
 # target to preprocess a source file
 Archs/ARM/ArmOpcodes.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmOpcodes.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmOpcodes.cpp.i
 .PHONY : Archs/ARM/ArmOpcodes.cpp.i
 
 Archs/ARM/ArmOpcodes.s: Archs/ARM/ArmOpcodes.cpp.s
@@ -306,7 +306,7 @@ Archs/ARM/ArmOpcodes.s: Archs/ARM/ArmOpcodes.cpp.s
 
 # target to generate assembly for a file
 Archs/ARM/ArmOpcodes.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmOpcodes.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmOpcodes.cpp.s
 .PHONY : Archs/ARM/ArmOpcodes.cpp.s
 
 Archs/ARM/ArmParser.o: Archs/ARM/ArmParser.cpp.o
@@ -315,7 +315,7 @@ Archs/ARM/ArmParser.o: Archs/ARM/ArmParser.cpp.o
 
 # target to build an object file
 Archs/ARM/ArmParser.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmParser.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmParser.cpp.o
 .PHONY : Archs/ARM/ArmParser.cpp.o
 
 Archs/ARM/ArmParser.i: Archs/ARM/ArmParser.cpp.i
@@ -324,7 +324,7 @@ Archs/ARM/ArmParser.i: Archs/ARM/ArmParser.cpp.i
 
 # target to preprocess a source file
 Archs/ARM/ArmParser.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmParser.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmParser.cpp.i
 .PHONY : Archs/ARM/ArmParser.cpp.i
 
 Archs/ARM/ArmParser.s: Archs/ARM/ArmParser.cpp.s
@@ -333,7 +333,7 @@ Archs/ARM/ArmParser.s: Archs/ARM/ArmParser.cpp.s
 
 # target to generate assembly for a file
 Archs/ARM/ArmParser.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmParser.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ArmParser.cpp.s
 .PHONY : Archs/ARM/ArmParser.cpp.s
 
 Archs/ARM/CArmInstruction.o: Archs/ARM/CArmInstruction.cpp.o
@@ -342,7 +342,7 @@ Archs/ARM/CArmInstruction.o: Archs/ARM/CArmInstruction.cpp.o
 
 # target to build an object file
 Archs/ARM/CArmInstruction.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CArmInstruction.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CArmInstruction.cpp.o
 .PHONY : Archs/ARM/CArmInstruction.cpp.o
 
 Archs/ARM/CArmInstruction.i: Archs/ARM/CArmInstruction.cpp.i
@@ -351,7 +351,7 @@ Archs/ARM/CArmInstruction.i: Archs/ARM/CArmInstruction.cpp.i
 
 # target to preprocess a source file
 Archs/ARM/CArmInstruction.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CArmInstruction.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CArmInstruction.cpp.i
 .PHONY : Archs/ARM/CArmInstruction.cpp.i
 
 Archs/ARM/CArmInstruction.s: Archs/ARM/CArmInstruction.cpp.s
@@ -360,7 +360,7 @@ Archs/ARM/CArmInstruction.s: Archs/ARM/CArmInstruction.cpp.s
 
 # target to generate assembly for a file
 Archs/ARM/CArmInstruction.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CArmInstruction.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CArmInstruction.cpp.s
 .PHONY : Archs/ARM/CArmInstruction.cpp.s
 
 Archs/ARM/CThumbInstruction.o: Archs/ARM/CThumbInstruction.cpp.o
@@ -369,7 +369,7 @@ Archs/ARM/CThumbInstruction.o: Archs/ARM/CThumbInstruction.cpp.o
 
 # target to build an object file
 Archs/ARM/CThumbInstruction.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CThumbInstruction.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CThumbInstruction.cpp.o
 .PHONY : Archs/ARM/CThumbInstruction.cpp.o
 
 Archs/ARM/CThumbInstruction.i: Archs/ARM/CThumbInstruction.cpp.i
@@ -378,7 +378,7 @@ Archs/ARM/CThumbInstruction.i: Archs/ARM/CThumbInstruction.cpp.i
 
 # target to preprocess a source file
 Archs/ARM/CThumbInstruction.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CThumbInstruction.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CThumbInstruction.cpp.i
 .PHONY : Archs/ARM/CThumbInstruction.cpp.i
 
 Archs/ARM/CThumbInstruction.s: Archs/ARM/CThumbInstruction.cpp.s
@@ -387,7 +387,7 @@ Archs/ARM/CThumbInstruction.s: Archs/ARM/CThumbInstruction.cpp.s
 
 # target to generate assembly for a file
 Archs/ARM/CThumbInstruction.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CThumbInstruction.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/CThumbInstruction.cpp.s
 .PHONY : Archs/ARM/CThumbInstruction.cpp.s
 
 Archs/ARM/Pool.o: Archs/ARM/Pool.cpp.o
@@ -396,7 +396,7 @@ Archs/ARM/Pool.o: Archs/ARM/Pool.cpp.o
 
 # target to build an object file
 Archs/ARM/Pool.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Pool.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Pool.cpp.o
 .PHONY : Archs/ARM/Pool.cpp.o
 
 Archs/ARM/Pool.i: Archs/ARM/Pool.cpp.i
@@ -405,7 +405,7 @@ Archs/ARM/Pool.i: Archs/ARM/Pool.cpp.i
 
 # target to preprocess a source file
 Archs/ARM/Pool.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Pool.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Pool.cpp.i
 .PHONY : Archs/ARM/Pool.cpp.i
 
 Archs/ARM/Pool.s: Archs/ARM/Pool.cpp.s
@@ -414,7 +414,7 @@ Archs/ARM/Pool.s: Archs/ARM/Pool.cpp.s
 
 # target to generate assembly for a file
 Archs/ARM/Pool.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Pool.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/Pool.cpp.s
 .PHONY : Archs/ARM/Pool.cpp.s
 
 Archs/ARM/ThumbOpcodes.o: Archs/ARM/ThumbOpcodes.cpp.o
@@ -423,7 +423,7 @@ Archs/ARM/ThumbOpcodes.o: Archs/ARM/ThumbOpcodes.cpp.o
 
 # target to build an object file
 Archs/ARM/ThumbOpcodes.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ThumbOpcodes.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ThumbOpcodes.cpp.o
 .PHONY : Archs/ARM/ThumbOpcodes.cpp.o
 
 Archs/ARM/ThumbOpcodes.i: Archs/ARM/ThumbOpcodes.cpp.i
@@ -432,7 +432,7 @@ Archs/ARM/ThumbOpcodes.i: Archs/ARM/ThumbOpcodes.cpp.i
 
 # target to preprocess a source file
 Archs/ARM/ThumbOpcodes.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ThumbOpcodes.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ThumbOpcodes.cpp.i
 .PHONY : Archs/ARM/ThumbOpcodes.cpp.i
 
 Archs/ARM/ThumbOpcodes.s: Archs/ARM/ThumbOpcodes.cpp.s
@@ -441,7 +441,7 @@ Archs/ARM/ThumbOpcodes.s: Archs/ARM/ThumbOpcodes.cpp.s
 
 # target to generate assembly for a file
 Archs/ARM/ThumbOpcodes.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ThumbOpcodes.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/ARM/ThumbOpcodes.cpp.s
 .PHONY : Archs/ARM/ThumbOpcodes.cpp.s
 
 Archs/Architecture.o: Archs/Architecture.cpp.o
@@ -450,7 +450,7 @@ Archs/Architecture.o: Archs/Architecture.cpp.o
 
 # target to build an object file
 Archs/Architecture.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/Architecture.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/Architecture.cpp.o
 .PHONY : Archs/Architecture.cpp.o
 
 Archs/Architecture.i: Archs/Architecture.cpp.i
@@ -459,7 +459,7 @@ Archs/Architecture.i: Archs/Architecture.cpp.i
 
 # target to preprocess a source file
 Archs/Architecture.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/Architecture.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/Architecture.cpp.i
 .PHONY : Archs/Architecture.cpp.i
 
 Archs/Architecture.s: Archs/Architecture.cpp.s
@@ -468,7 +468,7 @@ Archs/Architecture.s: Archs/Architecture.cpp.s
 
 # target to generate assembly for a file
 Archs/Architecture.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/Architecture.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/Architecture.cpp.s
 .PHONY : Archs/Architecture.cpp.s
 
 Archs/MIPS/CMipsInstruction.o: Archs/MIPS/CMipsInstruction.cpp.o
@@ -477,7 +477,7 @@ Archs/MIPS/CMipsInstruction.o: Archs/MIPS/CMipsInstruction.cpp.o
 
 # target to build an object file
 Archs/MIPS/CMipsInstruction.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/CMipsInstruction.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/CMipsInstruction.cpp.o
 .PHONY : Archs/MIPS/CMipsInstruction.cpp.o
 
 Archs/MIPS/CMipsInstruction.i: Archs/MIPS/CMipsInstruction.cpp.i
@@ -486,7 +486,7 @@ Archs/MIPS/CMipsInstruction.i: Archs/MIPS/CMipsInstruction.cpp.i
 
 # target to preprocess a source file
 Archs/MIPS/CMipsInstruction.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/CMipsInstruction.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/CMipsInstruction.cpp.i
 .PHONY : Archs/MIPS/CMipsInstruction.cpp.i
 
 Archs/MIPS/CMipsInstruction.s: Archs/MIPS/CMipsInstruction.cpp.s
@@ -495,7 +495,7 @@ Archs/MIPS/CMipsInstruction.s: Archs/MIPS/CMipsInstruction.cpp.s
 
 # target to generate assembly for a file
 Archs/MIPS/CMipsInstruction.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/CMipsInstruction.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/CMipsInstruction.cpp.s
 .PHONY : Archs/MIPS/CMipsInstruction.cpp.s
 
 Archs/MIPS/Mips.o: Archs/MIPS/Mips.cpp.o
@@ -504,7 +504,7 @@ Archs/MIPS/Mips.o: Archs/MIPS/Mips.cpp.o
 
 # target to build an object file
 Archs/MIPS/Mips.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/Mips.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/Mips.cpp.o
 .PHONY : Archs/MIPS/Mips.cpp.o
 
 Archs/MIPS/Mips.i: Archs/MIPS/Mips.cpp.i
@@ -513,7 +513,7 @@ Archs/MIPS/Mips.i: Archs/MIPS/Mips.cpp.i
 
 # target to preprocess a source file
 Archs/MIPS/Mips.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/Mips.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/Mips.cpp.i
 .PHONY : Archs/MIPS/Mips.cpp.i
 
 Archs/MIPS/Mips.s: Archs/MIPS/Mips.cpp.s
@@ -522,7 +522,7 @@ Archs/MIPS/Mips.s: Archs/MIPS/Mips.cpp.s
 
 # target to generate assembly for a file
 Archs/MIPS/Mips.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/Mips.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/Mips.cpp.s
 .PHONY : Archs/MIPS/Mips.cpp.s
 
 Archs/MIPS/MipsElfFile.o: Archs/MIPS/MipsElfFile.cpp.o
@@ -531,7 +531,7 @@ Archs/MIPS/MipsElfFile.o: Archs/MIPS/MipsElfFile.cpp.o
 
 # target to build an object file
 Archs/MIPS/MipsElfFile.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfFile.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfFile.cpp.o
 .PHONY : Archs/MIPS/MipsElfFile.cpp.o
 
 Archs/MIPS/MipsElfFile.i: Archs/MIPS/MipsElfFile.cpp.i
@@ -540,7 +540,7 @@ Archs/MIPS/MipsElfFile.i: Archs/MIPS/MipsElfFile.cpp.i
 
 # target to preprocess a source file
 Archs/MIPS/MipsElfFile.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfFile.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfFile.cpp.i
 .PHONY : Archs/MIPS/MipsElfFile.cpp.i
 
 Archs/MIPS/MipsElfFile.s: Archs/MIPS/MipsElfFile.cpp.s
@@ -549,7 +549,7 @@ Archs/MIPS/MipsElfFile.s: Archs/MIPS/MipsElfFile.cpp.s
 
 # target to generate assembly for a file
 Archs/MIPS/MipsElfFile.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfFile.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfFile.cpp.s
 .PHONY : Archs/MIPS/MipsElfFile.cpp.s
 
 Archs/MIPS/MipsElfRelocator.o: Archs/MIPS/MipsElfRelocator.cpp.o
@@ -558,7 +558,7 @@ Archs/MIPS/MipsElfRelocator.o: Archs/MIPS/MipsElfRelocator.cpp.o
 
 # target to build an object file
 Archs/MIPS/MipsElfRelocator.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfRelocator.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfRelocator.cpp.o
 .PHONY : Archs/MIPS/MipsElfRelocator.cpp.o
 
 Archs/MIPS/MipsElfRelocator.i: Archs/MIPS/MipsElfRelocator.cpp.i
@@ -567,7 +567,7 @@ Archs/MIPS/MipsElfRelocator.i: Archs/MIPS/MipsElfRelocator.cpp.i
 
 # target to preprocess a source file
 Archs/MIPS/MipsElfRelocator.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfRelocator.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfRelocator.cpp.i
 .PHONY : Archs/MIPS/MipsElfRelocator.cpp.i
 
 Archs/MIPS/MipsElfRelocator.s: Archs/MIPS/MipsElfRelocator.cpp.s
@@ -576,7 +576,7 @@ Archs/MIPS/MipsElfRelocator.s: Archs/MIPS/MipsElfRelocator.cpp.s
 
 # target to generate assembly for a file
 Archs/MIPS/MipsElfRelocator.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfRelocator.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsElfRelocator.cpp.s
 .PHONY : Archs/MIPS/MipsElfRelocator.cpp.s
 
 Archs/MIPS/MipsExpressionFunctions.o: Archs/MIPS/MipsExpressionFunctions.cpp.o
@@ -585,7 +585,7 @@ Archs/MIPS/MipsExpressionFunctions.o: Archs/MIPS/MipsExpressionFunctions.cpp.o
 
 # target to build an object file
 Archs/MIPS/MipsExpressionFunctions.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsExpressionFunctions.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsExpressionFunctions.cpp.o
 .PHONY : Archs/MIPS/MipsExpressionFunctions.cpp.o
 
 Archs/MIPS/MipsExpressionFunctions.i: Archs/MIPS/MipsExpressionFunctions.cpp.i
@@ -594,7 +594,7 @@ Archs/MIPS/MipsExpressionFunctions.i: Archs/MIPS/MipsExpressionFunctions.cpp.i
 
 # target to preprocess a source file
 Archs/MIPS/MipsExpressionFunctions.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsExpressionFunctions.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsExpressionFunctions.cpp.i
 .PHONY : Archs/MIPS/MipsExpressionFunctions.cpp.i
 
 Archs/MIPS/MipsExpressionFunctions.s: Archs/MIPS/MipsExpressionFunctions.cpp.s
@@ -603,7 +603,7 @@ Archs/MIPS/MipsExpressionFunctions.s: Archs/MIPS/MipsExpressionFunctions.cpp.s
 
 # target to generate assembly for a file
 Archs/MIPS/MipsExpressionFunctions.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsExpressionFunctions.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsExpressionFunctions.cpp.s
 .PHONY : Archs/MIPS/MipsExpressionFunctions.cpp.s
 
 Archs/MIPS/MipsMacros.o: Archs/MIPS/MipsMacros.cpp.o
@@ -612,7 +612,7 @@ Archs/MIPS/MipsMacros.o: Archs/MIPS/MipsMacros.cpp.o
 
 # target to build an object file
 Archs/MIPS/MipsMacros.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsMacros.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsMacros.cpp.o
 .PHONY : Archs/MIPS/MipsMacros.cpp.o
 
 Archs/MIPS/MipsMacros.i: Archs/MIPS/MipsMacros.cpp.i
@@ -621,7 +621,7 @@ Archs/MIPS/MipsMacros.i: Archs/MIPS/MipsMacros.cpp.i
 
 # target to preprocess a source file
 Archs/MIPS/MipsMacros.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsMacros.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsMacros.cpp.i
 .PHONY : Archs/MIPS/MipsMacros.cpp.i
 
 Archs/MIPS/MipsMacros.s: Archs/MIPS/MipsMacros.cpp.s
@@ -630,7 +630,7 @@ Archs/MIPS/MipsMacros.s: Archs/MIPS/MipsMacros.cpp.s
 
 # target to generate assembly for a file
 Archs/MIPS/MipsMacros.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsMacros.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsMacros.cpp.s
 .PHONY : Archs/MIPS/MipsMacros.cpp.s
 
 Archs/MIPS/MipsOpcodes.o: Archs/MIPS/MipsOpcodes.cpp.o
@@ -639,7 +639,7 @@ Archs/MIPS/MipsOpcodes.o: Archs/MIPS/MipsOpcodes.cpp.o
 
 # target to build an object file
 Archs/MIPS/MipsOpcodes.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsOpcodes.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsOpcodes.cpp.o
 .PHONY : Archs/MIPS/MipsOpcodes.cpp.o
 
 Archs/MIPS/MipsOpcodes.i: Archs/MIPS/MipsOpcodes.cpp.i
@@ -648,7 +648,7 @@ Archs/MIPS/MipsOpcodes.i: Archs/MIPS/MipsOpcodes.cpp.i
 
 # target to preprocess a source file
 Archs/MIPS/MipsOpcodes.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsOpcodes.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsOpcodes.cpp.i
 .PHONY : Archs/MIPS/MipsOpcodes.cpp.i
 
 Archs/MIPS/MipsOpcodes.s: Archs/MIPS/MipsOpcodes.cpp.s
@@ -657,7 +657,7 @@ Archs/MIPS/MipsOpcodes.s: Archs/MIPS/MipsOpcodes.cpp.s
 
 # target to generate assembly for a file
 Archs/MIPS/MipsOpcodes.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsOpcodes.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsOpcodes.cpp.s
 .PHONY : Archs/MIPS/MipsOpcodes.cpp.s
 
 Archs/MIPS/MipsParser.o: Archs/MIPS/MipsParser.cpp.o
@@ -666,7 +666,7 @@ Archs/MIPS/MipsParser.o: Archs/MIPS/MipsParser.cpp.o
 
 # target to build an object file
 Archs/MIPS/MipsParser.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsParser.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsParser.cpp.o
 .PHONY : Archs/MIPS/MipsParser.cpp.o
 
 Archs/MIPS/MipsParser.i: Archs/MIPS/MipsParser.cpp.i
@@ -675,7 +675,7 @@ Archs/MIPS/MipsParser.i: Archs/MIPS/MipsParser.cpp.i
 
 # target to preprocess a source file
 Archs/MIPS/MipsParser.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsParser.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsParser.cpp.i
 .PHONY : Archs/MIPS/MipsParser.cpp.i
 
 Archs/MIPS/MipsParser.s: Archs/MIPS/MipsParser.cpp.s
@@ -684,7 +684,7 @@ Archs/MIPS/MipsParser.s: Archs/MIPS/MipsParser.cpp.s
 
 # target to generate assembly for a file
 Archs/MIPS/MipsParser.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsParser.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/MipsParser.cpp.s
 .PHONY : Archs/MIPS/MipsParser.cpp.s
 
 Archs/MIPS/PsxRelocator.o: Archs/MIPS/PsxRelocator.cpp.o
@@ -693,7 +693,7 @@ Archs/MIPS/PsxRelocator.o: Archs/MIPS/PsxRelocator.cpp.o
 
 # target to build an object file
 Archs/MIPS/PsxRelocator.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/PsxRelocator.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/PsxRelocator.cpp.o
 .PHONY : Archs/MIPS/PsxRelocator.cpp.o
 
 Archs/MIPS/PsxRelocator.i: Archs/MIPS/PsxRelocator.cpp.i
@@ -702,7 +702,7 @@ Archs/MIPS/PsxRelocator.i: Archs/MIPS/PsxRelocator.cpp.i
 
 # target to preprocess a source file
 Archs/MIPS/PsxRelocator.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/PsxRelocator.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/PsxRelocator.cpp.i
 .PHONY : Archs/MIPS/PsxRelocator.cpp.i
 
 Archs/MIPS/PsxRelocator.s: Archs/MIPS/PsxRelocator.cpp.s
@@ -711,7 +711,7 @@ Archs/MIPS/PsxRelocator.s: Archs/MIPS/PsxRelocator.cpp.s
 
 # target to generate assembly for a file
 Archs/MIPS/PsxRelocator.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/PsxRelocator.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Archs/MIPS/PsxRelocator.cpp.s
 .PHONY : Archs/MIPS/PsxRelocator.cpp.s
 
 Commands/CAssemblerCommand.o: Commands/CAssemblerCommand.cpp.o
@@ -720,7 +720,7 @@ Commands/CAssemblerCommand.o: Commands/CAssemblerCommand.cpp.o
 
 # target to build an object file
 Commands/CAssemblerCommand.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerCommand.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerCommand.cpp.o
 .PHONY : Commands/CAssemblerCommand.cpp.o
 
 Commands/CAssemblerCommand.i: Commands/CAssemblerCommand.cpp.i
@@ -729,7 +729,7 @@ Commands/CAssemblerCommand.i: Commands/CAssemblerCommand.cpp.i
 
 # target to preprocess a source file
 Commands/CAssemblerCommand.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerCommand.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerCommand.cpp.i
 .PHONY : Commands/CAssemblerCommand.cpp.i
 
 Commands/CAssemblerCommand.s: Commands/CAssemblerCommand.cpp.s
@@ -738,7 +738,7 @@ Commands/CAssemblerCommand.s: Commands/CAssemblerCommand.cpp.s
 
 # target to generate assembly for a file
 Commands/CAssemblerCommand.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerCommand.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerCommand.cpp.s
 .PHONY : Commands/CAssemblerCommand.cpp.s
 
 Commands/CAssemblerLabel.o: Commands/CAssemblerLabel.cpp.o
@@ -747,7 +747,7 @@ Commands/CAssemblerLabel.o: Commands/CAssemblerLabel.cpp.o
 
 # target to build an object file
 Commands/CAssemblerLabel.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerLabel.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerLabel.cpp.o
 .PHONY : Commands/CAssemblerLabel.cpp.o
 
 Commands/CAssemblerLabel.i: Commands/CAssemblerLabel.cpp.i
@@ -756,7 +756,7 @@ Commands/CAssemblerLabel.i: Commands/CAssemblerLabel.cpp.i
 
 # target to preprocess a source file
 Commands/CAssemblerLabel.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerLabel.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerLabel.cpp.i
 .PHONY : Commands/CAssemblerLabel.cpp.i
 
 Commands/CAssemblerLabel.s: Commands/CAssemblerLabel.cpp.s
@@ -765,7 +765,7 @@ Commands/CAssemblerLabel.s: Commands/CAssemblerLabel.cpp.s
 
 # target to generate assembly for a file
 Commands/CAssemblerLabel.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerLabel.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CAssemblerLabel.cpp.s
 .PHONY : Commands/CAssemblerLabel.cpp.s
 
 Commands/CDirectiveArea.o: Commands/CDirectiveArea.cpp.o
@@ -774,7 +774,7 @@ Commands/CDirectiveArea.o: Commands/CDirectiveArea.cpp.o
 
 # target to build an object file
 Commands/CDirectiveArea.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveArea.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveArea.cpp.o
 .PHONY : Commands/CDirectiveArea.cpp.o
 
 Commands/CDirectiveArea.i: Commands/CDirectiveArea.cpp.i
@@ -783,7 +783,7 @@ Commands/CDirectiveArea.i: Commands/CDirectiveArea.cpp.i
 
 # target to preprocess a source file
 Commands/CDirectiveArea.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveArea.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveArea.cpp.i
 .PHONY : Commands/CDirectiveArea.cpp.i
 
 Commands/CDirectiveArea.s: Commands/CDirectiveArea.cpp.s
@@ -792,7 +792,7 @@ Commands/CDirectiveArea.s: Commands/CDirectiveArea.cpp.s
 
 # target to generate assembly for a file
 Commands/CDirectiveArea.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveArea.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveArea.cpp.s
 .PHONY : Commands/CDirectiveArea.cpp.s
 
 Commands/CDirectiveConditional.o: Commands/CDirectiveConditional.cpp.o
@@ -801,7 +801,7 @@ Commands/CDirectiveConditional.o: Commands/CDirectiveConditional.cpp.o
 
 # target to build an object file
 Commands/CDirectiveConditional.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveConditional.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveConditional.cpp.o
 .PHONY : Commands/CDirectiveConditional.cpp.o
 
 Commands/CDirectiveConditional.i: Commands/CDirectiveConditional.cpp.i
@@ -810,7 +810,7 @@ Commands/CDirectiveConditional.i: Commands/CDirectiveConditional.cpp.i
 
 # target to preprocess a source file
 Commands/CDirectiveConditional.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveConditional.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveConditional.cpp.i
 .PHONY : Commands/CDirectiveConditional.cpp.i
 
 Commands/CDirectiveConditional.s: Commands/CDirectiveConditional.cpp.s
@@ -819,7 +819,7 @@ Commands/CDirectiveConditional.s: Commands/CDirectiveConditional.cpp.s
 
 # target to generate assembly for a file
 Commands/CDirectiveConditional.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveConditional.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveConditional.cpp.s
 .PHONY : Commands/CDirectiveConditional.cpp.s
 
 Commands/CDirectiveData.o: Commands/CDirectiveData.cpp.o
@@ -828,7 +828,7 @@ Commands/CDirectiveData.o: Commands/CDirectiveData.cpp.o
 
 # target to build an object file
 Commands/CDirectiveData.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveData.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveData.cpp.o
 .PHONY : Commands/CDirectiveData.cpp.o
 
 Commands/CDirectiveData.i: Commands/CDirectiveData.cpp.i
@@ -837,7 +837,7 @@ Commands/CDirectiveData.i: Commands/CDirectiveData.cpp.i
 
 # target to preprocess a source file
 Commands/CDirectiveData.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveData.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveData.cpp.i
 .PHONY : Commands/CDirectiveData.cpp.i
 
 Commands/CDirectiveData.s: Commands/CDirectiveData.cpp.s
@@ -846,7 +846,7 @@ Commands/CDirectiveData.s: Commands/CDirectiveData.cpp.s
 
 # target to generate assembly for a file
 Commands/CDirectiveData.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveData.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveData.cpp.s
 .PHONY : Commands/CDirectiveData.cpp.s
 
 Commands/CDirectiveFile.o: Commands/CDirectiveFile.cpp.o
@@ -855,7 +855,7 @@ Commands/CDirectiveFile.o: Commands/CDirectiveFile.cpp.o
 
 # target to build an object file
 Commands/CDirectiveFile.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveFile.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveFile.cpp.o
 .PHONY : Commands/CDirectiveFile.cpp.o
 
 Commands/CDirectiveFile.i: Commands/CDirectiveFile.cpp.i
@@ -864,7 +864,7 @@ Commands/CDirectiveFile.i: Commands/CDirectiveFile.cpp.i
 
 # target to preprocess a source file
 Commands/CDirectiveFile.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveFile.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveFile.cpp.i
 .PHONY : Commands/CDirectiveFile.cpp.i
 
 Commands/CDirectiveFile.s: Commands/CDirectiveFile.cpp.s
@@ -873,7 +873,7 @@ Commands/CDirectiveFile.s: Commands/CDirectiveFile.cpp.s
 
 # target to generate assembly for a file
 Commands/CDirectiveFile.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveFile.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveFile.cpp.s
 .PHONY : Commands/CDirectiveFile.cpp.s
 
 Commands/CDirectiveMessage.o: Commands/CDirectiveMessage.cpp.o
@@ -882,7 +882,7 @@ Commands/CDirectiveMessage.o: Commands/CDirectiveMessage.cpp.o
 
 # target to build an object file
 Commands/CDirectiveMessage.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveMessage.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveMessage.cpp.o
 .PHONY : Commands/CDirectiveMessage.cpp.o
 
 Commands/CDirectiveMessage.i: Commands/CDirectiveMessage.cpp.i
@@ -891,7 +891,7 @@ Commands/CDirectiveMessage.i: Commands/CDirectiveMessage.cpp.i
 
 # target to preprocess a source file
 Commands/CDirectiveMessage.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveMessage.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveMessage.cpp.i
 .PHONY : Commands/CDirectiveMessage.cpp.i
 
 Commands/CDirectiveMessage.s: Commands/CDirectiveMessage.cpp.s
@@ -900,7 +900,7 @@ Commands/CDirectiveMessage.s: Commands/CDirectiveMessage.cpp.s
 
 # target to generate assembly for a file
 Commands/CDirectiveMessage.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveMessage.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CDirectiveMessage.cpp.s
 .PHONY : Commands/CDirectiveMessage.cpp.s
 
 Commands/CommandSequence.o: Commands/CommandSequence.cpp.o
@@ -909,7 +909,7 @@ Commands/CommandSequence.o: Commands/CommandSequence.cpp.o
 
 # target to build an object file
 Commands/CommandSequence.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CommandSequence.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CommandSequence.cpp.o
 .PHONY : Commands/CommandSequence.cpp.o
 
 Commands/CommandSequence.i: Commands/CommandSequence.cpp.i
@@ -918,7 +918,7 @@ Commands/CommandSequence.i: Commands/CommandSequence.cpp.i
 
 # target to preprocess a source file
 Commands/CommandSequence.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CommandSequence.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CommandSequence.cpp.i
 .PHONY : Commands/CommandSequence.cpp.i
 
 Commands/CommandSequence.s: Commands/CommandSequence.cpp.s
@@ -927,7 +927,7 @@ Commands/CommandSequence.s: Commands/CommandSequence.cpp.s
 
 # target to generate assembly for a file
 Commands/CommandSequence.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CommandSequence.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Commands/CommandSequence.cpp.s
 .PHONY : Commands/CommandSequence.cpp.s
 
 Core/Assembler.o: Core/Assembler.cpp.o
@@ -936,7 +936,7 @@ Core/Assembler.o: Core/Assembler.cpp.o
 
 # target to build an object file
 Core/Assembler.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Assembler.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Assembler.cpp.o
 .PHONY : Core/Assembler.cpp.o
 
 Core/Assembler.i: Core/Assembler.cpp.i
@@ -945,7 +945,7 @@ Core/Assembler.i: Core/Assembler.cpp.i
 
 # target to preprocess a source file
 Core/Assembler.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Assembler.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Assembler.cpp.i
 .PHONY : Core/Assembler.cpp.i
 
 Core/Assembler.s: Core/Assembler.cpp.s
@@ -954,7 +954,7 @@ Core/Assembler.s: Core/Assembler.cpp.s
 
 # target to generate assembly for a file
 Core/Assembler.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Assembler.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Assembler.cpp.s
 .PHONY : Core/Assembler.cpp.s
 
 Core/Common.o: Core/Common.cpp.o
@@ -963,7 +963,7 @@ Core/Common.o: Core/Common.cpp.o
 
 # target to build an object file
 Core/Common.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Common.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Common.cpp.o
 .PHONY : Core/Common.cpp.o
 
 Core/Common.i: Core/Common.cpp.i
@@ -972,7 +972,7 @@ Core/Common.i: Core/Common.cpp.i
 
 # target to preprocess a source file
 Core/Common.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Common.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Common.cpp.i
 .PHONY : Core/Common.cpp.i
 
 Core/Common.s: Core/Common.cpp.s
@@ -981,7 +981,7 @@ Core/Common.s: Core/Common.cpp.s
 
 # target to generate assembly for a file
 Core/Common.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Common.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Common.cpp.s
 .PHONY : Core/Common.cpp.s
 
 Core/ELF/ElfFile.o: Core/ELF/ElfFile.cpp.o
@@ -990,7 +990,7 @@ Core/ELF/ElfFile.o: Core/ELF/ElfFile.cpp.o
 
 # target to build an object file
 Core/ELF/ElfFile.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfFile.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfFile.cpp.o
 .PHONY : Core/ELF/ElfFile.cpp.o
 
 Core/ELF/ElfFile.i: Core/ELF/ElfFile.cpp.i
@@ -999,7 +999,7 @@ Core/ELF/ElfFile.i: Core/ELF/ElfFile.cpp.i
 
 # target to preprocess a source file
 Core/ELF/ElfFile.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfFile.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfFile.cpp.i
 .PHONY : Core/ELF/ElfFile.cpp.i
 
 Core/ELF/ElfFile.s: Core/ELF/ElfFile.cpp.s
@@ -1008,7 +1008,7 @@ Core/ELF/ElfFile.s: Core/ELF/ElfFile.cpp.s
 
 # target to generate assembly for a file
 Core/ELF/ElfFile.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfFile.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfFile.cpp.s
 .PHONY : Core/ELF/ElfFile.cpp.s
 
 Core/ELF/ElfRelocator.o: Core/ELF/ElfRelocator.cpp.o
@@ -1017,7 +1017,7 @@ Core/ELF/ElfRelocator.o: Core/ELF/ElfRelocator.cpp.o
 
 # target to build an object file
 Core/ELF/ElfRelocator.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfRelocator.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfRelocator.cpp.o
 .PHONY : Core/ELF/ElfRelocator.cpp.o
 
 Core/ELF/ElfRelocator.i: Core/ELF/ElfRelocator.cpp.i
@@ -1026,7 +1026,7 @@ Core/ELF/ElfRelocator.i: Core/ELF/ElfRelocator.cpp.i
 
 # target to preprocess a source file
 Core/ELF/ElfRelocator.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfRelocator.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfRelocator.cpp.i
 .PHONY : Core/ELF/ElfRelocator.cpp.i
 
 Core/ELF/ElfRelocator.s: Core/ELF/ElfRelocator.cpp.s
@@ -1035,7 +1035,7 @@ Core/ELF/ElfRelocator.s: Core/ELF/ElfRelocator.cpp.s
 
 # target to generate assembly for a file
 Core/ELF/ElfRelocator.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfRelocator.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ELF/ElfRelocator.cpp.s
 .PHONY : Core/ELF/ElfRelocator.cpp.s
 
 Core/Expression.o: Core/Expression.cpp.o
@@ -1044,7 +1044,7 @@ Core/Expression.o: Core/Expression.cpp.o
 
 # target to build an object file
 Core/Expression.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Expression.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Expression.cpp.o
 .PHONY : Core/Expression.cpp.o
 
 Core/Expression.i: Core/Expression.cpp.i
@@ -1053,7 +1053,7 @@ Core/Expression.i: Core/Expression.cpp.i
 
 # target to preprocess a source file
 Core/Expression.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Expression.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Expression.cpp.i
 .PHONY : Core/Expression.cpp.i
 
 Core/Expression.s: Core/Expression.cpp.s
@@ -1062,7 +1062,7 @@ Core/Expression.s: Core/Expression.cpp.s
 
 # target to generate assembly for a file
 Core/Expression.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Expression.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Expression.cpp.s
 .PHONY : Core/Expression.cpp.s
 
 Core/ExpressionFunctions.o: Core/ExpressionFunctions.cpp.o
@@ -1071,7 +1071,7 @@ Core/ExpressionFunctions.o: Core/ExpressionFunctions.cpp.o
 
 # target to build an object file
 Core/ExpressionFunctions.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ExpressionFunctions.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ExpressionFunctions.cpp.o
 .PHONY : Core/ExpressionFunctions.cpp.o
 
 Core/ExpressionFunctions.i: Core/ExpressionFunctions.cpp.i
@@ -1080,7 +1080,7 @@ Core/ExpressionFunctions.i: Core/ExpressionFunctions.cpp.i
 
 # target to preprocess a source file
 Core/ExpressionFunctions.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ExpressionFunctions.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ExpressionFunctions.cpp.i
 .PHONY : Core/ExpressionFunctions.cpp.i
 
 Core/ExpressionFunctions.s: Core/ExpressionFunctions.cpp.s
@@ -1089,7 +1089,7 @@ Core/ExpressionFunctions.s: Core/ExpressionFunctions.cpp.s
 
 # target to generate assembly for a file
 Core/ExpressionFunctions.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ExpressionFunctions.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/ExpressionFunctions.cpp.s
 .PHONY : Core/ExpressionFunctions.cpp.s
 
 Core/FileManager.o: Core/FileManager.cpp.o
@@ -1098,7 +1098,7 @@ Core/FileManager.o: Core/FileManager.cpp.o
 
 # target to build an object file
 Core/FileManager.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/FileManager.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/FileManager.cpp.o
 .PHONY : Core/FileManager.cpp.o
 
 Core/FileManager.i: Core/FileManager.cpp.i
@@ -1107,7 +1107,7 @@ Core/FileManager.i: Core/FileManager.cpp.i
 
 # target to preprocess a source file
 Core/FileManager.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/FileManager.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/FileManager.cpp.i
 .PHONY : Core/FileManager.cpp.i
 
 Core/FileManager.s: Core/FileManager.cpp.s
@@ -1116,7 +1116,7 @@ Core/FileManager.s: Core/FileManager.cpp.s
 
 # target to generate assembly for a file
 Core/FileManager.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/FileManager.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/FileManager.cpp.s
 .PHONY : Core/FileManager.cpp.s
 
 Core/Misc.o: Core/Misc.cpp.o
@@ -1125,7 +1125,7 @@ Core/Misc.o: Core/Misc.cpp.o
 
 # target to build an object file
 Core/Misc.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Misc.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Misc.cpp.o
 .PHONY : Core/Misc.cpp.o
 
 Core/Misc.i: Core/Misc.cpp.i
@@ -1134,7 +1134,7 @@ Core/Misc.i: Core/Misc.cpp.i
 
 # target to preprocess a source file
 Core/Misc.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Misc.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Misc.cpp.i
 .PHONY : Core/Misc.cpp.i
 
 Core/Misc.s: Core/Misc.cpp.s
@@ -1143,7 +1143,7 @@ Core/Misc.s: Core/Misc.cpp.s
 
 # target to generate assembly for a file
 Core/Misc.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Misc.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/Misc.cpp.s
 .PHONY : Core/Misc.cpp.s
 
 Core/SymbolData.o: Core/SymbolData.cpp.o
@@ -1152,7 +1152,7 @@ Core/SymbolData.o: Core/SymbolData.cpp.o
 
 # target to build an object file
 Core/SymbolData.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolData.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolData.cpp.o
 .PHONY : Core/SymbolData.cpp.o
 
 Core/SymbolData.i: Core/SymbolData.cpp.i
@@ -1161,7 +1161,7 @@ Core/SymbolData.i: Core/SymbolData.cpp.i
 
 # target to preprocess a source file
 Core/SymbolData.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolData.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolData.cpp.i
 .PHONY : Core/SymbolData.cpp.i
 
 Core/SymbolData.s: Core/SymbolData.cpp.s
@@ -1170,7 +1170,7 @@ Core/SymbolData.s: Core/SymbolData.cpp.s
 
 # target to generate assembly for a file
 Core/SymbolData.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolData.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolData.cpp.s
 .PHONY : Core/SymbolData.cpp.s
 
 Core/SymbolTable.o: Core/SymbolTable.cpp.o
@@ -1179,7 +1179,7 @@ Core/SymbolTable.o: Core/SymbolTable.cpp.o
 
 # target to build an object file
 Core/SymbolTable.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolTable.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolTable.cpp.o
 .PHONY : Core/SymbolTable.cpp.o
 
 Core/SymbolTable.i: Core/SymbolTable.cpp.i
@@ -1188,7 +1188,7 @@ Core/SymbolTable.i: Core/SymbolTable.cpp.i
 
 # target to preprocess a source file
 Core/SymbolTable.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolTable.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolTable.cpp.i
 .PHONY : Core/SymbolTable.cpp.i
 
 Core/SymbolTable.s: Core/SymbolTable.cpp.s
@@ -1197,7 +1197,7 @@ Core/SymbolTable.s: Core/SymbolTable.cpp.s
 
 # target to generate assembly for a file
 Core/SymbolTable.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolTable.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Core/SymbolTable.cpp.s
 .PHONY : Core/SymbolTable.cpp.s
 
 Main/Tests.o: Main/Tests.cpp.o
@@ -1206,8 +1206,8 @@ Main/Tests.o: Main/Tests.cpp.o
 
 # target to build an object file
 Main/Tests.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.o
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/Tests.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/Tests.cpp.o
 .PHONY : Main/Tests.cpp.o
 
 Main/Tests.i: Main/Tests.cpp.i
@@ -1216,8 +1216,8 @@ Main/Tests.i: Main/Tests.cpp.i
 
 # target to preprocess a source file
 Main/Tests.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.i
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/Tests.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/Tests.cpp.i
 .PHONY : Main/Tests.cpp.i
 
 Main/Tests.s: Main/Tests.cpp.s
@@ -1226,8 +1226,8 @@ Main/Tests.s: Main/Tests.cpp.s
 
 # target to generate assembly for a file
 Main/Tests.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.s
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/Tests.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/Tests.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/Tests.cpp.s
 .PHONY : Main/Tests.cpp.s
 
 Main/main.o: Main/main.cpp.o
@@ -1236,8 +1236,8 @@ Main/main.o: Main/main.cpp.o
 
 # target to build an object file
 Main/main.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.o
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/main.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/main.cpp.o
 .PHONY : Main/main.cpp.o
 
 Main/main.i: Main/main.cpp.i
@@ -1246,8 +1246,8 @@ Main/main.i: Main/main.cpp.i
 
 # target to preprocess a source file
 Main/main.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.i
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/main.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/main.cpp.i
 .PHONY : Main/main.cpp.i
 
 Main/main.s: Main/main.cpp.s
@@ -1256,8 +1256,8 @@ Main/main.s: Main/main.cpp.s
 
 # target to generate assembly for a file
 Main/main.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.s
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/main.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/Main/main.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/Main/main.cpp.s
 .PHONY : Main/main.cpp.s
 
 Parser/DirectivesParser.o: Parser/DirectivesParser.cpp.o
@@ -1266,7 +1266,7 @@ Parser/DirectivesParser.o: Parser/DirectivesParser.cpp.o
 
 # target to build an object file
 Parser/DirectivesParser.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/DirectivesParser.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/DirectivesParser.cpp.o
 .PHONY : Parser/DirectivesParser.cpp.o
 
 Parser/DirectivesParser.i: Parser/DirectivesParser.cpp.i
@@ -1275,7 +1275,7 @@ Parser/DirectivesParser.i: Parser/DirectivesParser.cpp.i
 
 # target to preprocess a source file
 Parser/DirectivesParser.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/DirectivesParser.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/DirectivesParser.cpp.i
 .PHONY : Parser/DirectivesParser.cpp.i
 
 Parser/DirectivesParser.s: Parser/DirectivesParser.cpp.s
@@ -1284,7 +1284,7 @@ Parser/DirectivesParser.s: Parser/DirectivesParser.cpp.s
 
 # target to generate assembly for a file
 Parser/DirectivesParser.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/DirectivesParser.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/DirectivesParser.cpp.s
 .PHONY : Parser/DirectivesParser.cpp.s
 
 Parser/ExpressionParser.o: Parser/ExpressionParser.cpp.o
@@ -1293,7 +1293,7 @@ Parser/ExpressionParser.o: Parser/ExpressionParser.cpp.o
 
 # target to build an object file
 Parser/ExpressionParser.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/ExpressionParser.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/ExpressionParser.cpp.o
 .PHONY : Parser/ExpressionParser.cpp.o
 
 Parser/ExpressionParser.i: Parser/ExpressionParser.cpp.i
@@ -1302,7 +1302,7 @@ Parser/ExpressionParser.i: Parser/ExpressionParser.cpp.i
 
 # target to preprocess a source file
 Parser/ExpressionParser.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/ExpressionParser.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/ExpressionParser.cpp.i
 .PHONY : Parser/ExpressionParser.cpp.i
 
 Parser/ExpressionParser.s: Parser/ExpressionParser.cpp.s
@@ -1311,7 +1311,7 @@ Parser/ExpressionParser.s: Parser/ExpressionParser.cpp.s
 
 # target to generate assembly for a file
 Parser/ExpressionParser.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/ExpressionParser.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/ExpressionParser.cpp.s
 .PHONY : Parser/ExpressionParser.cpp.s
 
 Parser/Parser.o: Parser/Parser.cpp.o
@@ -1320,7 +1320,7 @@ Parser/Parser.o: Parser/Parser.cpp.o
 
 # target to build an object file
 Parser/Parser.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Parser.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Parser.cpp.o
 .PHONY : Parser/Parser.cpp.o
 
 Parser/Parser.i: Parser/Parser.cpp.i
@@ -1329,7 +1329,7 @@ Parser/Parser.i: Parser/Parser.cpp.i
 
 # target to preprocess a source file
 Parser/Parser.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Parser.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Parser.cpp.i
 .PHONY : Parser/Parser.cpp.i
 
 Parser/Parser.s: Parser/Parser.cpp.s
@@ -1338,7 +1338,7 @@ Parser/Parser.s: Parser/Parser.cpp.s
 
 # target to generate assembly for a file
 Parser/Parser.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Parser.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Parser.cpp.s
 .PHONY : Parser/Parser.cpp.s
 
 Parser/Tokenizer.o: Parser/Tokenizer.cpp.o
@@ -1347,7 +1347,7 @@ Parser/Tokenizer.o: Parser/Tokenizer.cpp.o
 
 # target to build an object file
 Parser/Tokenizer.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Tokenizer.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Tokenizer.cpp.o
 .PHONY : Parser/Tokenizer.cpp.o
 
 Parser/Tokenizer.i: Parser/Tokenizer.cpp.i
@@ -1356,7 +1356,7 @@ Parser/Tokenizer.i: Parser/Tokenizer.cpp.i
 
 # target to preprocess a source file
 Parser/Tokenizer.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Tokenizer.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Tokenizer.cpp.i
 .PHONY : Parser/Tokenizer.cpp.i
 
 Parser/Tokenizer.s: Parser/Tokenizer.cpp.s
@@ -1365,7 +1365,7 @@ Parser/Tokenizer.s: Parser/Tokenizer.cpp.s
 
 # target to generate assembly for a file
 Parser/Tokenizer.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Tokenizer.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Parser/Tokenizer.cpp.s
 .PHONY : Parser/Tokenizer.cpp.s
 
 Util/ByteArray.o: Util/ByteArray.cpp.o
@@ -1374,7 +1374,7 @@ Util/ByteArray.o: Util/ByteArray.cpp.o
 
 # target to build an object file
 Util/ByteArray.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/ByteArray.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/ByteArray.cpp.o
 .PHONY : Util/ByteArray.cpp.o
 
 Util/ByteArray.i: Util/ByteArray.cpp.i
@@ -1383,7 +1383,7 @@ Util/ByteArray.i: Util/ByteArray.cpp.i
 
 # target to preprocess a source file
 Util/ByteArray.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/ByteArray.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/ByteArray.cpp.i
 .PHONY : Util/ByteArray.cpp.i
 
 Util/ByteArray.s: Util/ByteArray.cpp.s
@@ -1392,7 +1392,7 @@ Util/ByteArray.s: Util/ByteArray.cpp.s
 
 # target to generate assembly for a file
 Util/ByteArray.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/ByteArray.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/ByteArray.cpp.s
 .PHONY : Util/ByteArray.cpp.s
 
 Util/CRC.o: Util/CRC.cpp.o
@@ -1401,7 +1401,7 @@ Util/CRC.o: Util/CRC.cpp.o
 
 # target to build an object file
 Util/CRC.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/CRC.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/CRC.cpp.o
 .PHONY : Util/CRC.cpp.o
 
 Util/CRC.i: Util/CRC.cpp.i
@@ -1410,7 +1410,7 @@ Util/CRC.i: Util/CRC.cpp.i
 
 # target to preprocess a source file
 Util/CRC.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/CRC.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/CRC.cpp.i
 .PHONY : Util/CRC.cpp.i
 
 Util/CRC.s: Util/CRC.cpp.s
@@ -1419,7 +1419,7 @@ Util/CRC.s: Util/CRC.cpp.s
 
 # target to generate assembly for a file
 Util/CRC.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/CRC.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/CRC.cpp.s
 .PHONY : Util/CRC.cpp.s
 
 Util/EncodingTable.o: Util/EncodingTable.cpp.o
@@ -1428,7 +1428,7 @@ Util/EncodingTable.o: Util/EncodingTable.cpp.o
 
 # target to build an object file
 Util/EncodingTable.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/EncodingTable.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/EncodingTable.cpp.o
 .PHONY : Util/EncodingTable.cpp.o
 
 Util/EncodingTable.i: Util/EncodingTable.cpp.i
@@ -1437,7 +1437,7 @@ Util/EncodingTable.i: Util/EncodingTable.cpp.i
 
 # target to preprocess a source file
 Util/EncodingTable.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/EncodingTable.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/EncodingTable.cpp.i
 .PHONY : Util/EncodingTable.cpp.i
 
 Util/EncodingTable.s: Util/EncodingTable.cpp.s
@@ -1446,7 +1446,7 @@ Util/EncodingTable.s: Util/EncodingTable.cpp.s
 
 # target to generate assembly for a file
 Util/EncodingTable.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/EncodingTable.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/EncodingTable.cpp.s
 .PHONY : Util/EncodingTable.cpp.s
 
 Util/FileClasses.o: Util/FileClasses.cpp.o
@@ -1455,7 +1455,7 @@ Util/FileClasses.o: Util/FileClasses.cpp.o
 
 # target to build an object file
 Util/FileClasses.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/FileClasses.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/FileClasses.cpp.o
 .PHONY : Util/FileClasses.cpp.o
 
 Util/FileClasses.i: Util/FileClasses.cpp.i
@@ -1464,7 +1464,7 @@ Util/FileClasses.i: Util/FileClasses.cpp.i
 
 # target to preprocess a source file
 Util/FileClasses.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/FileClasses.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/FileClasses.cpp.i
 .PHONY : Util/FileClasses.cpp.i
 
 Util/FileClasses.s: Util/FileClasses.cpp.s
@@ -1473,7 +1473,7 @@ Util/FileClasses.s: Util/FileClasses.cpp.s
 
 # target to generate assembly for a file
 Util/FileClasses.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/FileClasses.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/FileClasses.cpp.s
 .PHONY : Util/FileClasses.cpp.s
 
 Util/Util.o: Util/Util.cpp.o
@@ -1482,7 +1482,7 @@ Util/Util.o: Util/Util.cpp.o
 
 # target to build an object file
 Util/Util.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/Util.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/Util.cpp.o
 .PHONY : Util/Util.cpp.o
 
 Util/Util.i: Util/Util.cpp.i
@@ -1491,7 +1491,7 @@ Util/Util.i: Util/Util.cpp.i
 
 # target to preprocess a source file
 Util/Util.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/Util.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/Util.cpp.i
 .PHONY : Util/Util.cpp.i
 
 Util/Util.s: Util/Util.cpp.s
@@ -1500,7 +1500,7 @@ Util/Util.s: Util/Util.cpp.s
 
 # target to generate assembly for a file
 Util/Util.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/Util.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips.dir/build.make ext/armips/CMakeFiles/armips.dir/Util/Util.cpp.s
 .PHONY : Util/Util.cpp.s
 
 stdafx.o: stdafx.cpp.o
@@ -1509,8 +1509,8 @@ stdafx.o: stdafx.cpp.o
 
 # target to build an object file
 stdafx.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.o
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/stdafx.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/stdafx.cpp.o
 .PHONY : stdafx.cpp.o
 
 stdafx.i: stdafx.cpp.i
@@ -1519,8 +1519,8 @@ stdafx.i: stdafx.cpp.i
 
 # target to preprocess a source file
 stdafx.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.i
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/stdafx.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/stdafx.cpp.i
 .PHONY : stdafx.cpp.i
 
 stdafx.s: stdafx.cpp.s
@@ -1529,8 +1529,8 @@ stdafx.s: stdafx.cpp.s
 
 # target to generate assembly for a file
 stdafx.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.s
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/stdafx.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armips-bin.dir/build.make ext/armips/CMakeFiles/armips-bin.dir/stdafx.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/armips/CMakeFiles/armipstests.dir/build.make ext/armips/CMakeFiles/armipstests.dir/stdafx.cpp.s
 .PHONY : stdafx.cpp.s
 
 # Help Target
@@ -1706,6 +1706,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

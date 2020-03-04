@@ -4853,6 +4853,33 @@ Core/HW/AsyncIOManager.cpp.s:
 	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.s
 .PHONY : Core/HW/AsyncIOManager.cpp.s
 
+Core/HW/Camera.o: Core/HW/Camera.cpp.o
+
+.PHONY : Core/HW/Camera.o
+
+# target to build an object file
+Core/HW/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/Core/HW/Camera.cpp.o
+.PHONY : Core/HW/Camera.cpp.o
+
+Core/HW/Camera.i: Core/HW/Camera.cpp.i
+
+.PHONY : Core/HW/Camera.i
+
+# target to preprocess a source file
+Core/HW/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/Core/HW/Camera.cpp.i
+.PHONY : Core/HW/Camera.cpp.i
+
+Core/HW/Camera.s: Core/HW/Camera.cpp.s
+
+.PHONY : Core/HW/Camera.s
+
+# target to generate assembly for a file
+Core/HW/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/Core/HW/Camera.cpp.s
+.PHONY : Core/HW/Camera.cpp.s
+
 Core/HW/MediaEngine.o: Core/HW/MediaEngine.cpp.o
 
 .PHONY : Core/HW/MediaEngine.o
@@ -8581,6 +8608,33 @@ GPU/Software/Rasterizer.s: GPU/Software/Rasterizer.cpp.s
 GPU/Software/Rasterizer.cpp.s:
 	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.s
 .PHONY : GPU/Software/Rasterizer.cpp.s
+
+GPU/Software/RasterizerRectangle.o: GPU/Software/RasterizerRectangle.cpp.o
+
+.PHONY : GPU/Software/RasterizerRectangle.o
+
+# target to build an object file
+GPU/Software/RasterizerRectangle.cpp.o:
+	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o
+.PHONY : GPU/Software/RasterizerRectangle.cpp.o
+
+GPU/Software/RasterizerRectangle.i: GPU/Software/RasterizerRectangle.cpp.i
+
+.PHONY : GPU/Software/RasterizerRectangle.i
+
+# target to preprocess a source file
+GPU/Software/RasterizerRectangle.cpp.i:
+	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.i
+.PHONY : GPU/Software/RasterizerRectangle.cpp.i
+
+GPU/Software/RasterizerRectangle.s: GPU/Software/RasterizerRectangle.cpp.s
+
+.PHONY : GPU/Software/RasterizerRectangle.s
+
+# target to generate assembly for a file
+GPU/Software/RasterizerRectangle.cpp.s:
+	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.s
+.PHONY : GPU/Software/RasterizerRectangle.cpp.s
 
 GPU/Software/Sampler.o: GPU/Software/Sampler.cpp.o
 
@@ -15007,6 +15061,9 @@ help:
 	@echo "... Core/HW/AsyncIOManager.o"
 	@echo "... Core/HW/AsyncIOManager.i"
 	@echo "... Core/HW/AsyncIOManager.s"
+	@echo "... Core/HW/Camera.o"
+	@echo "... Core/HW/Camera.i"
+	@echo "... Core/HW/Camera.s"
 	@echo "... Core/HW/MediaEngine.o"
 	@echo "... Core/HW/MediaEngine.i"
 	@echo "... Core/HW/MediaEngine.s"
@@ -15421,6 +15478,9 @@ help:
 	@echo "... GPU/Software/Rasterizer.o"
 	@echo "... GPU/Software/Rasterizer.i"
 	@echo "... GPU/Software/Rasterizer.s"
+	@echo "... GPU/Software/RasterizerRectangle.o"
+	@echo "... GPU/Software/RasterizerRectangle.i"
+	@echo "... GPU/Software/RasterizerRectangle.s"
 	@echo "... GPU/Software/Sampler.o"
 	@echo "... GPU/Software/Sampler.i"
 	@echo "... GPU/Software/Sampler.s"

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/ext/libkirk/AES.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/AES.c
 stdio.h
 -
 stdlib.h
@@ -14,23 +14,23 @@ stdlib.h
 string.h
 -
 AES.h
-/Storage/Files/build/ppsspp/ext/libkirk/AES.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/AES.h
 
-/Storage/Files/build/ppsspp/ext/libkirk/AES.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/AES.h
 kirk_engine.h
-/Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.h
 
-/Storage/Files/build/ppsspp/ext/libkirk/SHA1.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/SHA1.c
 SHA1.h
-/Storage/Files/build/ppsspp/ext/libkirk/SHA1.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/SHA1.h
 stdio.h
 -
 string.h
 -
 
-/Storage/Files/build/ppsspp/ext/libkirk/SHA1.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/SHA1.h
 
-/Storage/Files/build/ppsspp/ext/libkirk/amctrl.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/amctrl.c
 stdio.h
 -
 stdlib.h
@@ -38,33 +38,33 @@ stdlib.h
 string.h
 -
 kirk_engine.h
-/Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.h
 AES.h
-/Storage/Files/build/ppsspp/ext/libkirk/AES.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/AES.h
 SHA1.h
-/Storage/Files/build/ppsspp/ext/libkirk/SHA1.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/SHA1.h
 amctrl.h
-/Storage/Files/build/ppsspp/ext/libkirk/amctrl.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/amctrl.h
 
-/Storage/Files/build/ppsspp/ext/libkirk/amctrl.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/amctrl.h
 
-/Storage/Files/build/ppsspp/ext/libkirk/bn.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/bn.c
 string.h
 -
 stdio.h
 -
 kirk_engine.h
-/Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.h
 
-/Storage/Files/build/ppsspp/ext/libkirk/ec.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/ec.c
 string.h
 -
 stdio.h
 -
 kirk_engine.h
-/Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.h
 
-/Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.c
 stdio.h
 -
 stdlib.h
@@ -74,11 +74,11 @@ string.h
 time.h
 -
 kirk_engine.h
-/Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.h
 AES.h
-/Storage/Files/build/ppsspp/ext/libkirk/AES.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/AES.h
 SHA1.h
-/Storage/Files/build/ppsspp/ext/libkirk/SHA1.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/SHA1.h
 
-/Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.h
 

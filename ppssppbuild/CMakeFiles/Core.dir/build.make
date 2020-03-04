@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Core.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/Core.dir/progress.make
 include CMakeFiles/Core.dir/flags.make
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompALU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompALU.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompALU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompALU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompALU.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompALU.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompALU.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompALU.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRCompALU.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompBranch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompBranch.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompBranch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompBranch.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompBranch.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompBranch.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompBranch.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompBranch.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRCompBranch.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRCompFPU.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompLoadStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompLoadStore.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompLoadStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompLoadStore.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompLoadStore.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompLoadStore.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompLoadStore.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompLoadStore.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRCompLoadStore.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompVFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompVFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompVFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompVFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRCompVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRCompVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRCompVFPU.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRFrontend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRFrontend.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRFrontend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRFrontend.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRFrontend.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRFrontend.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRFrontend.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRFrontend.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRFrontend.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRInst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRInst.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRInst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRInst.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRInst.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRInst.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRInst.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRInst.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRInst.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRInterpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRInterpreter.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRInterpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRInterpreter.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRInterpreter.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRInterpreter.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRInterpreter.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRInterpreter.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRInterpreter.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRJit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRJit.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRJit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRJit.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRJit.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRJit.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRJit.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRJit.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.o.requires:
 
@@ -274,17 +274,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRJit.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRPassSimplify.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRPassSimplify.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRPassSimplify.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRPassSimplify.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRPassSimplify.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRPassSimplify.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRPassSimplify.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRPassSimplify.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.o.requires:
 
@@ -298,17 +298,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRPassSimplify.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/IR/IRRegCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/IR/IRRegCache.cpp
+CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRRegCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRRegCache.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/IR/IRRegCache.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRRegCache.cpp > CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/IR/IRRegCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/IR/IRRegCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.o.requires:
 
@@ -322,17 +322,17 @@ CMakeFiles/Core.dir/Core/MIPS/IR/IRRegCache.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmAsm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmAsm.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmAsm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmAsm.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmAsm.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmAsm.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmAsm.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmAsm.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.o.requires:
 
@@ -346,17 +346,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmAsm.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompALU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompALU.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompALU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompALU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompALU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompALU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompALU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompALU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.o.requires:
 
@@ -370,17 +370,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompALU.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompBranch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompBranch.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompBranch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompBranch.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompBranch.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompBranch.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompBranch.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompBranch.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.o.requires:
 
@@ -394,17 +394,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompBranch.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.o.requires:
 
@@ -418,17 +418,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompFPU.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompLoadStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompLoadStore.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompLoadStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompLoadStore.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompLoadStore.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompLoadStore.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompLoadStore.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompLoadStore.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.o.requires:
 
@@ -442,17 +442,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompLoadStore.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.o.requires:
 
@@ -466,17 +466,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPU.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEON.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEON.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEON.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEON.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEON.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEON.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEON.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.o.requires:
 
@@ -490,17 +490,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEON.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.o.requires:
 
@@ -514,17 +514,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompVFPUNEONUtil.cpp.o.provides.build: CMak
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompReplace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompReplace.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompReplace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompReplace.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompReplace.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompReplace.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmCompReplace.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmCompReplace.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.o.requires:
 
@@ -538,17 +538,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmCompReplace.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmJit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmJit.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmJit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmJit.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmJit.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmJit.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmJit.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmJit.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.o.requires:
 
@@ -562,17 +562,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmJit.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmRegCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmRegCache.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmRegCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmRegCache.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmRegCache.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmRegCache.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmRegCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmRegCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.o.requires:
 
@@ -586,17 +586,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCache.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmRegCacheFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmRegCacheFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmRegCacheFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmRegCacheFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmRegCacheFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmRegCacheFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM/ArmRegCacheFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM/ArmRegCacheFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.o.requires:
 
@@ -610,17 +610,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM/ArmRegCacheFPU.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderArm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderArm.cpp
+CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderArm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderArm.cpp
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderArm.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderArm.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderArm.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderArm.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.o.requires:
 
@@ -634,17 +634,17 @@ CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64Asm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64Asm.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64Asm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64Asm.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64Asm.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64Asm.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64Asm.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64Asm.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.o.requires:
 
@@ -658,17 +658,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Asm.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompALU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompALU.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompALU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompALU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompALU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompALU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompALU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompALU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.o.requires:
 
@@ -682,17 +682,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompALU.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompBranch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompBranch.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompBranch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompBranch.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompBranch.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompBranch.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompBranch.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompBranch.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.o.requires:
 
@@ -706,17 +706,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompBranch.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.o.requires:
 
@@ -730,17 +730,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompFPU.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompLoadStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompLoadStore.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompLoadStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompLoadStore.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompLoadStore.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompLoadStore.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompLoadStore.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompLoadStore.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.o.requires:
 
@@ -754,17 +754,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompLoadStore.cpp.o.provides.build: CMa
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompVFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompVFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompVFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompVFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.o.requires:
 
@@ -778,17 +778,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompVFPU.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompReplace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompReplace.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompReplace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompReplace.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompReplace.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompReplace.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64CompReplace.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64CompReplace.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.o.requires:
 
@@ -802,17 +802,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64CompReplace.cpp.o.provides.build: CMake
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64Jit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64Jit.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64Jit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64Jit.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64Jit.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64Jit.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64Jit.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64Jit.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.o.requires:
 
@@ -826,17 +826,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64Jit.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64RegCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64RegCache.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64RegCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64RegCache.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64RegCache.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64RegCache.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64RegCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64RegCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.o.requires:
 
@@ -850,17 +850,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCache.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.o.requires:
 
@@ -874,17 +874,17 @@ CMakeFiles/Core.dir/Core/MIPS/ARM64/Arm64RegCacheFPU.cpp.o.provides.build: CMake
 
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderArm64.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderArm64.cpp
+CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderArm64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderArm64.cpp
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderArm64.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderArm64.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderArm64.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderArm64.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.o.requires:
 
@@ -898,17 +898,17 @@ CMakeFiles/Core.dir/GPU/Common/VertexDecoderArm64.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.o: /Storage/Files/build/ppsspp/Core/Util/DisArm64.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.o -c /Storage/Files/build/ppsspp/Core/Util/DisArm64.cpp
+CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/DisArm64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/DisArm64.cpp
 
 CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Util/DisArm64.cpp > CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/DisArm64.cpp > CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.i
 
 CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Util/DisArm64.cpp -o CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/DisArm64.cpp -o CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.s
 
 CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.o.requires:
 
@@ -922,17 +922,17 @@ CMakeFiles/Core.dir/Core/Util/DisArm64.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/Asm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/Asm.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/Asm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/Asm.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/Asm.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/Asm.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/Asm.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/Asm.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.o.requires:
 
@@ -946,17 +946,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/Asm.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/CompALU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/CompALU.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompALU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompALU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/CompALU.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompALU.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/CompALU.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompALU.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.o.requires:
 
@@ -970,17 +970,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/CompALU.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/CompBranch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/CompBranch.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompBranch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompBranch.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/CompBranch.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompBranch.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/CompBranch.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompBranch.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.o.requires:
 
@@ -994,17 +994,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/CompBranch.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/CompFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/CompFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/CompFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/CompFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.o.requires:
 
@@ -1018,17 +1018,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/CompFPU.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/CompLoadStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/CompLoadStore.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompLoadStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompLoadStore.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/CompLoadStore.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompLoadStore.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/CompLoadStore.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompLoadStore.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.o.requires:
 
@@ -1042,17 +1042,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/CompLoadStore.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/CompVFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/CompVFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompVFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompVFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/CompVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/CompVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.o.requires:
 
@@ -1066,17 +1066,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/CompVFPU.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/CompReplace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/CompReplace.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompReplace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompReplace.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/CompReplace.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompReplace.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/CompReplace.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/CompReplace.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.o.requires:
 
@@ -1090,17 +1090,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/CompReplace.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/Jit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/Jit.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/Jit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/Jit.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/Jit.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/Jit.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/Jit.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/Jit.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.o.requires:
 
@@ -1114,17 +1114,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/Jit.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/JitSafeMem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/JitSafeMem.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/JitSafeMem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/JitSafeMem.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/JitSafeMem.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/JitSafeMem.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/JitSafeMem.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/JitSafeMem.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.o.requires:
 
@@ -1138,17 +1138,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/JitSafeMem.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/RegCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/RegCache.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/RegCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/RegCache.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/RegCache.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/RegCache.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/RegCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/RegCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.o.requires:
 
@@ -1162,17 +1162,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/RegCache.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/x86/RegCacheFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/x86/RegCacheFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/RegCacheFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/RegCacheFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/x86/RegCacheFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/RegCacheFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/x86/RegCacheFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/x86/RegCacheFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.o.requires:
 
@@ -1186,17 +1186,17 @@ CMakeFiles/Core.dir/Core/MIPS/x86/RegCacheFPU.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderX86.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderX86.cpp
+CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderX86.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderX86.cpp
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderX86.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderX86.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderX86.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderX86.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.o.requires:
 
@@ -1210,17 +1210,17 @@ CMakeFiles/Core.dir/GPU/Common/VertexDecoderX86.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.o: /Storage/Files/build/ppsspp/GPU/Software/SamplerX86.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.o -c /Storage/Files/build/ppsspp/GPU/Software/SamplerX86.cpp
+CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/SamplerX86.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/SamplerX86.cpp
 
 CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Software/SamplerX86.cpp > CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/SamplerX86.cpp > CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.i
 
 CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Software/SamplerX86.cpp -o CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/SamplerX86.cpp -o CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.s
 
 CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.o.requires:
 
@@ -1234,17 +1234,17 @@ CMakeFiles/Core.dir/GPU/Software/SamplerX86.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPS/MipsJit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPS/MipsJit.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPS/MipsJit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPS/MipsJit.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPS/MipsJit.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPS/MipsJit.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPS/MipsJit.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPS/MipsJit.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.o.requires:
 
@@ -1258,17 +1258,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPS/MipsJit.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderFake.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderFake.cpp
+CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderFake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderFake.cpp
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderFake.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderFake.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderFake.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderFake.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.o.requires:
 
@@ -1282,17 +1282,17 @@ CMakeFiles/Core.dir/GPU/Common/VertexDecoderFake.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/Core/AVIDump.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/AVIDump.cpp.o: /Storage/Files/build/ppsspp/Core/AVIDump.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Core.dir/Core/AVIDump.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/AVIDump.cpp.o -c /Storage/Files/build/ppsspp/Core/AVIDump.cpp
+CMakeFiles/Core.dir/Core/AVIDump.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/AVIDump.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Core.dir/Core/AVIDump.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/AVIDump.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/AVIDump.cpp
 
 CMakeFiles/Core.dir/Core/AVIDump.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/AVIDump.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/AVIDump.cpp > CMakeFiles/Core.dir/Core/AVIDump.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/AVIDump.cpp > CMakeFiles/Core.dir/Core/AVIDump.cpp.i
 
 CMakeFiles/Core.dir/Core/AVIDump.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/AVIDump.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/AVIDump.cpp -o CMakeFiles/Core.dir/Core/AVIDump.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/AVIDump.cpp -o CMakeFiles/Core.dir/Core/AVIDump.cpp.s
 
 CMakeFiles/Core.dir/Core/AVIDump.cpp.o.requires:
 
@@ -1306,17 +1306,17 @@ CMakeFiles/Core.dir/Core/AVIDump.cpp.o.provides.build: CMakeFiles/Core.dir/Core/
 
 
 CMakeFiles/Core.dir/Core/WaveFile.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/WaveFile.cpp.o: /Storage/Files/build/ppsspp/Core/WaveFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/Core.dir/Core/WaveFile.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/WaveFile.cpp.o -c /Storage/Files/build/ppsspp/Core/WaveFile.cpp
+CMakeFiles/Core.dir/Core/WaveFile.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/WaveFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/Core.dir/Core/WaveFile.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/WaveFile.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/WaveFile.cpp
 
 CMakeFiles/Core.dir/Core/WaveFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/WaveFile.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/WaveFile.cpp > CMakeFiles/Core.dir/Core/WaveFile.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/WaveFile.cpp > CMakeFiles/Core.dir/Core/WaveFile.cpp.i
 
 CMakeFiles/Core.dir/Core/WaveFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/WaveFile.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/WaveFile.cpp -o CMakeFiles/Core.dir/Core/WaveFile.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/WaveFile.cpp -o CMakeFiles/Core.dir/Core/WaveFile.cpp.s
 
 CMakeFiles/Core.dir/Core/WaveFile.cpp.o.requires:
 
@@ -1330,17 +1330,17 @@ CMakeFiles/Core.dir/Core/WaveFile.cpp.o.provides.build: CMakeFiles/Core.dir/Core
 
 
 CMakeFiles/Core.dir/Core/Config.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Config.cpp.o: /Storage/Files/build/ppsspp/Core/Config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/Core.dir/Core/Config.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Config.cpp.o -c /Storage/Files/build/ppsspp/Core/Config.cpp
+CMakeFiles/Core.dir/Core/Config.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/Core.dir/Core/Config.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Config.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Config.cpp
 
 CMakeFiles/Core.dir/Core/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Config.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Config.cpp > CMakeFiles/Core.dir/Core/Config.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Config.cpp > CMakeFiles/Core.dir/Core/Config.cpp.i
 
 CMakeFiles/Core.dir/Core/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Config.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Config.cpp -o CMakeFiles/Core.dir/Core/Config.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Config.cpp -o CMakeFiles/Core.dir/Core/Config.cpp.s
 
 CMakeFiles/Core.dir/Core/Config.cpp.o.requires:
 
@@ -1354,17 +1354,17 @@ CMakeFiles/Core.dir/Core/Config.cpp.o.provides.build: CMakeFiles/Core.dir/Core/C
 
 
 CMakeFiles/Core.dir/Core/Core.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Core.cpp.o: /Storage/Files/build/ppsspp/Core/Core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/Core.dir/Core/Core.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Core.cpp.o -c /Storage/Files/build/ppsspp/Core/Core.cpp
+CMakeFiles/Core.dir/Core/Core.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/Core.dir/Core/Core.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Core.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Core.cpp
 
 CMakeFiles/Core.dir/Core/Core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Core.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Core.cpp > CMakeFiles/Core.dir/Core/Core.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Core.cpp > CMakeFiles/Core.dir/Core/Core.cpp.i
 
 CMakeFiles/Core.dir/Core/Core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Core.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Core.cpp -o CMakeFiles/Core.dir/Core/Core.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Core.cpp -o CMakeFiles/Core.dir/Core/Core.cpp.s
 
 CMakeFiles/Core.dir/Core/Core.cpp.o.requires:
 
@@ -1378,17 +1378,17 @@ CMakeFiles/Core.dir/Core/Core.cpp.o.provides.build: CMakeFiles/Core.dir/Core/Cor
 
 
 CMakeFiles/Core.dir/Core/Compatibility.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Compatibility.cpp.o: /Storage/Files/build/ppsspp/Core/Compatibility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/Core.dir/Core/Compatibility.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Compatibility.cpp.o -c /Storage/Files/build/ppsspp/Core/Compatibility.cpp
+CMakeFiles/Core.dir/Core/Compatibility.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Compatibility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/Core.dir/Core/Compatibility.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Compatibility.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Compatibility.cpp
 
 CMakeFiles/Core.dir/Core/Compatibility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Compatibility.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Compatibility.cpp > CMakeFiles/Core.dir/Core/Compatibility.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Compatibility.cpp > CMakeFiles/Core.dir/Core/Compatibility.cpp.i
 
 CMakeFiles/Core.dir/Core/Compatibility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Compatibility.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Compatibility.cpp -o CMakeFiles/Core.dir/Core/Compatibility.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Compatibility.cpp -o CMakeFiles/Core.dir/Core/Compatibility.cpp.s
 
 CMakeFiles/Core.dir/Core/Compatibility.cpp.o.requires:
 
@@ -1402,17 +1402,17 @@ CMakeFiles/Core.dir/Core/Compatibility.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/CoreTiming.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/CoreTiming.cpp.o: /Storage/Files/build/ppsspp/Core/CoreTiming.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/Core.dir/Core/CoreTiming.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/CoreTiming.cpp.o -c /Storage/Files/build/ppsspp/Core/CoreTiming.cpp
+CMakeFiles/Core.dir/Core/CoreTiming.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/CoreTiming.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/Core.dir/Core/CoreTiming.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/CoreTiming.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/CoreTiming.cpp
 
 CMakeFiles/Core.dir/Core/CoreTiming.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/CoreTiming.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/CoreTiming.cpp > CMakeFiles/Core.dir/Core/CoreTiming.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/CoreTiming.cpp > CMakeFiles/Core.dir/Core/CoreTiming.cpp.i
 
 CMakeFiles/Core.dir/Core/CoreTiming.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/CoreTiming.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/CoreTiming.cpp -o CMakeFiles/Core.dir/Core/CoreTiming.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/CoreTiming.cpp -o CMakeFiles/Core.dir/Core/CoreTiming.cpp.s
 
 CMakeFiles/Core.dir/Core/CoreTiming.cpp.o.requires:
 
@@ -1426,17 +1426,17 @@ CMakeFiles/Core.dir/Core/CoreTiming.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/CwCheat.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/CwCheat.cpp.o: /Storage/Files/build/ppsspp/Core/CwCheat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/Core.dir/Core/CwCheat.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/CwCheat.cpp.o -c /Storage/Files/build/ppsspp/Core/CwCheat.cpp
+CMakeFiles/Core.dir/Core/CwCheat.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/CwCheat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/Core.dir/Core/CwCheat.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/CwCheat.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/CwCheat.cpp
 
 CMakeFiles/Core.dir/Core/CwCheat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/CwCheat.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/CwCheat.cpp > CMakeFiles/Core.dir/Core/CwCheat.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/CwCheat.cpp > CMakeFiles/Core.dir/Core/CwCheat.cpp.i
 
 CMakeFiles/Core.dir/Core/CwCheat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/CwCheat.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/CwCheat.cpp -o CMakeFiles/Core.dir/Core/CwCheat.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/CwCheat.cpp -o CMakeFiles/Core.dir/Core/CwCheat.cpp.s
 
 CMakeFiles/Core.dir/Core/CwCheat.cpp.o.requires:
 
@@ -1450,17 +1450,17 @@ CMakeFiles/Core.dir/Core/CwCheat.cpp.o.provides.build: CMakeFiles/Core.dir/Core/
 
 
 CMakeFiles/Core.dir/Core/HDRemaster.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HDRemaster.cpp.o: /Storage/Files/build/ppsspp/Core/HDRemaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/Core.dir/Core/HDRemaster.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HDRemaster.cpp.o -c /Storage/Files/build/ppsspp/Core/HDRemaster.cpp
+CMakeFiles/Core.dir/Core/HDRemaster.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HDRemaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/Core.dir/Core/HDRemaster.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HDRemaster.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HDRemaster.cpp
 
 CMakeFiles/Core.dir/Core/HDRemaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HDRemaster.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HDRemaster.cpp > CMakeFiles/Core.dir/Core/HDRemaster.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HDRemaster.cpp > CMakeFiles/Core.dir/Core/HDRemaster.cpp.i
 
 CMakeFiles/Core.dir/Core/HDRemaster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HDRemaster.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HDRemaster.cpp -o CMakeFiles/Core.dir/Core/HDRemaster.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HDRemaster.cpp -o CMakeFiles/Core.dir/Core/HDRemaster.cpp.s
 
 CMakeFiles/Core.dir/Core/HDRemaster.cpp.o.requires:
 
@@ -1474,17 +1474,17 @@ CMakeFiles/Core.dir/Core/HDRemaster.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/WebServer.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/WebServer.cpp.o: /Storage/Files/build/ppsspp/Core/WebServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/Core.dir/Core/WebServer.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/WebServer.cpp.o -c /Storage/Files/build/ppsspp/Core/WebServer.cpp
+CMakeFiles/Core.dir/Core/WebServer.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/WebServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/Core.dir/Core/WebServer.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/WebServer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/WebServer.cpp
 
 CMakeFiles/Core.dir/Core/WebServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/WebServer.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/WebServer.cpp > CMakeFiles/Core.dir/Core/WebServer.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/WebServer.cpp > CMakeFiles/Core.dir/Core/WebServer.cpp.i
 
 CMakeFiles/Core.dir/Core/WebServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/WebServer.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/WebServer.cpp -o CMakeFiles/Core.dir/Core/WebServer.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/WebServer.cpp -o CMakeFiles/Core.dir/Core/WebServer.cpp.s
 
 CMakeFiles/Core.dir/Core/WebServer.cpp.o.requires:
 
@@ -1498,17 +1498,17 @@ CMakeFiles/Core.dir/Core/WebServer.cpp.o.provides.build: CMakeFiles/Core.dir/Cor
 
 
 CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/Breakpoints.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/Breakpoints.cpp
+CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/Breakpoints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/Breakpoints.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/Breakpoints.cpp > CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/Breakpoints.cpp > CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/Breakpoints.cpp -o CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/Breakpoints.cpp -o CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.o.requires:
 
@@ -1522,17 +1522,17 @@ CMakeFiles/Core.dir/Core/Debugger/Breakpoints.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/SymbolMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/SymbolMap.cpp
+CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/SymbolMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/SymbolMap.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/SymbolMap.cpp > CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/SymbolMap.cpp > CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/SymbolMap.cpp -o CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/SymbolMap.cpp -o CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.o.requires:
 
@@ -1546,17 +1546,17 @@ CMakeFiles/Core.dir/Core/Debugger/SymbolMap.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/DisassemblyManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/DisassemblyManager.cpp
+CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/DisassemblyManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/DisassemblyManager.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/DisassemblyManager.cpp > CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/DisassemblyManager.cpp > CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/DisassemblyManager.cpp -o CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/DisassemblyManager.cpp -o CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.o.requires:
 
@@ -1570,17 +1570,17 @@ CMakeFiles/Core.dir/Core/Debugger/DisassemblyManager.cpp.o.provides.build: CMake
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.o.requires:
 
@@ -1594,17 +1594,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/BreakpointSubscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/BreakpointSubscriber.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/BreakpointSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/BreakpointSubscriber.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/BreakpointSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/BreakpointSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/BreakpointSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/BreakpointSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.o.requires:
 
@@ -1618,17 +1618,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/BreakpointSubscriber.cpp.o.provides.
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.o.requires:
 
@@ -1642,17 +1642,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/CPUCoreSubscriber.cpp.o.provides.bui
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/DisasmSubscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/DisasmSubscriber.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/DisasmSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/DisasmSubscriber.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/DisasmSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/DisasmSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/DisasmSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/DisasmSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.o.requires:
 
@@ -1666,17 +1666,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/DisasmSubscriber.cpp.o.provides.buil
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GameBroadcaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GameBroadcaster.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GameBroadcaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GameBroadcaster.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GameBroadcaster.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GameBroadcaster.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GameBroadcaster.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GameBroadcaster.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.o.requires:
 
@@ -1690,17 +1690,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameBroadcaster.cpp.o.provides.build
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GameSubscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GameSubscriber.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GameSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GameSubscriber.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GameSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GameSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GameSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GameSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.o.requires:
 
@@ -1714,17 +1714,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/GameSubscriber.cpp.o.provides.build:
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.o.requires:
 
@@ -1738,17 +1738,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPUBufferSubscriber.cpp.o.provides.b
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GPURecordSubscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GPURecordSubscriber.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GPURecordSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GPURecordSubscriber.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GPURecordSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GPURecordSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/GPURecordSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/GPURecordSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.o.requires:
 
@@ -1762,17 +1762,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/GPURecordSubscriber.cpp.o.provides.b
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/HLESubscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/HLESubscriber.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/HLESubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/HLESubscriber.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/HLESubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/HLESubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/HLESubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/HLESubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.o.requires:
 
@@ -1786,17 +1786,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/HLESubscriber.cpp.o.provides.build: 
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/LogBroadcaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/LogBroadcaster.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/LogBroadcaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/LogBroadcaster.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/LogBroadcaster.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/LogBroadcaster.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/LogBroadcaster.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/LogBroadcaster.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.o.requires:
 
@@ -1810,17 +1810,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/LogBroadcaster.cpp.o.provides.build:
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/SteppingBroadcaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/SteppingBroadcaster.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/SteppingBroadcaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/SteppingBroadcaster.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/SteppingBroadcaster.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/SteppingBroadcaster.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/SteppingBroadcaster.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/SteppingBroadcaster.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.o.requires:
 
@@ -1834,17 +1834,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingBroadcaster.cpp.o.provides.b
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/SteppingSubscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/SteppingSubscriber.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/SteppingSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/SteppingSubscriber.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/SteppingSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/SteppingSubscriber.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/SteppingSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/SteppingSubscriber.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.o.requires:
 
@@ -1858,17 +1858,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/SteppingSubscriber.cpp.o.provides.bu
 
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.o: /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/WebSocketUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.o -c /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/WebSocketUtils.cpp
+CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/WebSocketUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/WebSocketUtils.cpp
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/WebSocketUtils.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/WebSocketUtils.cpp > CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.i
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Debugger/WebSocket/WebSocketUtils.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Debugger/WebSocket/WebSocketUtils.cpp -o CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.s
 
 CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.o.requires:
 
@@ -1882,17 +1882,17 @@ CMakeFiles/Core.dir/Core/Debugger/WebSocket/WebSocketUtils.cpp.o.provides.build:
 
 
 CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.o: /Storage/Files/build/ppsspp/Core/Dialog/PSPDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.o -c /Storage/Files/build/ppsspp/Core/Dialog/PSPDialog.cpp
+CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPDialog.cpp
 
 CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Dialog/PSPDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.i
 
 CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Dialog/PSPDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.s
 
 CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.o.requires:
 
@@ -1906,17 +1906,17 @@ CMakeFiles/Core.dir/Core/Dialog/PSPDialog.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.o: /Storage/Files/build/ppsspp/Core/Dialog/PSPGamedataInstallDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.o -c /Storage/Files/build/ppsspp/Core/Dialog/PSPGamedataInstallDialog.cpp
+CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPGamedataInstallDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPGamedataInstallDialog.cpp
 
 CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Dialog/PSPGamedataInstallDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPGamedataInstallDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.i
 
 CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Dialog/PSPGamedataInstallDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPGamedataInstallDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.s
 
 CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.o.requires:
 
@@ -1930,17 +1930,17 @@ CMakeFiles/Core.dir/Core/Dialog/PSPGamedataInstallDialog.cpp.o.provides.build: C
 
 
 CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.o: /Storage/Files/build/ppsspp/Core/Dialog/PSPMsgDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.o -c /Storage/Files/build/ppsspp/Core/Dialog/PSPMsgDialog.cpp
+CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPMsgDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPMsgDialog.cpp
 
 CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Dialog/PSPMsgDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPMsgDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.i
 
 CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Dialog/PSPMsgDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPMsgDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.s
 
 CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.o.requires:
 
@@ -1954,17 +1954,17 @@ CMakeFiles/Core.dir/Core/Dialog/PSPMsgDialog.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.o: /Storage/Files/build/ppsspp/Core/Dialog/PSPNetconfDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.o -c /Storage/Files/build/ppsspp/Core/Dialog/PSPNetconfDialog.cpp
+CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPNetconfDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPNetconfDialog.cpp
 
 CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Dialog/PSPNetconfDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPNetconfDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.i
 
 CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Dialog/PSPNetconfDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPNetconfDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.s
 
 CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.o.requires:
 
@@ -1978,17 +1978,17 @@ CMakeFiles/Core.dir/Core/Dialog/PSPNetconfDialog.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.o: /Storage/Files/build/ppsspp/Core/Dialog/PSPOskDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.o -c /Storage/Files/build/ppsspp/Core/Dialog/PSPOskDialog.cpp
+CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPOskDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPOskDialog.cpp
 
 CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Dialog/PSPOskDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPOskDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.i
 
 CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Dialog/PSPOskDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPOskDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.s
 
 CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.o.requires:
 
@@ -2002,17 +2002,17 @@ CMakeFiles/Core.dir/Core/Dialog/PSPOskDialog.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.o: /Storage/Files/build/ppsspp/Core/Dialog/PSPPlaceholderDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.o -c /Storage/Files/build/ppsspp/Core/Dialog/PSPPlaceholderDialog.cpp
+CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPPlaceholderDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPPlaceholderDialog.cpp
 
 CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Dialog/PSPPlaceholderDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPPlaceholderDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.i
 
 CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Dialog/PSPPlaceholderDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPPlaceholderDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.s
 
 CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.o.requires:
 
@@ -2026,17 +2026,17 @@ CMakeFiles/Core.dir/Core/Dialog/PSPPlaceholderDialog.cpp.o.provides.build: CMake
 
 
 CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.o: /Storage/Files/build/ppsspp/Core/Dialog/PSPSaveDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.o -c /Storage/Files/build/ppsspp/Core/Dialog/PSPSaveDialog.cpp
+CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPSaveDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPSaveDialog.cpp
 
 CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Dialog/PSPSaveDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPSaveDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.i
 
 CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Dialog/PSPSaveDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPSaveDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.s
 
 CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.o.requires:
 
@@ -2050,17 +2050,17 @@ CMakeFiles/Core.dir/Core/Dialog/PSPSaveDialog.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.o: /Storage/Files/build/ppsspp/Core/Dialog/PSPScreenshotDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.o -c /Storage/Files/build/ppsspp/Core/Dialog/PSPScreenshotDialog.cpp
+CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPScreenshotDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPScreenshotDialog.cpp
 
 CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Dialog/PSPScreenshotDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPScreenshotDialog.cpp > CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.i
 
 CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Dialog/PSPScreenshotDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/PSPScreenshotDialog.cpp -o CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.s
 
 CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.o.requires:
 
@@ -2074,17 +2074,17 @@ CMakeFiles/Core.dir/Core/Dialog/PSPScreenshotDialog.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.o: /Storage/Files/build/ppsspp/Core/Dialog/SavedataParam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.o -c /Storage/Files/build/ppsspp/Core/Dialog/SavedataParam.cpp
+CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/SavedataParam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/SavedataParam.cpp
 
 CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Dialog/SavedataParam.cpp > CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/SavedataParam.cpp > CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.i
 
 CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Dialog/SavedataParam.cpp -o CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Dialog/SavedataParam.cpp -o CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.s
 
 CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.o.requires:
 
@@ -2098,17 +2098,17 @@ CMakeFiles/Core.dir/Core/Dialog/SavedataParam.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.o: /Storage/Files/build/ppsspp/Core/ELF/ElfReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.o -c /Storage/Files/build/ppsspp/Core/ELF/ElfReader.cpp
+CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/ElfReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/ElfReader.cpp
 
 CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/ELF/ElfReader.cpp > CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/ElfReader.cpp > CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.i
 
 CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/ELF/ElfReader.cpp -o CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/ElfReader.cpp -o CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.s
 
 CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.o.requires:
 
@@ -2122,17 +2122,17 @@ CMakeFiles/Core.dir/Core/ELF/ElfReader.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.o: /Storage/Files/build/ppsspp/Core/ELF/PBPReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.o -c /Storage/Files/build/ppsspp/Core/ELF/PBPReader.cpp
+CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/PBPReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/PBPReader.cpp
 
 CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/ELF/PBPReader.cpp > CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/PBPReader.cpp > CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.i
 
 CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/ELF/PBPReader.cpp -o CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/PBPReader.cpp -o CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.s
 
 CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.o.requires:
 
@@ -2146,17 +2146,17 @@ CMakeFiles/Core.dir/Core/ELF/PBPReader.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.o: /Storage/Files/build/ppsspp/Core/ELF/PrxDecrypter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.o -c /Storage/Files/build/ppsspp/Core/ELF/PrxDecrypter.cpp
+CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/PrxDecrypter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/PrxDecrypter.cpp
 
 CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/ELF/PrxDecrypter.cpp > CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/PrxDecrypter.cpp > CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.i
 
 CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/ELF/PrxDecrypter.cpp -o CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/PrxDecrypter.cpp -o CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.s
 
 CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.o.requires:
 
@@ -2170,17 +2170,17 @@ CMakeFiles/Core.dir/Core/ELF/PrxDecrypter.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.o: /Storage/Files/build/ppsspp/Core/ELF/ParamSFO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.o -c /Storage/Files/build/ppsspp/Core/ELF/ParamSFO.cpp
+CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/ParamSFO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/ParamSFO.cpp
 
 CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/ELF/ParamSFO.cpp > CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/ParamSFO.cpp > CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.i
 
 CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/ELF/ParamSFO.cpp -o CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/ELF/ParamSFO.cpp -o CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.s
 
 CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.o.requires:
 
@@ -2194,17 +2194,17 @@ CMakeFiles/Core.dir/Core/ELF/ParamSFO.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.o: /Storage/Files/build/ppsspp/Core/FileSystems/tlzrc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.o -c /Storage/Files/build/ppsspp/Core/FileSystems/tlzrc.cpp
+CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/tlzrc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/tlzrc.cpp
 
 CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileSystems/tlzrc.cpp > CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/tlzrc.cpp > CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.i
 
 CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileSystems/tlzrc.cpp -o CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/tlzrc.cpp -o CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.s
 
 CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.o.requires:
 
@@ -2218,17 +2218,17 @@ CMakeFiles/Core.dir/Core/FileSystems/tlzrc.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.o: /Storage/Files/build/ppsspp/Core/FileSystems/BlobFileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.o -c /Storage/Files/build/ppsspp/Core/FileSystems/BlobFileSystem.cpp
+CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/BlobFileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/BlobFileSystem.cpp
 
 CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileSystems/BlobFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/BlobFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.i
 
 CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileSystems/BlobFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/BlobFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.s
 
 CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.o.requires:
 
@@ -2242,17 +2242,17 @@ CMakeFiles/Core.dir/Core/FileSystems/BlobFileSystem.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.o: /Storage/Files/build/ppsspp/Core/FileSystems/BlockDevices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.o -c /Storage/Files/build/ppsspp/Core/FileSystems/BlockDevices.cpp
+CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/BlockDevices.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/BlockDevices.cpp
 
 CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileSystems/BlockDevices.cpp > CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/BlockDevices.cpp > CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.i
 
 CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileSystems/BlockDevices.cpp -o CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/BlockDevices.cpp -o CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.s
 
 CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.o.requires:
 
@@ -2266,17 +2266,17 @@ CMakeFiles/Core.dir/Core/FileSystems/BlockDevices.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.o: /Storage/Files/build/ppsspp/Core/FileSystems/DirectoryFileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.o -c /Storage/Files/build/ppsspp/Core/FileSystems/DirectoryFileSystem.cpp
+CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/DirectoryFileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/DirectoryFileSystem.cpp
 
 CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileSystems/DirectoryFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/DirectoryFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.i
 
 CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileSystems/DirectoryFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/DirectoryFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.s
 
 CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.o.requires:
 
@@ -2290,17 +2290,17 @@ CMakeFiles/Core.dir/Core/FileSystems/DirectoryFileSystem.cpp.o.provides.build: C
 
 
 CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.o: /Storage/Files/build/ppsspp/Core/FileSystems/FileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.o -c /Storage/Files/build/ppsspp/Core/FileSystems/FileSystem.cpp
+CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/FileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/FileSystem.cpp
 
 CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileSystems/FileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/FileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.i
 
 CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileSystems/FileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/FileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.s
 
 CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.o.requires:
 
@@ -2314,17 +2314,17 @@ CMakeFiles/Core.dir/Core/FileSystems/FileSystem.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.o: /Storage/Files/build/ppsspp/Core/FileSystems/ISOFileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.o -c /Storage/Files/build/ppsspp/Core/FileSystems/ISOFileSystem.cpp
+CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/ISOFileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/ISOFileSystem.cpp
 
 CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileSystems/ISOFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/ISOFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.i
 
 CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileSystems/ISOFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/ISOFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.s
 
 CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.o.requires:
 
@@ -2338,17 +2338,17 @@ CMakeFiles/Core.dir/Core/FileSystems/ISOFileSystem.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.o: /Storage/Files/build/ppsspp/Core/FileSystems/MetaFileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.o -c /Storage/Files/build/ppsspp/Core/FileSystems/MetaFileSystem.cpp
+CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/MetaFileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/MetaFileSystem.cpp
 
 CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileSystems/MetaFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/MetaFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.i
 
 CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileSystems/MetaFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/MetaFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.s
 
 CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.o.requires:
 
@@ -2362,17 +2362,17 @@ CMakeFiles/Core.dir/Core/FileSystems/MetaFileSystem.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.o: /Storage/Files/build/ppsspp/Core/FileSystems/VirtualDiscFileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.o -c /Storage/Files/build/ppsspp/Core/FileSystems/VirtualDiscFileSystem.cpp
+CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/VirtualDiscFileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/VirtualDiscFileSystem.cpp
 
 CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileSystems/VirtualDiscFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/VirtualDiscFileSystem.cpp > CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.i
 
 CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileSystems/VirtualDiscFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileSystems/VirtualDiscFileSystem.cpp -o CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.s
 
 CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.o.requires:
 
@@ -2386,17 +2386,17 @@ CMakeFiles/Core.dir/Core/FileSystems/VirtualDiscFileSystem.cpp.o.provides.build:
 
 
 CMakeFiles/Core.dir/Core/Font/PGF.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Font/PGF.cpp.o: /Storage/Files/build/ppsspp/Core/Font/PGF.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/Core.dir/Core/Font/PGF.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Font/PGF.cpp.o -c /Storage/Files/build/ppsspp/Core/Font/PGF.cpp
+CMakeFiles/Core.dir/Core/Font/PGF.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Font/PGF.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/Core.dir/Core/Font/PGF.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Font/PGF.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Font/PGF.cpp
 
 CMakeFiles/Core.dir/Core/Font/PGF.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Font/PGF.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Font/PGF.cpp > CMakeFiles/Core.dir/Core/Font/PGF.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Font/PGF.cpp > CMakeFiles/Core.dir/Core/Font/PGF.cpp.i
 
 CMakeFiles/Core.dir/Core/Font/PGF.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Font/PGF.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Font/PGF.cpp -o CMakeFiles/Core.dir/Core/Font/PGF.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Font/PGF.cpp -o CMakeFiles/Core.dir/Core/Font/PGF.cpp.s
 
 CMakeFiles/Core.dir/Core/Font/PGF.cpp.o.requires:
 
@@ -2410,17 +2410,17 @@ CMakeFiles/Core.dir/Core/Font/PGF.cpp.o.provides.build: CMakeFiles/Core.dir/Core
 
 
 CMakeFiles/Core.dir/Core/HLE/HLE.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/HLE.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/HLE.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/Core.dir/Core/HLE/HLE.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/HLE.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/HLE.cpp
+CMakeFiles/Core.dir/Core/HLE/HLE.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLE.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/Core.dir/Core/HLE/HLE.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/HLE.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLE.cpp
 
 CMakeFiles/Core.dir/Core/HLE/HLE.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/HLE.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/HLE.cpp > CMakeFiles/Core.dir/Core/HLE/HLE.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLE.cpp > CMakeFiles/Core.dir/Core/HLE/HLE.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/HLE.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/HLE.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/HLE.cpp -o CMakeFiles/Core.dir/Core/HLE/HLE.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLE.cpp -o CMakeFiles/Core.dir/Core/HLE/HLE.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/HLE.cpp.o.requires:
 
@@ -2434,17 +2434,17 @@ CMakeFiles/Core.dir/Core/HLE/HLE.cpp.o.provides.build: CMakeFiles/Core.dir/Core/
 
 
 CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/ReplaceTables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/ReplaceTables.cpp
+CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/ReplaceTables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/ReplaceTables.cpp
 
 CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/ReplaceTables.cpp > CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/ReplaceTables.cpp > CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/ReplaceTables.cpp -o CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/ReplaceTables.cpp -o CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.o.requires:
 
@@ -2458,17 +2458,17 @@ CMakeFiles/Core.dir/Core/HLE/ReplaceTables.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/HLEHelperThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/HLEHelperThread.cpp
+CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLEHelperThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLEHelperThread.cpp
 
 CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/HLEHelperThread.cpp > CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLEHelperThread.cpp > CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/HLEHelperThread.cpp -o CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLEHelperThread.cpp -o CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.o.requires:
 
@@ -2482,17 +2482,17 @@ CMakeFiles/Core.dir/Core/HLE/HLEHelperThread.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/HLETables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/HLETables.cpp
+CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLETables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLETables.cpp
 
 CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/HLETables.cpp > CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLETables.cpp > CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/HLETables.cpp -o CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/HLETables.cpp -o CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.o.requires:
 
@@ -2506,17 +2506,17 @@ CMakeFiles/Core.dir/Core/HLE/HLETables.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/KUBridge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/KUBridge.cpp
+CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/KUBridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/KUBridge.cpp
 
 CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/KUBridge.cpp > CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/KUBridge.cpp > CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/KUBridge.cpp -o CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/KUBridge.cpp -o CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.o.requires:
 
@@ -2530,17 +2530,17 @@ CMakeFiles/Core.dir/Core/HLE/KUBridge.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/__sceAudio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/__sceAudio.cpp
+CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/__sceAudio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/__sceAudio.cpp
 
 CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/__sceAudio.cpp > CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/__sceAudio.cpp > CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/__sceAudio.cpp -o CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/__sceAudio.cpp -o CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.o.requires:
 
@@ -2554,17 +2554,17 @@ CMakeFiles/Core.dir/Core/HLE/__sceAudio.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceAdler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceAdler.cpp
+CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAdler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAdler.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceAdler.cpp > CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAdler.cpp > CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceAdler.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAdler.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.o.requires:
 
@@ -2578,17 +2578,17 @@ CMakeFiles/Core.dir/Core/HLE/sceAdler.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceAtrac.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceAtrac.cpp
+CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAtrac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAtrac.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceAtrac.cpp > CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAtrac.cpp > CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceAtrac.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAtrac.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.o.requires:
 
@@ -2602,17 +2602,17 @@ CMakeFiles/Core.dir/Core/HLE/sceAtrac.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceAudio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceAudio.cpp
+CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudio.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceAudio.cpp > CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudio.cpp > CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceAudio.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudio.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.o.requires:
 
@@ -2626,17 +2626,17 @@ CMakeFiles/Core.dir/Core/HLE/sceAudio.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceAudiocodec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceAudiocodec.cpp
+CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudiocodec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudiocodec.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceAudiocodec.cpp > CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudiocodec.cpp > CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceAudiocodec.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudiocodec.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.o.requires:
 
@@ -2650,17 +2650,17 @@ CMakeFiles/Core.dir/Core/HLE/sceAudiocodec.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceAudioRouting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceAudioRouting.cpp
+CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudioRouting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudioRouting.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceAudioRouting.cpp > CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudioRouting.cpp > CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceAudioRouting.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceAudioRouting.cpp -o CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.o.requires:
 
@@ -2674,17 +2674,17 @@ CMakeFiles/Core.dir/Core/HLE/sceAudioRouting.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceCcc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceCcc.cpp
+CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCcc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCcc.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceCcc.cpp > CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCcc.cpp > CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceCcc.cpp -o CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCcc.cpp -o CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.o.requires:
 
@@ -2698,17 +2698,17 @@ CMakeFiles/Core.dir/Core/HLE/sceCcc.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceChnnlsv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceChnnlsv.cpp
+CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceChnnlsv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceChnnlsv.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceChnnlsv.cpp > CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceChnnlsv.cpp > CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceChnnlsv.cpp -o CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceChnnlsv.cpp -o CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.o.requires:
 
@@ -2722,17 +2722,17 @@ CMakeFiles/Core.dir/Core/HLE/sceChnnlsv.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceCtrl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceCtrl.cpp
+CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCtrl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCtrl.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceCtrl.cpp > CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCtrl.cpp > CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceCtrl.cpp -o CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceCtrl.cpp -o CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.o.requires:
 
@@ -2746,17 +2746,17 @@ CMakeFiles/Core.dir/Core/HLE/sceCtrl.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceDeflt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceDeflt.cpp
+CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDeflt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDeflt.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceDeflt.cpp > CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDeflt.cpp > CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceDeflt.cpp -o CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDeflt.cpp -o CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.o.requires:
 
@@ -2770,17 +2770,17 @@ CMakeFiles/Core.dir/Core/HLE/sceDeflt.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceDisplay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceDisplay.cpp
+CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDisplay.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceDisplay.cpp > CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDisplay.cpp > CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceDisplay.cpp -o CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDisplay.cpp -o CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.o.requires:
 
@@ -2794,17 +2794,17 @@ CMakeFiles/Core.dir/Core/HLE/sceDisplay.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceDmac.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceDmac.cpp
+CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDmac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDmac.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceDmac.cpp > CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDmac.cpp > CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceDmac.cpp -o CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceDmac.cpp -o CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.o.requires:
 
@@ -2818,17 +2818,17 @@ CMakeFiles/Core.dir/Core/HLE/sceDmac.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceG729.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceG729.cpp
+CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceG729.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceG729.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceG729.cpp > CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceG729.cpp > CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceG729.cpp -o CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceG729.cpp -o CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.o.requires:
 
@@ -2842,17 +2842,17 @@ CMakeFiles/Core.dir/Core/HLE/sceG729.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceGameUpdate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceGameUpdate.cpp
+CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceGameUpdate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceGameUpdate.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceGameUpdate.cpp > CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceGameUpdate.cpp > CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceGameUpdate.cpp -o CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceGameUpdate.cpp -o CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.o.requires:
 
@@ -2866,17 +2866,17 @@ CMakeFiles/Core.dir/Core/HLE/sceGameUpdate.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceGe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceGe.cpp
+CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceGe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceGe.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceGe.cpp > CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceGe.cpp > CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceGe.cpp -o CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceGe.cpp -o CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.o.requires:
 
@@ -2890,17 +2890,17 @@ CMakeFiles/Core.dir/Core/HLE/sceGe.cpp.o.provides.build: CMakeFiles/Core.dir/Cor
 
 
 CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceFont.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceFont.cpp
+CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceFont.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceFont.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceFont.cpp > CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceFont.cpp > CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceFont.cpp -o CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceFont.cpp -o CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.o.requires:
 
@@ -2914,17 +2914,17 @@ CMakeFiles/Core.dir/Core/HLE/sceFont.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceHeap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceHeap.cpp
+CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHeap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHeap.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceHeap.cpp > CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHeap.cpp > CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceHeap.cpp -o CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHeap.cpp -o CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.o.requires:
 
@@ -2938,17 +2938,17 @@ CMakeFiles/Core.dir/Core/HLE/sceHeap.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceHprm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceHprm.cpp
+CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHprm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHprm.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceHprm.cpp > CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHprm.cpp > CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceHprm.cpp -o CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHprm.cpp -o CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.o.requires:
 
@@ -2962,17 +2962,17 @@ CMakeFiles/Core.dir/Core/HLE/sceHprm.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceHttp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceHttp.cpp
+CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHttp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHttp.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceHttp.cpp > CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHttp.cpp > CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceHttp.cpp -o CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceHttp.cpp -o CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.o.requires:
 
@@ -2986,17 +2986,17 @@ CMakeFiles/Core.dir/Core/HLE/sceHttp.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceImpose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceImpose.cpp
+CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceImpose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceImpose.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceImpose.cpp > CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceImpose.cpp > CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceImpose.cpp -o CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceImpose.cpp -o CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.o.requires:
 
@@ -3010,17 +3010,17 @@ CMakeFiles/Core.dir/Core/HLE/sceImpose.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceIo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceIo.cpp
+CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceIo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceIo.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceIo.cpp > CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceIo.cpp > CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceIo.cpp -o CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceIo.cpp -o CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.o.requires:
 
@@ -3034,17 +3034,17 @@ CMakeFiles/Core.dir/Core/HLE/sceIo.cpp.o.provides.build: CMakeFiles/Core.dir/Cor
 
 
 CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceJpeg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceJpeg.cpp
+CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceJpeg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceJpeg.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceJpeg.cpp > CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceJpeg.cpp > CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceJpeg.cpp -o CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceJpeg.cpp -o CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.o.requires:
 
@@ -3058,17 +3058,17 @@ CMakeFiles/Core.dir/Core/HLE/sceJpeg.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernel.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernel.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernel.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernel.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernel.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernel.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.o.requires:
 
@@ -3082,17 +3082,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernel.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelAlarm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelAlarm.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelAlarm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelAlarm.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelAlarm.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelAlarm.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelAlarm.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelAlarm.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.o.requires:
 
@@ -3106,17 +3106,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelAlarm.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelEventFlag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelEventFlag.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelEventFlag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelEventFlag.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelEventFlag.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelEventFlag.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelEventFlag.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelEventFlag.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.o.requires:
 
@@ -3130,17 +3130,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelEventFlag.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelInterrupt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelInterrupt.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelInterrupt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelInterrupt.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelInterrupt.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelInterrupt.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelInterrupt.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelInterrupt.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.o.requires:
 
@@ -3154,17 +3154,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelInterrupt.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelMbx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelMbx.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMbx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMbx.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelMbx.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMbx.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelMbx.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMbx.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.o.requires:
 
@@ -3178,17 +3178,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelMbx.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelMemory.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMemory.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelMemory.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMemory.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelMemory.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMemory.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.o.requires:
 
@@ -3202,17 +3202,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelMemory.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelModule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelModule.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelModule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelModule.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelModule.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelModule.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelModule.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelModule.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.o.requires:
 
@@ -3226,17 +3226,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelModule.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelMsgPipe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelMsgPipe.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMsgPipe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMsgPipe.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelMsgPipe.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMsgPipe.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelMsgPipe.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMsgPipe.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.o.requires:
 
@@ -3250,17 +3250,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelMsgPipe.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelMutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelMutex.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMutex.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelMutex.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMutex.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelMutex.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelMutex.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.o.requires:
 
@@ -3274,17 +3274,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelMutex.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelSemaphore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelSemaphore.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelSemaphore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelSemaphore.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelSemaphore.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelSemaphore.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelSemaphore.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelSemaphore.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.o.requires:
 
@@ -3298,17 +3298,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelSemaphore.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelThread.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelThread.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelThread.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelThread.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelThread.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelThread.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.o.requires:
 
@@ -3322,17 +3322,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelThread.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelTime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelTime.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelTime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelTime.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelTime.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelTime.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelTime.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelTime.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.o.requires:
 
@@ -3346,17 +3346,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelTime.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceKernelVTimer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceKernelVTimer.cpp
+CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelVTimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelVTimer.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceKernelVTimer.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelVTimer.cpp > CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceKernelVTimer.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceKernelVTimer.cpp -o CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.o.requires:
 
@@ -3370,17 +3370,17 @@ CMakeFiles/Core.dir/Core/HLE/sceKernelVTimer.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceMpeg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceMpeg.cpp
+CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMpeg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMpeg.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceMpeg.cpp > CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMpeg.cpp > CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceMpeg.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMpeg.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.o.requires:
 
@@ -3394,17 +3394,17 @@ CMakeFiles/Core.dir/Core/HLE/sceMpeg.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceNet.cpp
+CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNet.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceNet.cpp > CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNet.cpp > CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceNet.cpp -o CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNet.cpp -o CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.o.requires:
 
@@ -3418,17 +3418,17 @@ CMakeFiles/Core.dir/Core/HLE/sceNet.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceNetAdhoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceNetAdhoc.cpp
+CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNetAdhoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNetAdhoc.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceNetAdhoc.cpp > CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNetAdhoc.cpp > CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceNetAdhoc.cpp -o CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNetAdhoc.cpp -o CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.o.requires:
 
@@ -3442,17 +3442,17 @@ CMakeFiles/Core.dir/Core/HLE/sceNetAdhoc.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/proAdhoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/proAdhoc.cpp
+CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/proAdhoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/proAdhoc.cpp
 
 CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/proAdhoc.cpp > CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/proAdhoc.cpp > CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/proAdhoc.cpp -o CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/proAdhoc.cpp -o CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.o.requires:
 
@@ -3466,17 +3466,17 @@ CMakeFiles/Core.dir/Core/HLE/proAdhoc.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/proAdhocServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/proAdhocServer.cpp
+CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/proAdhocServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/proAdhocServer.cpp
 
 CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/proAdhocServer.cpp > CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/proAdhocServer.cpp > CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/proAdhocServer.cpp -o CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/proAdhocServer.cpp -o CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.o.requires:
 
@@ -3490,17 +3490,17 @@ CMakeFiles/Core.dir/Core/HLE/proAdhocServer.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceOpenPSID.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceOpenPSID.cpp
+CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceOpenPSID.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceOpenPSID.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceOpenPSID.cpp > CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceOpenPSID.cpp > CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceOpenPSID.cpp -o CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceOpenPSID.cpp -o CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.o.requires:
 
@@ -3514,17 +3514,17 @@ CMakeFiles/Core.dir/Core/HLE/sceOpenPSID.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceP3da.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceP3da.cpp
+CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceP3da.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceP3da.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceP3da.cpp > CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceP3da.cpp > CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceP3da.cpp -o CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceP3da.cpp -o CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.o.requires:
 
@@ -3538,17 +3538,17 @@ CMakeFiles/Core.dir/Core/HLE/sceP3da.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceMt19937.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceMt19937.cpp
+CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMt19937.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMt19937.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceMt19937.cpp > CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMt19937.cpp > CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceMt19937.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMt19937.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.o.requires:
 
@@ -3562,17 +3562,17 @@ CMakeFiles/Core.dir/Core/HLE/sceMt19937.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceMd5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceMd5.cpp
+CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMd5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMd5.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceMd5.cpp > CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMd5.cpp > CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceMd5.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMd5.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.o.requires:
 
@@ -3586,17 +3586,17 @@ CMakeFiles/Core.dir/Core/HLE/sceMd5.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceMp4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceMp4.cpp
+CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMp4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMp4.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceMp4.cpp > CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMp4.cpp > CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceMp4.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMp4.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.o.requires:
 
@@ -3610,17 +3610,17 @@ CMakeFiles/Core.dir/Core/HLE/sceMp4.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceMp3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceMp3.cpp
+CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMp3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMp3.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceMp3.cpp > CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMp3.cpp > CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceMp3.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceMp3.cpp -o CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.o.requires:
 
@@ -3634,17 +3634,17 @@ CMakeFiles/Core.dir/Core/HLE/sceMp3.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceParseHttp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceParseHttp.cpp
+CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceParseHttp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceParseHttp.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceParseHttp.cpp > CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceParseHttp.cpp > CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceParseHttp.cpp -o CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceParseHttp.cpp -o CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.o.requires:
 
@@ -3658,17 +3658,17 @@ CMakeFiles/Core.dir/Core/HLE/sceParseHttp.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceParseUri.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceParseUri.cpp
+CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceParseUri.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceParseUri.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceParseUri.cpp > CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceParseUri.cpp > CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceParseUri.cpp -o CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceParseUri.cpp -o CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.o.requires:
 
@@ -3682,17 +3682,17 @@ CMakeFiles/Core.dir/Core/HLE/sceParseUri.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/Core/HLE/scePower.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/scePower.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/scePower.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/Core.dir/Core/HLE/scePower.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/scePower.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/scePower.cpp
+CMakeFiles/Core.dir/Core/HLE/scePower.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePower.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/Core.dir/Core/HLE/scePower.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/scePower.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePower.cpp
 
 CMakeFiles/Core.dir/Core/HLE/scePower.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/scePower.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/scePower.cpp > CMakeFiles/Core.dir/Core/HLE/scePower.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePower.cpp > CMakeFiles/Core.dir/Core/HLE/scePower.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/scePower.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/scePower.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/scePower.cpp -o CMakeFiles/Core.dir/Core/HLE/scePower.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePower.cpp -o CMakeFiles/Core.dir/Core/HLE/scePower.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/scePower.cpp.o.requires:
 
@@ -3706,17 +3706,17 @@ CMakeFiles/Core.dir/Core/HLE/scePower.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/scePsmf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/scePsmf.cpp
+CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePsmf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePsmf.cpp
 
 CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/scePsmf.cpp > CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePsmf.cpp > CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/scePsmf.cpp -o CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePsmf.cpp -o CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.o.requires:
 
@@ -3730,17 +3730,17 @@ CMakeFiles/Core.dir/Core/HLE/scePsmf.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceRtc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceRtc.cpp
+CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceRtc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceRtc.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceRtc.cpp > CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceRtc.cpp > CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceRtc.cpp -o CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceRtc.cpp -o CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.o.requires:
 
@@ -3754,17 +3754,17 @@ CMakeFiles/Core.dir/Core/HLE/sceRtc.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceSas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceSas.cpp
+CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSas.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceSas.cpp > CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSas.cpp > CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceSas.cpp -o CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSas.cpp -o CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.o.requires:
 
@@ -3778,17 +3778,17 @@ CMakeFiles/Core.dir/Core/HLE/sceSas.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceSfmt19937.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceSfmt19937.cpp
+CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSfmt19937.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSfmt19937.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceSfmt19937.cpp > CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSfmt19937.cpp > CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceSfmt19937.cpp -o CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSfmt19937.cpp -o CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.o.requires:
 
@@ -3802,17 +3802,17 @@ CMakeFiles/Core.dir/Core/HLE/sceSfmt19937.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceSha256.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceSha256.cpp
+CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSha256.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSha256.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceSha256.cpp > CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSha256.cpp > CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceSha256.cpp -o CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSha256.cpp -o CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.o.requires:
 
@@ -3826,17 +3826,17 @@ CMakeFiles/Core.dir/Core/HLE/sceSha256.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceSsl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceSsl.cpp
+CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSsl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSsl.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceSsl.cpp > CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSsl.cpp > CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceSsl.cpp -o CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceSsl.cpp -o CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.o.requires:
 
@@ -3850,17 +3850,17 @@ CMakeFiles/Core.dir/Core/HLE/sceSsl.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceUmd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceUmd.cpp
+CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUmd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUmd.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceUmd.cpp > CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUmd.cpp > CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceUmd.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUmd.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.o.requires:
 
@@ -3874,17 +3874,17 @@ CMakeFiles/Core.dir/Core/HLE/sceUmd.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceUsb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceUsb.cpp
+CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsb.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceUsb.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsb.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceUsb.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsb.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.o.requires:
 
@@ -3898,17 +3898,17 @@ CMakeFiles/Core.dir/Core/HLE/sceUsb.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceUsbAcc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceUsbAcc.cpp
+CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbAcc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbAcc.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceUsbAcc.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbAcc.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceUsbAcc.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbAcc.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.o.requires:
 
@@ -3922,17 +3922,17 @@ CMakeFiles/Core.dir/Core/HLE/sceUsbAcc.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceUsbCam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceUsbCam.cpp
+CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbCam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbCam.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceUsbCam.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbCam.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceUsbCam.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbCam.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.o.requires:
 
@@ -3946,17 +3946,17 @@ CMakeFiles/Core.dir/Core/HLE/sceUsbCam.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceUsbGps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceUsbGps.cpp
+CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbGps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbGps.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceUsbGps.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbGps.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceUsbGps.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbGps.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.o.requires:
 
@@ -3970,17 +3970,17 @@ CMakeFiles/Core.dir/Core/HLE/sceUsbGps.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceUsbMic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceUsbMic.cpp
+CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbMic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbMic.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceUsbMic.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbMic.cpp > CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceUsbMic.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUsbMic.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.o.requires:
 
@@ -3994,17 +3994,17 @@ CMakeFiles/Core.dir/Core/HLE/sceUsbMic.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceUtility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceUtility.cpp
+CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUtility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUtility.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceUtility.cpp > CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUtility.cpp > CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceUtility.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceUtility.cpp -o CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.o.requires:
 
@@ -4018,17 +4018,17 @@ CMakeFiles/Core.dir/Core/HLE/sceUtility.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceVaudio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceVaudio.cpp
+CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceVaudio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceVaudio.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceVaudio.cpp > CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceVaudio.cpp > CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceVaudio.cpp -o CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceVaudio.cpp -o CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.o.requires:
 
@@ -4042,17 +4042,17 @@ CMakeFiles/Core.dir/Core/HLE/sceVaudio.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/scePspNpDrm_user.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/scePspNpDrm_user.cpp
+CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePspNpDrm_user.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePspNpDrm_user.cpp
 
 CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/scePspNpDrm_user.cpp > CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePspNpDrm_user.cpp > CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/scePspNpDrm_user.cpp -o CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePspNpDrm_user.cpp -o CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.o.requires:
 
@@ -4066,17 +4066,17 @@ CMakeFiles/Core.dir/Core/HLE/scePspNpDrm_user.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/sceNp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/sceNp.cpp
+CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNp.cpp
 
 CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/sceNp.cpp > CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNp.cpp > CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/sceNp.cpp -o CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/sceNp.cpp -o CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o.requires:
 
@@ -4090,17 +4090,17 @@ CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o.provides.build: CMakeFiles/Core.dir/Cor
 
 
 CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o: /Storage/Files/build/ppsspp/Core/HLE/scePauth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o -c /Storage/Files/build/ppsspp/Core/HLE/scePauth.cpp
+CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePauth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePauth.cpp
 
 CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HLE/scePauth.cpp > CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePauth.cpp > CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.i
 
 CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HLE/scePauth.cpp -o CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HLE/scePauth.cpp -o CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.s
 
 CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o.requires:
 
@@ -4114,17 +4114,17 @@ CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o: /Storage/Files/build/ppsspp/Core/HW/SimpleAudioDec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o -c /Storage/Files/build/ppsspp/Core/HW/SimpleAudioDec.cpp
+CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SimpleAudioDec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SimpleAudioDec.cpp
 
 CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HW/SimpleAudioDec.cpp > CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SimpleAudioDec.cpp > CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.i
 
 CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HW/SimpleAudioDec.cpp -o CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SimpleAudioDec.cpp -o CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.s
 
 CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o.requires:
 
@@ -4138,17 +4138,17 @@ CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o.provides.build: CMakeFiles/Core
 
 
 CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o: /Storage/Files/build/ppsspp/Core/HW/AsyncIOManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o -c /Storage/Files/build/ppsspp/Core/HW/AsyncIOManager.cpp
+CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/AsyncIOManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/AsyncIOManager.cpp
 
 CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HW/AsyncIOManager.cpp > CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/AsyncIOManager.cpp > CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.i
 
 CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HW/AsyncIOManager.cpp -o CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/AsyncIOManager.cpp -o CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.s
 
 CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o.requires:
 
@@ -4161,18 +4161,42 @@ CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o.provides: CMakeFiles/Core.dir/C
 CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o.provides.build: CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o
 
 
+CMakeFiles/Core.dir/Core/HW/Camera.cpp.o: CMakeFiles/Core.dir/flags.make
+CMakeFiles/Core.dir/Core/HW/Camera.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/Core.dir/Core/HW/Camera.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/Camera.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/Camera.cpp
+
+CMakeFiles/Core.dir/Core/HW/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HW/Camera.cpp.i"
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/Camera.cpp > CMakeFiles/Core.dir/Core/HW/Camera.cpp.i
+
+CMakeFiles/Core.dir/Core/HW/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HW/Camera.cpp.s"
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/Camera.cpp -o CMakeFiles/Core.dir/Core/HW/Camera.cpp.s
+
+CMakeFiles/Core.dir/Core/HW/Camera.cpp.o.requires:
+
+.PHONY : CMakeFiles/Core.dir/Core/HW/Camera.cpp.o.requires
+
+CMakeFiles/Core.dir/Core/HW/Camera.cpp.o.provides: CMakeFiles/Core.dir/Core/HW/Camera.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/Core/HW/Camera.cpp.o.provides.build
+.PHONY : CMakeFiles/Core.dir/Core/HW/Camera.cpp.o.provides
+
+CMakeFiles/Core.dir/Core/HW/Camera.cpp.o.provides.build: CMakeFiles/Core.dir/Core/HW/Camera.cpp.o
+
+
 CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o: /Storage/Files/build/ppsspp/Core/HW/MediaEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o -c /Storage/Files/build/ppsspp/Core/HW/MediaEngine.cpp
+CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MediaEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MediaEngine.cpp
 
 CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HW/MediaEngine.cpp > CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MediaEngine.cpp > CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.i
 
 CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HW/MediaEngine.cpp -o CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MediaEngine.cpp -o CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.s
 
 CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o.requires:
 
@@ -4186,17 +4210,17 @@ CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o: /Storage/Files/build/ppsspp/Core/HW/MpegDemux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o -c /Storage/Files/build/ppsspp/Core/HW/MpegDemux.cpp
+CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MpegDemux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MpegDemux.cpp
 
 CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HW/MpegDemux.cpp > CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MpegDemux.cpp > CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.i
 
 CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HW/MpegDemux.cpp -o CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MpegDemux.cpp -o CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.s
 
 CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o.requires:
 
@@ -4210,17 +4234,17 @@ CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o: /Storage/Files/build/ppsspp/Core/HW/MemoryStick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o -c /Storage/Files/build/ppsspp/Core/HW/MemoryStick.cpp
+CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MemoryStick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MemoryStick.cpp
 
 CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HW/MemoryStick.cpp > CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MemoryStick.cpp > CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.i
 
 CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HW/MemoryStick.cpp -o CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/MemoryStick.cpp -o CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.s
 
 CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o.requires:
 
@@ -4234,17 +4258,17 @@ CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.o: /Storage/Files/build/ppsspp/Core/HW/SasAudio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.o -c /Storage/Files/build/ppsspp/Core/HW/SasAudio.cpp
+CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SasAudio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SasAudio.cpp
 
 CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HW/SasAudio.cpp > CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SasAudio.cpp > CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.i
 
 CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HW/SasAudio.cpp -o CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SasAudio.cpp -o CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.s
 
 CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.o.requires:
 
@@ -4258,17 +4282,17 @@ CMakeFiles/Core.dir/Core/HW/SasAudio.cpp.o.provides.build: CMakeFiles/Core.dir/C
 
 
 CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.o: /Storage/Files/build/ppsspp/Core/HW/SasReverb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.o -c /Storage/Files/build/ppsspp/Core/HW/SasReverb.cpp
+CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SasReverb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SasReverb.cpp
 
 CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HW/SasReverb.cpp > CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SasReverb.cpp > CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.i
 
 CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HW/SasReverb.cpp -o CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/SasReverb.cpp -o CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.s
 
 CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.o.requires:
 
@@ -4282,17 +4306,17 @@ CMakeFiles/Core.dir/Core/HW/SasReverb.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.o: /Storage/Files/build/ppsspp/Core/HW/StereoResampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.o -c /Storage/Files/build/ppsspp/Core/HW/StereoResampler.cpp
+CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/StereoResampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/StereoResampler.cpp
 
 CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/HW/StereoResampler.cpp > CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/StereoResampler.cpp > CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.i
 
 CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/HW/StereoResampler.cpp -o CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/HW/StereoResampler.cpp -o CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.s
 
 CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.o.requires:
 
@@ -4306,17 +4330,17 @@ CMakeFiles/Core.dir/Core/HW/StereoResampler.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/Host.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Host.cpp.o: /Storage/Files/build/ppsspp/Core/Host.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/Core.dir/Core/Host.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Host.cpp.o -c /Storage/Files/build/ppsspp/Core/Host.cpp
+CMakeFiles/Core.dir/Core/Host.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Host.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/Core.dir/Core/Host.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Host.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Host.cpp
 
 CMakeFiles/Core.dir/Core/Host.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Host.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Host.cpp > CMakeFiles/Core.dir/Core/Host.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Host.cpp > CMakeFiles/Core.dir/Core/Host.cpp.i
 
 CMakeFiles/Core.dir/Core/Host.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Host.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Host.cpp -o CMakeFiles/Core.dir/Core/Host.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Host.cpp -o CMakeFiles/Core.dir/Core/Host.cpp.s
 
 CMakeFiles/Core.dir/Core/Host.cpp.o.requires:
 
@@ -4330,17 +4354,17 @@ CMakeFiles/Core.dir/Core/Host.cpp.o.provides.build: CMakeFiles/Core.dir/Core/Hos
 
 
 CMakeFiles/Core.dir/Core/Loaders.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Loaders.cpp.o: /Storage/Files/build/ppsspp/Core/Loaders.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/Core.dir/Core/Loaders.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Loaders.cpp.o -c /Storage/Files/build/ppsspp/Core/Loaders.cpp
+CMakeFiles/Core.dir/Core/Loaders.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Loaders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/Core.dir/Core/Loaders.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Loaders.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Loaders.cpp
 
 CMakeFiles/Core.dir/Core/Loaders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Loaders.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Loaders.cpp > CMakeFiles/Core.dir/Core/Loaders.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Loaders.cpp > CMakeFiles/Core.dir/Core/Loaders.cpp.i
 
 CMakeFiles/Core.dir/Core/Loaders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Loaders.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Loaders.cpp -o CMakeFiles/Core.dir/Core/Loaders.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Loaders.cpp -o CMakeFiles/Core.dir/Core/Loaders.cpp.s
 
 CMakeFiles/Core.dir/Core/Loaders.cpp.o.requires:
 
@@ -4354,17 +4378,17 @@ CMakeFiles/Core.dir/Core/Loaders.cpp.o.provides.build: CMakeFiles/Core.dir/Core/
 
 
 CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.o: /Storage/Files/build/ppsspp/Core/FileLoaders/CachingFileLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.o -c /Storage/Files/build/ppsspp/Core/FileLoaders/CachingFileLoader.cpp
+CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/CachingFileLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/CachingFileLoader.cpp
 
 CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileLoaders/CachingFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/CachingFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.i
 
 CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileLoaders/CachingFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/CachingFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.s
 
 CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.o.requires:
 
@@ -4378,17 +4402,17 @@ CMakeFiles/Core.dir/Core/FileLoaders/CachingFileLoader.cpp.o.provides.build: CMa
 
 
 CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.o: /Storage/Files/build/ppsspp/Core/FileLoaders/DiskCachingFileLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.o -c /Storage/Files/build/ppsspp/Core/FileLoaders/DiskCachingFileLoader.cpp
+CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/DiskCachingFileLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/DiskCachingFileLoader.cpp
 
 CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileLoaders/DiskCachingFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/DiskCachingFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.i
 
 CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileLoaders/DiskCachingFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/DiskCachingFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.s
 
 CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.o.requires:
 
@@ -4402,17 +4426,17 @@ CMakeFiles/Core.dir/Core/FileLoaders/DiskCachingFileLoader.cpp.o.provides.build:
 
 
 CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.o: /Storage/Files/build/ppsspp/Core/FileLoaders/HTTPFileLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.o -c /Storage/Files/build/ppsspp/Core/FileLoaders/HTTPFileLoader.cpp
+CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/HTTPFileLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/HTTPFileLoader.cpp
 
 CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileLoaders/HTTPFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/HTTPFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.i
 
 CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileLoaders/HTTPFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/HTTPFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.s
 
 CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.o.requires:
 
@@ -4426,17 +4450,17 @@ CMakeFiles/Core.dir/Core/FileLoaders/HTTPFileLoader.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.o: /Storage/Files/build/ppsspp/Core/FileLoaders/LocalFileLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.o -c /Storage/Files/build/ppsspp/Core/FileLoaders/LocalFileLoader.cpp
+CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/LocalFileLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/LocalFileLoader.cpp
 
 CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileLoaders/LocalFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/LocalFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.i
 
 CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileLoaders/LocalFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/LocalFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.s
 
 CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.o.requires:
 
@@ -4450,17 +4474,17 @@ CMakeFiles/Core.dir/Core/FileLoaders/LocalFileLoader.cpp.o.provides.build: CMake
 
 
 CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.o: /Storage/Files/build/ppsspp/Core/FileLoaders/RamCachingFileLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.o -c /Storage/Files/build/ppsspp/Core/FileLoaders/RamCachingFileLoader.cpp
+CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/RamCachingFileLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/RamCachingFileLoader.cpp
 
 CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileLoaders/RamCachingFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/RamCachingFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.i
 
 CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileLoaders/RamCachingFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/RamCachingFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.s
 
 CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.o.requires:
 
@@ -4474,17 +4498,17 @@ CMakeFiles/Core.dir/Core/FileLoaders/RamCachingFileLoader.cpp.o.provides.build: 
 
 
 CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.o: /Storage/Files/build/ppsspp/Core/FileLoaders/RetryingFileLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.o -c /Storage/Files/build/ppsspp/Core/FileLoaders/RetryingFileLoader.cpp
+CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/RetryingFileLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/RetryingFileLoader.cpp
 
 CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/FileLoaders/RetryingFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/RetryingFileLoader.cpp > CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.i
 
 CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/FileLoaders/RetryingFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/FileLoaders/RetryingFileLoader.cpp -o CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.s
 
 CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.o.requires:
 
@@ -4498,17 +4522,17 @@ CMakeFiles/Core.dir/Core/FileLoaders/RetryingFileLoader.cpp.o.provides.build: CM
 
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitCommon.cpp
+CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitCommon.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitCommon.cpp > CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitCommon.cpp > CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitCommon.cpp -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitCommon.cpp -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.o.requires:
 
@@ -4522,17 +4546,17 @@ CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitCommon.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitBlockCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitBlockCache.cpp
+CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitBlockCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitBlockCache.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitBlockCache.cpp > CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitBlockCache.cpp > CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitBlockCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitBlockCache.cpp -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.o.requires:
 
@@ -4546,17 +4570,17 @@ CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitBlockCache.cpp.o.provides.build: CMak
 
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitState.cpp
+CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitState.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitState.cpp > CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitState.cpp > CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/JitCommon/JitState.cpp -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/JitCommon/JitState.cpp -o CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.o.requires:
 
@@ -4570,17 +4594,17 @@ CMakeFiles/Core.dir/Core/MIPS/JitCommon/JitState.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPS.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPS.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPS.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPS.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPS.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPS.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.o.requires:
 
@@ -4594,17 +4618,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPS.cpp.o.provides.build: CMakeFiles/Core.dir/Cor
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSAnalyst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSAnalyst.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSAnalyst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSAnalyst.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSAnalyst.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSAnalyst.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSAnalyst.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSAnalyst.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.o.requires:
 
@@ -4618,17 +4642,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSAnalyst.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSCodeUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSCodeUtils.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSCodeUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSCodeUtils.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSCodeUtils.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSCodeUtils.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSCodeUtils.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSCodeUtils.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.o.requires:
 
@@ -4642,17 +4666,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSCodeUtils.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSDebugInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSDebugInterface.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDebugInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDebugInterface.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSDebugInterface.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDebugInterface.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSDebugInterface.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDebugInterface.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.o.requires:
 
@@ -4666,17 +4690,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSDebugInterface.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSDis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSDis.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDis.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSDis.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDis.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSDis.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDis.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.o.requires:
 
@@ -4690,17 +4714,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSDis.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSDisVFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSDisVFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDisVFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDisVFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSDisVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDisVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSDisVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSDisVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.o.requires:
 
@@ -4714,17 +4738,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSDisVFPU.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSInt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSInt.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSInt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSInt.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSInt.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSInt.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSInt.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSInt.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.o.requires:
 
@@ -4738,17 +4762,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSInt.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSIntVFPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSIntVFPU.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSIntVFPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSIntVFPU.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSIntVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSIntVFPU.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSIntVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSIntVFPU.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.o.requires:
 
@@ -4762,17 +4786,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSIntVFPU.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSStackWalk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSStackWalk.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSStackWalk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSStackWalk.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSStackWalk.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSStackWalk.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSStackWalk.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSStackWalk.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.o.requires:
 
@@ -4786,17 +4810,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSStackWalk.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSTables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSTables.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSTables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSTables.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSTables.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSTables.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSTables.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSTables.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.o.requires:
 
@@ -4810,17 +4834,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSTables.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSVFPUUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSVFPUUtils.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSVFPUUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSVFPUUtils.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSVFPUUtils.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSVFPUUtils.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSVFPUUtils.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSVFPUUtils.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.o.requires:
 
@@ -4834,17 +4858,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSVFPUUtils.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.o: /Storage/Files/build/ppsspp/Core/MIPS/MIPSAsm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.o -c /Storage/Files/build/ppsspp/Core/MIPS/MIPSAsm.cpp
+CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSAsm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSAsm.cpp
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MIPS/MIPSAsm.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSAsm.cpp > CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.i
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MIPS/MIPSAsm.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MIPS/MIPSAsm.cpp -o CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.s
 
 CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.o.requires:
 
@@ -4858,17 +4882,17 @@ CMakeFiles/Core.dir/Core/MIPS/MIPSAsm.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/Core/MemMap.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MemMap.cpp.o: /Storage/Files/build/ppsspp/Core/MemMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/Core.dir/Core/MemMap.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MemMap.cpp.o -c /Storage/Files/build/ppsspp/Core/MemMap.cpp
+CMakeFiles/Core.dir/Core/MemMap.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MemMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/Core.dir/Core/MemMap.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MemMap.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MemMap.cpp
 
 CMakeFiles/Core.dir/Core/MemMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MemMap.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MemMap.cpp > CMakeFiles/Core.dir/Core/MemMap.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MemMap.cpp > CMakeFiles/Core.dir/Core/MemMap.cpp.i
 
 CMakeFiles/Core.dir/Core/MemMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MemMap.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MemMap.cpp -o CMakeFiles/Core.dir/Core/MemMap.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MemMap.cpp -o CMakeFiles/Core.dir/Core/MemMap.cpp.s
 
 CMakeFiles/Core.dir/Core/MemMap.cpp.o.requires:
 
@@ -4882,17 +4906,17 @@ CMakeFiles/Core.dir/Core/MemMap.cpp.o.provides.build: CMakeFiles/Core.dir/Core/M
 
 
 CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.o: /Storage/Files/build/ppsspp/Core/MemMapFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.o -c /Storage/Files/build/ppsspp/Core/MemMapFunctions.cpp
+CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MemMapFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MemMapFunctions.cpp
 
 CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/MemMapFunctions.cpp > CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MemMapFunctions.cpp > CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.i
 
 CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/MemMapFunctions.cpp -o CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/MemMapFunctions.cpp -o CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.s
 
 CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.o.requires:
 
@@ -4906,17 +4930,17 @@ CMakeFiles/Core.dir/Core/MemMapFunctions.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/Core/PSPLoaders.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/PSPLoaders.cpp.o: /Storage/Files/build/ppsspp/Core/PSPLoaders.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/Core.dir/Core/PSPLoaders.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/PSPLoaders.cpp.o -c /Storage/Files/build/ppsspp/Core/PSPLoaders.cpp
+CMakeFiles/Core.dir/Core/PSPLoaders.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/PSPLoaders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/Core.dir/Core/PSPLoaders.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/PSPLoaders.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/PSPLoaders.cpp
 
 CMakeFiles/Core.dir/Core/PSPLoaders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/PSPLoaders.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/PSPLoaders.cpp > CMakeFiles/Core.dir/Core/PSPLoaders.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/PSPLoaders.cpp > CMakeFiles/Core.dir/Core/PSPLoaders.cpp.i
 
 CMakeFiles/Core.dir/Core/PSPLoaders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/PSPLoaders.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/PSPLoaders.cpp -o CMakeFiles/Core.dir/Core/PSPLoaders.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/PSPLoaders.cpp -o CMakeFiles/Core.dir/Core/PSPLoaders.cpp.s
 
 CMakeFiles/Core.dir/Core/PSPLoaders.cpp.o.requires:
 
@@ -4930,17 +4954,17 @@ CMakeFiles/Core.dir/Core/PSPLoaders.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/Reporting.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Reporting.cpp.o: /Storage/Files/build/ppsspp/Core/Reporting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/Core.dir/Core/Reporting.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Reporting.cpp.o -c /Storage/Files/build/ppsspp/Core/Reporting.cpp
+CMakeFiles/Core.dir/Core/Reporting.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Reporting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/Core.dir/Core/Reporting.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Reporting.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Reporting.cpp
 
 CMakeFiles/Core.dir/Core/Reporting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Reporting.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Reporting.cpp > CMakeFiles/Core.dir/Core/Reporting.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Reporting.cpp > CMakeFiles/Core.dir/Core/Reporting.cpp.i
 
 CMakeFiles/Core.dir/Core/Reporting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Reporting.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Reporting.cpp -o CMakeFiles/Core.dir/Core/Reporting.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Reporting.cpp -o CMakeFiles/Core.dir/Core/Reporting.cpp.s
 
 CMakeFiles/Core.dir/Core/Reporting.cpp.o.requires:
 
@@ -4954,17 +4978,17 @@ CMakeFiles/Core.dir/Core/Reporting.cpp.o.provides.build: CMakeFiles/Core.dir/Cor
 
 
 CMakeFiles/Core.dir/Core/Replay.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Replay.cpp.o: /Storage/Files/build/ppsspp/Core/Replay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/Core.dir/Core/Replay.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Replay.cpp.o -c /Storage/Files/build/ppsspp/Core/Replay.cpp
+CMakeFiles/Core.dir/Core/Replay.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Replay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/Core.dir/Core/Replay.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Replay.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Replay.cpp
 
 CMakeFiles/Core.dir/Core/Replay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Replay.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Replay.cpp > CMakeFiles/Core.dir/Core/Replay.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Replay.cpp > CMakeFiles/Core.dir/Core/Replay.cpp.i
 
 CMakeFiles/Core.dir/Core/Replay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Replay.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Replay.cpp -o CMakeFiles/Core.dir/Core/Replay.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Replay.cpp -o CMakeFiles/Core.dir/Core/Replay.cpp.s
 
 CMakeFiles/Core.dir/Core/Replay.cpp.o.requires:
 
@@ -4978,17 +5002,17 @@ CMakeFiles/Core.dir/Core/Replay.cpp.o.provides.build: CMakeFiles/Core.dir/Core/R
 
 
 CMakeFiles/Core.dir/Core/SaveState.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/SaveState.cpp.o: /Storage/Files/build/ppsspp/Core/SaveState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/Core.dir/Core/SaveState.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/SaveState.cpp.o -c /Storage/Files/build/ppsspp/Core/SaveState.cpp
+CMakeFiles/Core.dir/Core/SaveState.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/SaveState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/Core.dir/Core/SaveState.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/SaveState.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/SaveState.cpp
 
 CMakeFiles/Core.dir/Core/SaveState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/SaveState.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/SaveState.cpp > CMakeFiles/Core.dir/Core/SaveState.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/SaveState.cpp > CMakeFiles/Core.dir/Core/SaveState.cpp.i
 
 CMakeFiles/Core.dir/Core/SaveState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/SaveState.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/SaveState.cpp -o CMakeFiles/Core.dir/Core/SaveState.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/SaveState.cpp -o CMakeFiles/Core.dir/Core/SaveState.cpp.s
 
 CMakeFiles/Core.dir/Core/SaveState.cpp.o.requires:
 
@@ -5002,17 +5026,17 @@ CMakeFiles/Core.dir/Core/SaveState.cpp.o.provides.build: CMakeFiles/Core.dir/Cor
 
 
 CMakeFiles/Core.dir/Core/Screenshot.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Screenshot.cpp.o: /Storage/Files/build/ppsspp/Core/Screenshot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/Core.dir/Core/Screenshot.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Screenshot.cpp.o -c /Storage/Files/build/ppsspp/Core/Screenshot.cpp
+CMakeFiles/Core.dir/Core/Screenshot.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Screenshot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/Core.dir/Core/Screenshot.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Screenshot.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Screenshot.cpp
 
 CMakeFiles/Core.dir/Core/Screenshot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Screenshot.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Screenshot.cpp > CMakeFiles/Core.dir/Core/Screenshot.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Screenshot.cpp > CMakeFiles/Core.dir/Core/Screenshot.cpp.i
 
 CMakeFiles/Core.dir/Core/Screenshot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Screenshot.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Screenshot.cpp -o CMakeFiles/Core.dir/Core/Screenshot.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Screenshot.cpp -o CMakeFiles/Core.dir/Core/Screenshot.cpp.s
 
 CMakeFiles/Core.dir/Core/Screenshot.cpp.o.requires:
 
@@ -5026,17 +5050,17 @@ CMakeFiles/Core.dir/Core/Screenshot.cpp.o.provides.build: CMakeFiles/Core.dir/Co
 
 
 CMakeFiles/Core.dir/Core/System.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/System.cpp.o: /Storage/Files/build/ppsspp/Core/System.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/Core.dir/Core/System.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/System.cpp.o -c /Storage/Files/build/ppsspp/Core/System.cpp
+CMakeFiles/Core.dir/Core/System.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/System.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/Core.dir/Core/System.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/System.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/System.cpp
 
 CMakeFiles/Core.dir/Core/System.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/System.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/System.cpp > CMakeFiles/Core.dir/Core/System.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/System.cpp > CMakeFiles/Core.dir/Core/System.cpp.i
 
 CMakeFiles/Core.dir/Core/System.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/System.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/System.cpp -o CMakeFiles/Core.dir/Core/System.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/System.cpp -o CMakeFiles/Core.dir/Core/System.cpp.s
 
 CMakeFiles/Core.dir/Core/System.cpp.o.requires:
 
@@ -5050,17 +5074,17 @@ CMakeFiles/Core.dir/Core/System.cpp.o.provides.build: CMakeFiles/Core.dir/Core/S
 
 
 CMakeFiles/Core.dir/Core/TextureReplacer.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/TextureReplacer.cpp.o: /Storage/Files/build/ppsspp/Core/TextureReplacer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/Core.dir/Core/TextureReplacer.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/TextureReplacer.cpp.o -c /Storage/Files/build/ppsspp/Core/TextureReplacer.cpp
+CMakeFiles/Core.dir/Core/TextureReplacer.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/TextureReplacer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/Core.dir/Core/TextureReplacer.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/TextureReplacer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/TextureReplacer.cpp
 
 CMakeFiles/Core.dir/Core/TextureReplacer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/TextureReplacer.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/TextureReplacer.cpp > CMakeFiles/Core.dir/Core/TextureReplacer.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/TextureReplacer.cpp > CMakeFiles/Core.dir/Core/TextureReplacer.cpp.i
 
 CMakeFiles/Core.dir/Core/TextureReplacer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/TextureReplacer.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/TextureReplacer.cpp -o CMakeFiles/Core.dir/Core/TextureReplacer.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/TextureReplacer.cpp -o CMakeFiles/Core.dir/Core/TextureReplacer.cpp.s
 
 CMakeFiles/Core.dir/Core/TextureReplacer.cpp.o.requires:
 
@@ -5074,17 +5098,17 @@ CMakeFiles/Core.dir/Core/TextureReplacer.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.o: /Storage/Files/build/ppsspp/Core/Util/AudioFormat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.o -c /Storage/Files/build/ppsspp/Core/Util/AudioFormat.cpp
+CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/AudioFormat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/AudioFormat.cpp
 
 CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Util/AudioFormat.cpp > CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/AudioFormat.cpp > CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.i
 
 CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Util/AudioFormat.cpp -o CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/AudioFormat.cpp -o CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.s
 
 CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.o.requires:
 
@@ -5098,17 +5122,17 @@ CMakeFiles/Core.dir/Core/Util/AudioFormat.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.o: /Storage/Files/build/ppsspp/Core/Util/AudioFormatNEON.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.o -c /Storage/Files/build/ppsspp/Core/Util/AudioFormatNEON.cpp
+CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/AudioFormatNEON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/AudioFormatNEON.cpp
 
 CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Util/AudioFormatNEON.cpp > CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/AudioFormatNEON.cpp > CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.i
 
 CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Util/AudioFormatNEON.cpp -o CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/AudioFormatNEON.cpp -o CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.s
 
 CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.o.requires:
 
@@ -5122,17 +5146,17 @@ CMakeFiles/Core.dir/Core/Util/AudioFormatNEON.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/Core/Util/GameManager.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Util/GameManager.cpp.o: /Storage/Files/build/ppsspp/Core/Util/GameManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/Core.dir/Core/Util/GameManager.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/GameManager.cpp.o -c /Storage/Files/build/ppsspp/Core/Util/GameManager.cpp
+CMakeFiles/Core.dir/Core/Util/GameManager.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/GameManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/Core.dir/Core/Util/GameManager.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/GameManager.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/GameManager.cpp
 
 CMakeFiles/Core.dir/Core/Util/GameManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Util/GameManager.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Util/GameManager.cpp > CMakeFiles/Core.dir/Core/Util/GameManager.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/GameManager.cpp > CMakeFiles/Core.dir/Core/Util/GameManager.cpp.i
 
 CMakeFiles/Core.dir/Core/Util/GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Util/GameManager.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Util/GameManager.cpp -o CMakeFiles/Core.dir/Core/Util/GameManager.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/GameManager.cpp -o CMakeFiles/Core.dir/Core/Util/GameManager.cpp.s
 
 CMakeFiles/Core.dir/Core/Util/GameManager.cpp.o.requires:
 
@@ -5146,17 +5170,17 @@ CMakeFiles/Core.dir/Core/Util/GameManager.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.o: /Storage/Files/build/ppsspp/Core/Util/BlockAllocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.o -c /Storage/Files/build/ppsspp/Core/Util/BlockAllocator.cpp
+CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/BlockAllocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/BlockAllocator.cpp
 
 CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Util/BlockAllocator.cpp > CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/BlockAllocator.cpp > CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.i
 
 CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Util/BlockAllocator.cpp -o CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/BlockAllocator.cpp -o CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.s
 
 CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.o.requires:
 
@@ -5170,17 +5194,17 @@ CMakeFiles/Core.dir/Core/Util/BlockAllocator.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.o: /Storage/Files/build/ppsspp/Core/Util/PPGeDraw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.o -c /Storage/Files/build/ppsspp/Core/Util/PPGeDraw.cpp
+CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/PPGeDraw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/PPGeDraw.cpp
 
 CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Util/PPGeDraw.cpp > CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/PPGeDraw.cpp > CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.i
 
 CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Util/PPGeDraw.cpp -o CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/PPGeDraw.cpp -o CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.s
 
 CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.o.requires:
 
@@ -5194,17 +5218,17 @@ CMakeFiles/Core.dir/Core/Util/PPGeDraw.cpp.o.provides.build: CMakeFiles/Core.dir
 
 
 CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.o: /Storage/Files/build/ppsspp/Core/Util/ppge_atlas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.o -c /Storage/Files/build/ppsspp/Core/Util/ppge_atlas.cpp
+CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/ppge_atlas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/ppge_atlas.cpp
 
 CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/Core/Util/ppge_atlas.cpp > CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/ppge_atlas.cpp > CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.i
 
 CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/Core/Util/ppge_atlas.cpp -o CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/Core/Util/ppge_atlas.cpp -o CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.s
 
 CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.o.requires:
 
@@ -5218,17 +5242,17 @@ CMakeFiles/Core.dir/Core/Util/ppge_atlas.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/DepalettizeShaderGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/DepalettizeShaderGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DepalettizeShaderGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DepalettizeShaderGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/DepalettizeShaderGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DepalettizeShaderGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/DepalettizeShaderGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DepalettizeShaderGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.o.requires:
 
@@ -5242,17 +5266,17 @@ CMakeFiles/Core.dir/GPU/GLES/DepalettizeShaderGLES.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/DepthBufferGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/DepthBufferGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DepthBufferGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DepthBufferGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/DepthBufferGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DepthBufferGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/DepthBufferGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DepthBufferGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.o.requires:
 
@@ -5266,17 +5290,17 @@ CMakeFiles/Core.dir/GPU/GLES/DepthBufferGLES.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/GPU_GLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/GPU_GLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/GPU_GLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/GPU_GLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/GPU_GLES.cpp > CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/GPU_GLES.cpp > CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/GPU_GLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/GPU_GLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.o.requires:
 
@@ -5290,17 +5314,17 @@ CMakeFiles/Core.dir/GPU/GLES/GPU_GLES.cpp.o.provides.build: CMakeFiles/Core.dir/
 
 
 CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/FragmentShaderGeneratorGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/FragmentShaderGeneratorGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FragmentShaderGeneratorGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FragmentShaderGeneratorGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/FragmentShaderGeneratorGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FragmentShaderGeneratorGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/FragmentShaderGeneratorGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FragmentShaderGeneratorGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.o.requires:
 
@@ -5314,17 +5338,17 @@ CMakeFiles/Core.dir/GPU/GLES/FragmentShaderGeneratorGLES.cpp.o.provides.build: C
 
 
 CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/FragmentTestCacheGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/FragmentTestCacheGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FragmentTestCacheGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FragmentTestCacheGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/FragmentTestCacheGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FragmentTestCacheGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/FragmentTestCacheGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FragmentTestCacheGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.o.requires:
 
@@ -5338,17 +5362,17 @@ CMakeFiles/Core.dir/GPU/GLES/FragmentTestCacheGLES.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/FramebufferManagerGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/FramebufferManagerGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FramebufferManagerGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FramebufferManagerGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/FramebufferManagerGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FramebufferManagerGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/FramebufferManagerGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/FramebufferManagerGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.o.requires:
 
@@ -5362,17 +5386,17 @@ CMakeFiles/Core.dir/GPU/GLES/FramebufferManagerGLES.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/ShaderManagerGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/ShaderManagerGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/ShaderManagerGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/ShaderManagerGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/ShaderManagerGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/ShaderManagerGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/ShaderManagerGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/ShaderManagerGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.o.requires:
 
@@ -5386,17 +5410,17 @@ CMakeFiles/Core.dir/GPU/GLES/ShaderManagerGLES.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/StateMappingGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/StateMappingGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/StateMappingGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/StateMappingGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/StateMappingGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/StateMappingGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/StateMappingGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/StateMappingGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.o.requires:
 
@@ -5410,17 +5434,17 @@ CMakeFiles/Core.dir/GPU/GLES/StateMappingGLES.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/StencilBufferGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/StencilBufferGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/StencilBufferGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/StencilBufferGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/StencilBufferGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/StencilBufferGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/StencilBufferGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/StencilBufferGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.o.requires:
 
@@ -5434,17 +5458,17 @@ CMakeFiles/Core.dir/GPU/GLES/StencilBufferGLES.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/TextureCacheGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/TextureCacheGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/TextureCacheGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/TextureCacheGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/TextureCacheGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/TextureCacheGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/TextureCacheGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/TextureCacheGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.o.requires:
 
@@ -5458,17 +5482,17 @@ CMakeFiles/Core.dir/GPU/GLES/TextureCacheGLES.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/TextureScalerGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/TextureScalerGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/TextureScalerGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/TextureScalerGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/TextureScalerGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/TextureScalerGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/TextureScalerGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/TextureScalerGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.o.requires:
 
@@ -5482,17 +5506,17 @@ CMakeFiles/Core.dir/GPU/GLES/TextureScalerGLES.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/DrawEngineGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/DrawEngineGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DrawEngineGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DrawEngineGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/DrawEngineGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DrawEngineGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/DrawEngineGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/DrawEngineGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.o.requires:
 
@@ -5506,17 +5530,17 @@ CMakeFiles/Core.dir/GPU/GLES/DrawEngineGLES.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.o: /Storage/Files/build/ppsspp/GPU/GLES/VertexShaderGeneratorGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.o -c /Storage/Files/build/ppsspp/GPU/GLES/VertexShaderGeneratorGLES.cpp
+CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/VertexShaderGeneratorGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/VertexShaderGeneratorGLES.cpp
 
 CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GLES/VertexShaderGeneratorGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/VertexShaderGeneratorGLES.cpp > CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.i
 
 CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GLES/VertexShaderGeneratorGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GLES/VertexShaderGeneratorGLES.cpp -o CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.s
 
 CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.o.requires:
 
@@ -5530,17 +5554,17 @@ CMakeFiles/Core.dir/GPU/GLES/VertexShaderGeneratorGLES.cpp.o.provides.build: CMa
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/DepalettizeShaderVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/DepalettizeShaderVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DepalettizeShaderVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DepalettizeShaderVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/DepalettizeShaderVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DepalettizeShaderVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/DepalettizeShaderVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DepalettizeShaderVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.o.requires:
 
@@ -5554,17 +5578,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/DepalettizeShaderVulkan.cpp.o.provides.build: CMa
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/DebugVisVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/DebugVisVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DebugVisVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DebugVisVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/DebugVisVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DebugVisVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/DebugVisVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DebugVisVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.o.requires:
 
@@ -5578,17 +5602,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/DebugVisVulkan.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/DrawEngineVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/DrawEngineVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DrawEngineVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DrawEngineVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/DrawEngineVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DrawEngineVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/DrawEngineVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/DrawEngineVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.o.requires:
 
@@ -5602,17 +5626,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/DrawEngineVulkan.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.o.requires:
 
@@ -5626,17 +5650,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/FragmentShaderGeneratorVulkan.cpp.o.provides.buil
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/FramebufferVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/FramebufferVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/FramebufferVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/FramebufferVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/FramebufferVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/FramebufferVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/FramebufferVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/FramebufferVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.o.requires:
 
@@ -5650,17 +5674,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/FramebufferVulkan.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/GPU_Vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/GPU_Vulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/GPU_Vulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/GPU_Vulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/GPU_Vulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/GPU_Vulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/GPU_Vulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/GPU_Vulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.o.requires:
 
@@ -5674,17 +5698,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/GPU_Vulkan.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/PipelineManagerVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/PipelineManagerVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/PipelineManagerVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/PipelineManagerVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/PipelineManagerVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/PipelineManagerVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/PipelineManagerVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/PipelineManagerVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.o.requires:
 
@@ -5698,17 +5722,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/PipelineManagerVulkan.cpp.o.provides.build: CMake
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/ShaderManagerVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/ShaderManagerVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/ShaderManagerVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/ShaderManagerVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/ShaderManagerVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/ShaderManagerVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/ShaderManagerVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/ShaderManagerVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.o.requires:
 
@@ -5722,17 +5746,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/ShaderManagerVulkan.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/StateMappingVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/StateMappingVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/StateMappingVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/StateMappingVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/StateMappingVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/StateMappingVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/StateMappingVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/StateMappingVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.o.requires:
 
@@ -5746,17 +5770,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/StateMappingVulkan.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/StencilBufferVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/StencilBufferVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/StencilBufferVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/StencilBufferVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/StencilBufferVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/StencilBufferVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/StencilBufferVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/StencilBufferVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.o.requires:
 
@@ -5770,17 +5794,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/StencilBufferVulkan.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/TextureCacheVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/TextureCacheVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/TextureCacheVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/TextureCacheVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/TextureCacheVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/TextureCacheVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/TextureCacheVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/TextureCacheVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.o.requires:
 
@@ -5794,17 +5818,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/TextureCacheVulkan.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/TextureScalerVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/TextureScalerVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/TextureScalerVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/TextureScalerVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/TextureScalerVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/TextureScalerVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/TextureScalerVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/TextureScalerVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.o.requires:
 
@@ -5818,17 +5842,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/TextureScalerVulkan.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp > CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.o.requires:
 
@@ -5842,17 +5866,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/VertexShaderGeneratorVulkan.cpp.o.provides.build:
 
 
 CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.o: /Storage/Files/build/ppsspp/GPU/Vulkan/VulkanUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.o -c /Storage/Files/build/ppsspp/GPU/Vulkan/VulkanUtil.cpp
+CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/VulkanUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building CXX object CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/VulkanUtil.cpp
 
 CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Vulkan/VulkanUtil.cpp > CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/VulkanUtil.cpp > CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.i
 
 CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Vulkan/VulkanUtil.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Vulkan/VulkanUtil.cpp -o CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.s
 
 CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.o.requires:
 
@@ -5866,17 +5890,17 @@ CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/TextureDecoderNEON.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/TextureDecoderNEON.cpp
+CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureDecoderNEON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureDecoderNEON.cpp
 
 CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/TextureDecoderNEON.cpp > CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureDecoderNEON.cpp > CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/TextureDecoderNEON.cpp -o CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureDecoderNEON.cpp -o CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.o.requires:
 
@@ -5890,17 +5914,17 @@ CMakeFiles/Core.dir/GPU/Common/TextureDecoderNEON.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/DepalettizeShaderCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building CXX object CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/DepalettizeShaderCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/DepalettizeShaderCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building CXX object CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/DepalettizeShaderCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/DepalettizeShaderCommon.cpp > CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/DepalettizeShaderCommon.cpp > CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/DepalettizeShaderCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/DepalettizeShaderCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.o.requires:
 
@@ -5914,17 +5938,17 @@ CMakeFiles/Core.dir/GPU/Common/DepalettizeShaderCommon.cpp.o.provides.build: CMa
 
 
 CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/FramebufferCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building CXX object CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/FramebufferCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/FramebufferCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building CXX object CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/FramebufferCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/FramebufferCommon.cpp > CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/FramebufferCommon.cpp > CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/FramebufferCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/FramebufferCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.o.requires:
 
@@ -5938,17 +5962,17 @@ CMakeFiles/Core.dir/GPU/Common/FramebufferCommon.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/GPUDebugInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building CXX object CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/GPUDebugInterface.cpp
+CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/GPUDebugInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building CXX object CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/GPUDebugInterface.cpp
 
 CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/GPUDebugInterface.cpp > CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/GPUDebugInterface.cpp > CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/GPUDebugInterface.cpp -o CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/GPUDebugInterface.cpp -o CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.o.requires:
 
@@ -5962,17 +5986,17 @@ CMakeFiles/Core.dir/GPU/Common/GPUDebugInterface.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/GPUStateUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building CXX object CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/GPUStateUtils.cpp
+CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/GPUStateUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building CXX object CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/GPUStateUtils.cpp
 
 CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/GPUStateUtils.cpp > CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/GPUStateUtils.cpp > CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/GPUStateUtils.cpp -o CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/GPUStateUtils.cpp -o CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.o.requires:
 
@@ -5986,17 +6010,17 @@ CMakeFiles/Core.dir/GPU/Common/GPUStateUtils.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/DrawEngineCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building CXX object CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/DrawEngineCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/DrawEngineCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building CXX object CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/DrawEngineCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/DrawEngineCommon.cpp > CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/DrawEngineCommon.cpp > CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/DrawEngineCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/DrawEngineCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.o.requires:
 
@@ -6010,17 +6034,17 @@ CMakeFiles/Core.dir/GPU/Common/DrawEngineCommon.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/ShaderId.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building CXX object CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/ShaderId.cpp
+CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderId.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building CXX object CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderId.cpp
 
 CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/ShaderId.cpp > CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderId.cpp > CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/ShaderId.cpp -o CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderId.cpp -o CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.o.requires:
 
@@ -6034,17 +6058,17 @@ CMakeFiles/Core.dir/GPU/Common/ShaderId.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/ShaderUniforms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building CXX object CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/ShaderUniforms.cpp
+CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderUniforms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building CXX object CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderUniforms.cpp
 
 CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/ShaderUniforms.cpp > CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderUniforms.cpp > CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/ShaderUniforms.cpp -o CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderUniforms.cpp -o CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.o.requires:
 
@@ -6058,17 +6082,17 @@ CMakeFiles/Core.dir/GPU/Common/ShaderUniforms.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/ShaderCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building CXX object CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/ShaderCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building CXX object CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/ShaderCommon.cpp > CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderCommon.cpp > CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/ShaderCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.o.requires:
 
@@ -6082,17 +6106,17 @@ CMakeFiles/Core.dir/GPU/Common/ShaderCommon.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/ShaderTranslation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building CXX object CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/ShaderTranslation.cpp
+CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderTranslation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building CXX object CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderTranslation.cpp
 
 CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/ShaderTranslation.cpp > CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderTranslation.cpp > CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/ShaderTranslation.cpp -o CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/ShaderTranslation.cpp -o CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.o.requires:
 
@@ -6106,17 +6130,17 @@ CMakeFiles/Core.dir/GPU/Common/ShaderTranslation.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/SplineCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building CXX object CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/SplineCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/SplineCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building CXX object CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/SplineCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/SplineCommon.cpp > CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/SplineCommon.cpp > CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/SplineCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/SplineCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.o.requires:
 
@@ -6130,17 +6154,17 @@ CMakeFiles/Core.dir/GPU/Common/SplineCommon.cpp.o.provides.build: CMakeFiles/Cor
 
 
 CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/StencilCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building CXX object CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/StencilCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/StencilCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building CXX object CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/StencilCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/StencilCommon.cpp > CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/StencilCommon.cpp > CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/StencilCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/StencilCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.o.requires:
 
@@ -6154,17 +6178,17 @@ CMakeFiles/Core.dir/GPU/Common/StencilCommon.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/SoftwareTransformCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building CXX object CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/SoftwareTransformCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/SoftwareTransformCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building CXX object CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/SoftwareTransformCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/SoftwareTransformCommon.cpp > CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/SoftwareTransformCommon.cpp > CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/SoftwareTransformCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/SoftwareTransformCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.o.requires:
 
@@ -6178,17 +6202,17 @@ CMakeFiles/Core.dir/GPU/Common/SoftwareTransformCommon.cpp.o.provides.build: CMa
 
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building CXX object CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderCommon.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderCommon.cpp > CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/VertexDecoderCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/VertexDecoderCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.o.requires:
 
@@ -6202,17 +6226,17 @@ CMakeFiles/Core.dir/GPU/Common/VertexDecoderCommon.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/TransformCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/TransformCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TransformCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TransformCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/TransformCommon.cpp > CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TransformCommon.cpp > CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/TransformCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TransformCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.o.requires:
 
@@ -6226,17 +6250,17 @@ CMakeFiles/Core.dir/GPU/Common/TransformCommon.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/IndexGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building CXX object CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/IndexGenerator.cpp
+CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/IndexGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building CXX object CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/IndexGenerator.cpp
 
 CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/IndexGenerator.cpp > CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/IndexGenerator.cpp > CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/IndexGenerator.cpp -o CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/IndexGenerator.cpp -o CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.o.requires:
 
@@ -6250,17 +6274,17 @@ CMakeFiles/Core.dir/GPU/Common/IndexGenerator.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/TextureDecoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/TextureDecoder.cpp
+CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureDecoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureDecoder.cpp
 
 CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/TextureDecoder.cpp > CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureDecoder.cpp > CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/TextureDecoder.cpp -o CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureDecoder.cpp -o CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.o.requires:
 
@@ -6274,17 +6298,17 @@ CMakeFiles/Core.dir/GPU/Common/TextureDecoder.cpp.o.provides.build: CMakeFiles/C
 
 
 CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/TextureCacheCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/TextureCacheCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureCacheCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureCacheCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/TextureCacheCommon.cpp > CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureCacheCommon.cpp > CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/TextureCacheCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureCacheCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.o.requires:
 
@@ -6298,17 +6322,17 @@ CMakeFiles/Core.dir/GPU/Common/TextureCacheCommon.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/TextureScalerCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/TextureScalerCommon.cpp
+CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureScalerCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building CXX object CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureScalerCommon.cpp
 
 CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/TextureScalerCommon.cpp > CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureScalerCommon.cpp > CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/TextureScalerCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/TextureScalerCommon.cpp -o CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.o.requires:
 
@@ -6322,17 +6346,17 @@ CMakeFiles/Core.dir/GPU/Common/TextureScalerCommon.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.o: /Storage/Files/build/ppsspp/GPU/Common/PostShader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building CXX object CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.o -c /Storage/Files/build/ppsspp/GPU/Common/PostShader.cpp
+CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/PostShader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building CXX object CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/PostShader.cpp
 
 CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Common/PostShader.cpp > CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/PostShader.cpp > CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.i
 
 CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Common/PostShader.cpp -o CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Common/PostShader.cpp -o CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.s
 
 CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.o.requires:
 
@@ -6346,17 +6370,17 @@ CMakeFiles/Core.dir/GPU/Common/PostShader.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.o: /Storage/Files/build/ppsspp/GPU/Debugger/Breakpoints.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.o -c /Storage/Files/build/ppsspp/GPU/Debugger/Breakpoints.cpp
+CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Breakpoints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Breakpoints.cpp
 
 CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Debugger/Breakpoints.cpp > CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Breakpoints.cpp > CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.i
 
 CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Debugger/Breakpoints.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Breakpoints.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.s
 
 CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.o.requires:
 
@@ -6370,17 +6394,17 @@ CMakeFiles/Core.dir/GPU/Debugger/Breakpoints.cpp.o.provides.build: CMakeFiles/Co
 
 
 CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.o: /Storage/Files/build/ppsspp/GPU/Debugger/Debugger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.o -c /Storage/Files/build/ppsspp/GPU/Debugger/Debugger.cpp
+CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Debugger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Debugger.cpp
 
 CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Debugger/Debugger.cpp > CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Debugger.cpp > CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.i
 
 CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Debugger/Debugger.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Debugger.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.s
 
 CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.o.requires:
 
@@ -6394,17 +6418,17 @@ CMakeFiles/Core.dir/GPU/Debugger/Debugger.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.o: /Storage/Files/build/ppsspp/GPU/Debugger/Playback.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.o -c /Storage/Files/build/ppsspp/GPU/Debugger/Playback.cpp
+CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Playback.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Playback.cpp
 
 CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Debugger/Playback.cpp > CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Playback.cpp > CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.i
 
 CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Debugger/Playback.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Playback.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.s
 
 CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.o.requires:
 
@@ -6418,17 +6442,17 @@ CMakeFiles/Core.dir/GPU/Debugger/Playback.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.o: /Storage/Files/build/ppsspp/GPU/Debugger/Record.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.o -c /Storage/Files/build/ppsspp/GPU/Debugger/Record.cpp
+CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Record.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Record.cpp
 
 CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Debugger/Record.cpp > CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Record.cpp > CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.i
 
 CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Debugger/Record.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Record.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.s
 
 CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.o.requires:
 
@@ -6442,17 +6466,17 @@ CMakeFiles/Core.dir/GPU/Debugger/Record.cpp.o.provides.build: CMakeFiles/Core.di
 
 
 CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.o: /Storage/Files/build/ppsspp/GPU/Debugger/Stepping.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.o -c /Storage/Files/build/ppsspp/GPU/Debugger/Stepping.cpp
+CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Stepping.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building CXX object CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Stepping.cpp
 
 CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Debugger/Stepping.cpp > CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Stepping.cpp > CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.i
 
 CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Debugger/Stepping.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Debugger/Stepping.cpp -o CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.s
 
 CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.o.requires:
 
@@ -6466,17 +6490,17 @@ CMakeFiles/Core.dir/GPU/Debugger/Stepping.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/GPU/GeDisasm.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GeDisasm.cpp.o: /Storage/Files/build/ppsspp/GPU/GeDisasm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building CXX object CMakeFiles/Core.dir/GPU/GeDisasm.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GeDisasm.cpp.o -c /Storage/Files/build/ppsspp/GPU/GeDisasm.cpp
+CMakeFiles/Core.dir/GPU/GeDisasm.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GeDisasm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building CXX object CMakeFiles/Core.dir/GPU/GeDisasm.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GeDisasm.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GeDisasm.cpp
 
 CMakeFiles/Core.dir/GPU/GeDisasm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GeDisasm.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GeDisasm.cpp > CMakeFiles/Core.dir/GPU/GeDisasm.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GeDisasm.cpp > CMakeFiles/Core.dir/GPU/GeDisasm.cpp.i
 
 CMakeFiles/Core.dir/GPU/GeDisasm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GeDisasm.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GeDisasm.cpp -o CMakeFiles/Core.dir/GPU/GeDisasm.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GeDisasm.cpp -o CMakeFiles/Core.dir/GPU/GeDisasm.cpp.s
 
 CMakeFiles/Core.dir/GPU/GeDisasm.cpp.o.requires:
 
@@ -6490,17 +6514,17 @@ CMakeFiles/Core.dir/GPU/GeDisasm.cpp.o.provides.build: CMakeFiles/Core.dir/GPU/G
 
 
 CMakeFiles/Core.dir/GPU/GPU.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GPU.cpp.o: /Storage/Files/build/ppsspp/GPU/GPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building CXX object CMakeFiles/Core.dir/GPU/GPU.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GPU.cpp.o -c /Storage/Files/build/ppsspp/GPU/GPU.cpp
+CMakeFiles/Core.dir/GPU/GPU.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building CXX object CMakeFiles/Core.dir/GPU/GPU.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GPU.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPU.cpp
 
 CMakeFiles/Core.dir/GPU/GPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GPU.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GPU.cpp > CMakeFiles/Core.dir/GPU/GPU.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPU.cpp > CMakeFiles/Core.dir/GPU/GPU.cpp.i
 
 CMakeFiles/Core.dir/GPU/GPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GPU.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GPU.cpp -o CMakeFiles/Core.dir/GPU/GPU.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPU.cpp -o CMakeFiles/Core.dir/GPU/GPU.cpp.s
 
 CMakeFiles/Core.dir/GPU/GPU.cpp.o.requires:
 
@@ -6514,17 +6538,17 @@ CMakeFiles/Core.dir/GPU/GPU.cpp.o.provides.build: CMakeFiles/Core.dir/GPU/GPU.cp
 
 
 CMakeFiles/Core.dir/GPU/GPUCommon.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GPUCommon.cpp.o: /Storage/Files/build/ppsspp/GPU/GPUCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building CXX object CMakeFiles/Core.dir/GPU/GPUCommon.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GPUCommon.cpp.o -c /Storage/Files/build/ppsspp/GPU/GPUCommon.cpp
+CMakeFiles/Core.dir/GPU/GPUCommon.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPUCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building CXX object CMakeFiles/Core.dir/GPU/GPUCommon.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GPUCommon.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPUCommon.cpp
 
 CMakeFiles/Core.dir/GPU/GPUCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GPUCommon.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GPUCommon.cpp > CMakeFiles/Core.dir/GPU/GPUCommon.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPUCommon.cpp > CMakeFiles/Core.dir/GPU/GPUCommon.cpp.i
 
 CMakeFiles/Core.dir/GPU/GPUCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GPUCommon.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GPUCommon.cpp -o CMakeFiles/Core.dir/GPU/GPUCommon.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPUCommon.cpp -o CMakeFiles/Core.dir/GPU/GPUCommon.cpp.s
 
 CMakeFiles/Core.dir/GPU/GPUCommon.cpp.o.requires:
 
@@ -6538,17 +6562,17 @@ CMakeFiles/Core.dir/GPU/GPUCommon.cpp.o.provides.build: CMakeFiles/Core.dir/GPU/
 
 
 CMakeFiles/Core.dir/GPU/GPUState.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/GPUState.cpp.o: /Storage/Files/build/ppsspp/GPU/GPUState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building CXX object CMakeFiles/Core.dir/GPU/GPUState.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GPUState.cpp.o -c /Storage/Files/build/ppsspp/GPU/GPUState.cpp
+CMakeFiles/Core.dir/GPU/GPUState.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPUState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building CXX object CMakeFiles/Core.dir/GPU/GPUState.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/GPUState.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPUState.cpp
 
 CMakeFiles/Core.dir/GPU/GPUState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/GPUState.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/GPUState.cpp > CMakeFiles/Core.dir/GPU/GPUState.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPUState.cpp > CMakeFiles/Core.dir/GPU/GPUState.cpp.i
 
 CMakeFiles/Core.dir/GPU/GPUState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/GPUState.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/GPUState.cpp -o CMakeFiles/Core.dir/GPU/GPUState.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/GPUState.cpp -o CMakeFiles/Core.dir/GPU/GPUState.cpp.s
 
 CMakeFiles/Core.dir/GPU/GPUState.cpp.o.requires:
 
@@ -6562,17 +6586,17 @@ CMakeFiles/Core.dir/GPU/GPUState.cpp.o.provides.build: CMakeFiles/Core.dir/GPU/G
 
 
 CMakeFiles/Core.dir/GPU/Math3D.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Math3D.cpp.o: /Storage/Files/build/ppsspp/GPU/Math3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building CXX object CMakeFiles/Core.dir/GPU/Math3D.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Math3D.cpp.o -c /Storage/Files/build/ppsspp/GPU/Math3D.cpp
+CMakeFiles/Core.dir/GPU/Math3D.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Math3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building CXX object CMakeFiles/Core.dir/GPU/Math3D.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Math3D.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Math3D.cpp
 
 CMakeFiles/Core.dir/GPU/Math3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Math3D.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Math3D.cpp > CMakeFiles/Core.dir/GPU/Math3D.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Math3D.cpp > CMakeFiles/Core.dir/GPU/Math3D.cpp.i
 
 CMakeFiles/Core.dir/GPU/Math3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Math3D.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Math3D.cpp -o CMakeFiles/Core.dir/GPU/Math3D.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Math3D.cpp -o CMakeFiles/Core.dir/GPU/Math3D.cpp.s
 
 CMakeFiles/Core.dir/GPU/Math3D.cpp.o.requires:
 
@@ -6586,17 +6610,17 @@ CMakeFiles/Core.dir/GPU/Math3D.cpp.o.provides.build: CMakeFiles/Core.dir/GPU/Mat
 
 
 CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o: /Storage/Files/build/ppsspp/GPU/Null/NullGpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building CXX object CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o -c /Storage/Files/build/ppsspp/GPU/Null/NullGpu.cpp
+CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Null/NullGpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building CXX object CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Null/NullGpu.cpp
 
 CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Null/NullGpu.cpp > CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Null/NullGpu.cpp > CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.i
 
 CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Null/NullGpu.cpp -o CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Null/NullGpu.cpp -o CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.s
 
 CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o.requires:
 
@@ -6610,17 +6634,17 @@ CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o.provides.build: CMakeFiles/Core.dir/G
 
 
 CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o: /Storage/Files/build/ppsspp/GPU/Software/Clipper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building CXX object CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o -c /Storage/Files/build/ppsspp/GPU/Software/Clipper.cpp
+CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Clipper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building CXX object CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Clipper.cpp
 
 CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Software/Clipper.cpp > CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Clipper.cpp > CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.i
 
 CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Software/Clipper.cpp -o CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Clipper.cpp -o CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.s
 
 CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o.requires:
 
@@ -6634,17 +6658,17 @@ CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o: /Storage/Files/build/ppsspp/GPU/Software/Lighting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building CXX object CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o -c /Storage/Files/build/ppsspp/GPU/Software/Lighting.cpp
+CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Lighting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building CXX object CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Lighting.cpp
 
 CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Software/Lighting.cpp > CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Lighting.cpp > CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.i
 
 CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Software/Lighting.cpp -o CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Lighting.cpp -o CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.s
 
 CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o.requires:
 
@@ -6658,17 +6682,17 @@ CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o.provides.build: CMakeFiles/Core.
 
 
 CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o: /Storage/Files/build/ppsspp/GPU/Software/Rasterizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building CXX object CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o -c /Storage/Files/build/ppsspp/GPU/Software/Rasterizer.cpp
+CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Rasterizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building CXX object CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Rasterizer.cpp
 
 CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Software/Rasterizer.cpp > CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Rasterizer.cpp > CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.i
 
 CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Software/Rasterizer.cpp -o CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Rasterizer.cpp -o CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.s
 
 CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o.requires:
 
@@ -6681,18 +6705,42 @@ CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o.provides: CMakeFiles/Core.dir/
 CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o.provides.build: CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o
 
 
+CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o: CMakeFiles/Core.dir/flags.make
+CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/RasterizerRectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building CXX object CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/RasterizerRectangle.cpp
+
+CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.i"
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/RasterizerRectangle.cpp > CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.i
+
+CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.s"
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/RasterizerRectangle.cpp -o CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.s
+
+CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o.requires:
+
+.PHONY : CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o.requires
+
+CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o.provides: CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o.provides.build
+.PHONY : CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o.provides
+
+CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o.provides.build: CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o
+
+
 CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o: /Storage/Files/build/ppsspp/GPU/Software/Sampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building CXX object CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o -c /Storage/Files/build/ppsspp/GPU/Software/Sampler.cpp
+CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building CXX object CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Sampler.cpp
 
 CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Software/Sampler.cpp > CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Sampler.cpp > CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.i
 
 CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Software/Sampler.cpp -o CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/Sampler.cpp -o CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.s
 
 CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o.requires:
 
@@ -6706,17 +6754,17 @@ CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o: /Storage/Files/build/ppsspp/GPU/Software/SoftGpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building CXX object CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o -c /Storage/Files/build/ppsspp/GPU/Software/SoftGpu.cpp
+CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/SoftGpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building CXX object CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/SoftGpu.cpp
 
 CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Software/SoftGpu.cpp > CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/SoftGpu.cpp > CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.i
 
 CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Software/SoftGpu.cpp -o CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/SoftGpu.cpp -o CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.s
 
 CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o.requires:
 
@@ -6730,17 +6778,17 @@ CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o.provides.build: CMakeFiles/Core.d
 
 
 CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o: /Storage/Files/build/ppsspp/GPU/Software/TransformUnit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building CXX object CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o -c /Storage/Files/build/ppsspp/GPU/Software/TransformUnit.cpp
+CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/TransformUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building CXX object CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/TransformUnit.cpp
 
 CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/GPU/Software/TransformUnit.cpp > CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/TransformUnit.cpp > CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.i
 
 CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/GPU/Software/TransformUnit.cpp -o CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/GPU/Software/TransformUnit.cpp -o CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.s
 
 CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o.requires:
 
@@ -6754,17 +6802,17 @@ CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/Core.dir/ext/disarm.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/ext/disarm.cpp.o: /Storage/Files/build/ppsspp/ext/disarm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building CXX object CMakeFiles/Core.dir/ext/disarm.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/ext/disarm.cpp.o -c /Storage/Files/build/ppsspp/ext/disarm.cpp
+CMakeFiles/Core.dir/ext/disarm.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/disarm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building CXX object CMakeFiles/Core.dir/ext/disarm.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/ext/disarm.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/disarm.cpp
 
 CMakeFiles/Core.dir/ext/disarm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/ext/disarm.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/ext/disarm.cpp > CMakeFiles/Core.dir/ext/disarm.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/disarm.cpp > CMakeFiles/Core.dir/ext/disarm.cpp.i
 
 CMakeFiles/Core.dir/ext/disarm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/ext/disarm.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/ext/disarm.cpp -o CMakeFiles/Core.dir/ext/disarm.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/disarm.cpp -o CMakeFiles/Core.dir/ext/disarm.cpp.s
 
 CMakeFiles/Core.dir/ext/disarm.cpp.o.requires:
 
@@ -6778,17 +6826,17 @@ CMakeFiles/Core.dir/ext/disarm.cpp.o.provides.build: CMakeFiles/Core.dir/ext/dis
 
 
 CMakeFiles/Core.dir/git-version.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/git-version.cpp.o: /Storage/Files/build/ppsspp/git-version.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building CXX object CMakeFiles/Core.dir/git-version.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/git-version.cpp.o -c /Storage/Files/build/ppsspp/git-version.cpp
+CMakeFiles/Core.dir/git-version.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/git-version.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building CXX object CMakeFiles/Core.dir/git-version.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/git-version.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/git-version.cpp
 
 CMakeFiles/Core.dir/git-version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/git-version.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/git-version.cpp > CMakeFiles/Core.dir/git-version.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/git-version.cpp > CMakeFiles/Core.dir/git-version.cpp.i
 
 CMakeFiles/Core.dir/git-version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/git-version.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/git-version.cpp -o CMakeFiles/Core.dir/git-version.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/git-version.cpp -o CMakeFiles/Core.dir/git-version.cpp.s
 
 CMakeFiles/Core.dir/git-version.cpp.o.requires:
 
@@ -6974,6 +7022,7 @@ Core_OBJECTS = \
 "CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o" \
 "CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o" \
 "CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o" \
+"CMakeFiles/Core.dir/Core/HW/Camera.cpp.o" \
 "CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o" \
 "CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o" \
 "CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o" \
@@ -7079,6 +7128,7 @@ Core_OBJECTS = \
 "CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o" \
 "CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o" \
 "CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o" \
+"CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o" \
 "CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o" \
 "CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o" \
 "CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o" \
@@ -7259,6 +7309,7 @@ lib/libCore.a: CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o
+lib/libCore.a: CMakeFiles/Core.dir/Core/HW/Camera.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o
@@ -7364,6 +7415,7 @@ lib/libCore.a: CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o
+lib/libCore.a: CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o
@@ -7371,7 +7423,7 @@ lib/libCore.a: CMakeFiles/Core.dir/ext/disarm.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/git-version.cpp.o
 lib/libCore.a: CMakeFiles/Core.dir/build.make
 lib/libCore.a: CMakeFiles/Core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Linking CXX static library lib/libCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Linking CXX static library lib/libCore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
 
@@ -7551,6 +7603,7 @@ CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/Core/HLE/sceNp.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/Core/HLE/scePauth.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/Core/HW/SimpleAudioDec.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/Core/HW/AsyncIOManager.cpp.o.requires
+CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/Core/HW/Camera.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/Core/HW/MediaEngine.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/Core/HW/MpegDemux.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/Core/HW/MemoryStick.cpp.o.requires
@@ -7656,6 +7709,7 @@ CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/GPU/Null/NullGpu.cpp.o.require
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/GPU/Software/Clipper.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/GPU/Software/Lighting.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/GPU/Software/Rasterizer.cpp.o.requires
+CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/GPU/Software/RasterizerRectangle.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/GPU/Software/Sampler.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/GPU/Software/SoftGpu.cpp.o.requires
 CMakeFiles/Core.dir/requires: CMakeFiles/Core.dir/GPU/Software/TransformUnit.cpp.o.requires
@@ -7669,6 +7723,6 @@ CMakeFiles/Core.dir/clean:
 .PHONY : CMakeFiles/Core.dir/clean
 
 CMakeFiles/Core.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/CMakeFiles/Core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/Core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Core.dir/depend
 

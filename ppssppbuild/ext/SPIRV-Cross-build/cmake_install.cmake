@@ -1,4 +1,4 @@
-# Install script for directory: /Storage/Files/build/ppsspp/ext/SPIRV-Cross-build
+# Install script for directory: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross-build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

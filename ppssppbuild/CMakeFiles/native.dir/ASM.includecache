@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/ext/native/math/fast/fast_matrix_neon.S
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_neon.S
 ppsspp_config.h
-/Storage/Files/build/ppsspp/ext/native/math/fast/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/ppsspp_config.h
 
-/Storage/Files/build/ppsspp/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ppsspp_config.h
 TargetConditionals.h
 -
 

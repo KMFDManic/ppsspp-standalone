@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.AMD.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.AMD.h
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.EXT.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.EXT.h
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.KHR.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.KHR.h
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.NV.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.NV.h
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/SPVRemapper.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.cpp
 SPVRemapper.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/SPVRemapper.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.h
 doc.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/doc.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.h
 algorithm
 -
 cassert
 -
 ../glslang/Include/Common.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/Common.h
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/SPVRemapper.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.h
 string
 -
 vector
@@ -54,13 +54,13 @@ set
 cassert
 -
 spirv.hpp
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/spirv.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/spirv.hpp
 spvIR.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/spvIR.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/spvIR.h
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/doc.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.cpp
 doc.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/doc.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.h
 cstdio
 -
 cstring
@@ -68,25 +68,25 @@ cstring
 algorithm
 -
 GLSL.ext.KHR.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.KHR.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.KHR.h
 GLSL.ext.EXT.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.EXT.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.EXT.h
 GLSL.ext.AMD.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.AMD.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.AMD.h
 GLSL.ext.NV.h
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.NV.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.NV.h
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/doc.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.h
 spirv.hpp
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/spirv.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/spirv.hpp
 vector
 -
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/spirv.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/spirv.hpp
 
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/spvIR.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/spvIR.h
 spirv.hpp
-/Storage/Files/build/ppsspp/ext/glslang/SPIRV/spirv.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/spirv.hpp
 algorithm
 -
 cassert
@@ -100,7 +100,7 @@ memory
 vector
 -
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/Common.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/Common.h
 sstream
 -
 basetsd.h
@@ -134,9 +134,9 @@ cstdlib
 cassert
 -
 PoolAlloc.h
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/PoolAlloc.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/PoolAlloc.h
 
-/Storage/Files/build/ppsspp/ext/glslang/glslang/Include/PoolAlloc.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/Include/PoolAlloc.h
 cstddef
 -
 cstring

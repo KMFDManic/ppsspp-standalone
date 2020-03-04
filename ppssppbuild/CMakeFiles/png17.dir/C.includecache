@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/arm/arm_init.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/arm_init.c
 ../pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 signal.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c
 ../pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 arm64_neon.h
 -
 arm_neon.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/png.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/png.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.h
 pnglibconf.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pnglibconf.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pnglibconf.h
 pngconf.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngconf.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngconf.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngconf.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngconf.h
 limits.h
 -
 stddef.h
@@ -42,33 +42,33 @@ setjmp.h
 time.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngdebug.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngdebug.h
 crtdbg.h
 -
 stdio.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngerror.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngerror.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngget.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngget.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pnginfo.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pnginfo.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pnglibconf.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pnglibconf.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngmem.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngmem.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpread.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpread.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 stdlib.h
 -
 string.h
@@ -76,71 +76,71 @@ string.h
 config.h
 -
 pnglibconf.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pnglibconf.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pnglibconf.h
 pngprefix.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngprefix.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngprefix.h
 pngusr.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngusr.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngusr.h
 float.h
 -
 math.h
 -
 png.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/png.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.h
 assert.h
 -
 pngstruct.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngstruct.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngstruct.h
 pnginfo.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pnginfo.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pnginfo.h
 pngdebug.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngdebug.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngdebug.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngread.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngread.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 errno.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngrio.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrio.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngrtran.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrtran.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngrutil.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrutil.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngset.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngset.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngstruct.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngstruct.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngtrans.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngtrans.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngwio.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwio.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngwrite.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwrite.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 errno.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngwtran.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwtran.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngwutil.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwutil.c
 pngpriv.h
-/Storage/Files/build/ppsspp/ext/native/ext/libpng17/pngpriv.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpriv.h
 
-/Storage/Files/build/ppsspp/ext/native/ext/libzip/config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/config.h
 

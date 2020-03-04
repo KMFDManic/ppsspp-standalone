@@ -6,43 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/GLSL.std.450.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/GLSL.std.450.h
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv.hpp
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cfg.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cfg.cpp
 spirv_cfg.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cfg.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cfg.hpp
 spirv_cross.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross.hpp
 algorithm
 -
 assert.h
 -
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cfg.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cfg.hpp
 spirv_common.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_common.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_common.hpp
 assert.h
 -
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_common.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_common.hpp
 spirv.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv.hpp
 spirv_cross_containers.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_containers.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_containers.hpp
 spirv_cross_error_handling.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_error_handling.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_error_handling.hpp
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross.cpp
 spirv_cross.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross.hpp
 GLSL.std.450.h
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/GLSL.std.450.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/GLSL.std.450.h
 spirv_cfg.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cfg.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cfg.hpp
 spirv_parser.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_parser.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_parser.hpp
 algorithm
 -
 cstring
@@ -50,17 +50,17 @@ cstring
 utility
 -
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross.hpp
 spirv.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv.hpp
 spirv_cfg.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cfg.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cfg.hpp
 spirv_cross_parsed_ir.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.hpp
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_containers.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_containers.hpp
 spirv_cross_error_handling.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_error_handling.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_error_handling.hpp
 algorithm
 -
 functional
@@ -88,7 +88,7 @@ utility
 vector
 -
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_error_handling.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_error_handling.hpp
 stdexcept
 -
 stdio.h
@@ -98,41 +98,41 @@ stdlib.h
 string
 -
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.cpp
 spirv_cross_parsed_ir.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.hpp
 algorithm
 -
 assert.h
 -
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.hpp
 spirv_common.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_common.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_common.hpp
 stdint.h
 -
 unordered_map
 -
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_util.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_util.cpp
 spirv_cross_util.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_util.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_util.hpp
 spirv_common.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_common.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_common.hpp
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_util.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_util.hpp
 spirv_cross.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross.hpp
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_parser.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_parser.cpp
 spirv_parser.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_parser.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_parser.hpp
 assert.h
 -
 
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_parser.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_parser.hpp
 spirv_cross_parsed_ir.hpp
-/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.hpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.hpp
 stdint.h
 -
 

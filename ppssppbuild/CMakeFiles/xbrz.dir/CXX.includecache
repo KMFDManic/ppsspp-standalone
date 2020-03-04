@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/ext/xbrz/config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/config.h
 
-/Storage/Files/build/ppsspp/ext/xbrz/xbrz.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp
 xbrz.h
-/Storage/Files/build/ppsspp/ext/xbrz/xbrz.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.h
 cmath
 -
 cassert
@@ -22,7 +22,7 @@ limits
 vector
 -
 
-/Storage/Files/build/ppsspp/ext/xbrz/xbrz.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.h
 cstddef
 -
 stdint.h
@@ -32,5 +32,5 @@ cstdint
 limits
 -
 config.h
-/Storage/Files/build/ppsspp/ext/xbrz/config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/config.h
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles /Storage/Files/build/ppssppbuild/ext/glslang/SPIRV/CMakeFiles/progress.marks
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Storage/Files/build/ppssppbuild/CMakeFiles 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV/CMakeFiles/progress.marks
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/clean
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/preinstall
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/rule:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/rule
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/rule
 .PHONY : ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ SPVRemapper: ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/rule
 
 # fast build rule for target.
 SPVRemapper/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build
 .PHONY : SPVRemapper/fast
 
 # Convenience name for target.
 ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/rule:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/rule
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f CMakeFiles/Makefile2 ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/rule
 .PHONY : ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ SPIRV: ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/rule
 
 # fast build rule for target.
 SPIRV/fast:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build
 .PHONY : SPIRV/fast
 
 GlslangToSpv.o: GlslangToSpv.cpp.o
@@ -192,7 +192,7 @@ GlslangToSpv.o: GlslangToSpv.cpp.o
 
 # target to build an object file
 GlslangToSpv.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o
 .PHONY : GlslangToSpv.cpp.o
 
 GlslangToSpv.i: GlslangToSpv.cpp.i
@@ -201,7 +201,7 @@ GlslangToSpv.i: GlslangToSpv.cpp.i
 
 # target to preprocess a source file
 GlslangToSpv.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.i
 .PHONY : GlslangToSpv.cpp.i
 
 GlslangToSpv.s: GlslangToSpv.cpp.s
@@ -210,7 +210,7 @@ GlslangToSpv.s: GlslangToSpv.cpp.s
 
 # target to generate assembly for a file
 GlslangToSpv.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.s
 .PHONY : GlslangToSpv.cpp.s
 
 InReadableOrder.o: InReadableOrder.cpp.o
@@ -219,7 +219,7 @@ InReadableOrder.o: InReadableOrder.cpp.o
 
 # target to build an object file
 InReadableOrder.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o
 .PHONY : InReadableOrder.cpp.o
 
 InReadableOrder.i: InReadableOrder.cpp.i
@@ -228,7 +228,7 @@ InReadableOrder.i: InReadableOrder.cpp.i
 
 # target to preprocess a source file
 InReadableOrder.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.i
 .PHONY : InReadableOrder.cpp.i
 
 InReadableOrder.s: InReadableOrder.cpp.s
@@ -237,7 +237,7 @@ InReadableOrder.s: InReadableOrder.cpp.s
 
 # target to generate assembly for a file
 InReadableOrder.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.s
 .PHONY : InReadableOrder.cpp.s
 
 Logger.o: Logger.cpp.o
@@ -246,7 +246,7 @@ Logger.o: Logger.cpp.o
 
 # target to build an object file
 Logger.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o
 .PHONY : Logger.cpp.o
 
 Logger.i: Logger.cpp.i
@@ -255,7 +255,7 @@ Logger.i: Logger.cpp.i
 
 # target to preprocess a source file
 Logger.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.i
 .PHONY : Logger.cpp.i
 
 Logger.s: Logger.cpp.s
@@ -264,7 +264,7 @@ Logger.s: Logger.cpp.s
 
 # target to generate assembly for a file
 Logger.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.s
 .PHONY : Logger.cpp.s
 
 SPVRemapper.o: SPVRemapper.cpp.o
@@ -273,7 +273,7 @@ SPVRemapper.o: SPVRemapper.cpp.o
 
 # target to build an object file
 SPVRemapper.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.o
 .PHONY : SPVRemapper.cpp.o
 
 SPVRemapper.i: SPVRemapper.cpp.i
@@ -282,7 +282,7 @@ SPVRemapper.i: SPVRemapper.cpp.i
 
 # target to preprocess a source file
 SPVRemapper.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.i
 .PHONY : SPVRemapper.cpp.i
 
 SPVRemapper.s: SPVRemapper.cpp.s
@@ -291,7 +291,7 @@ SPVRemapper.s: SPVRemapper.cpp.s
 
 # target to generate assembly for a file
 SPVRemapper.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.s
 .PHONY : SPVRemapper.cpp.s
 
 SpvBuilder.o: SpvBuilder.cpp.o
@@ -300,7 +300,7 @@ SpvBuilder.o: SpvBuilder.cpp.o
 
 # target to build an object file
 SpvBuilder.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o
 .PHONY : SpvBuilder.cpp.o
 
 SpvBuilder.i: SpvBuilder.cpp.i
@@ -309,7 +309,7 @@ SpvBuilder.i: SpvBuilder.cpp.i
 
 # target to preprocess a source file
 SpvBuilder.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.i
 .PHONY : SpvBuilder.cpp.i
 
 SpvBuilder.s: SpvBuilder.cpp.s
@@ -318,7 +318,7 @@ SpvBuilder.s: SpvBuilder.cpp.s
 
 # target to generate assembly for a file
 SpvBuilder.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.s
 .PHONY : SpvBuilder.cpp.s
 
 SpvPostProcess.o: SpvPostProcess.cpp.o
@@ -327,7 +327,7 @@ SpvPostProcess.o: SpvPostProcess.cpp.o
 
 # target to build an object file
 SpvPostProcess.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o
 .PHONY : SpvPostProcess.cpp.o
 
 SpvPostProcess.i: SpvPostProcess.cpp.i
@@ -336,7 +336,7 @@ SpvPostProcess.i: SpvPostProcess.cpp.i
 
 # target to preprocess a source file
 SpvPostProcess.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.i
 .PHONY : SpvPostProcess.cpp.i
 
 SpvPostProcess.s: SpvPostProcess.cpp.s
@@ -345,7 +345,7 @@ SpvPostProcess.s: SpvPostProcess.cpp.s
 
 # target to generate assembly for a file
 SpvPostProcess.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.s
 .PHONY : SpvPostProcess.cpp.s
 
 SpvTools.o: SpvTools.cpp.o
@@ -354,7 +354,7 @@ SpvTools.o: SpvTools.cpp.o
 
 # target to build an object file
 SpvTools.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o
 .PHONY : SpvTools.cpp.o
 
 SpvTools.i: SpvTools.cpp.i
@@ -363,7 +363,7 @@ SpvTools.i: SpvTools.cpp.i
 
 # target to preprocess a source file
 SpvTools.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.i
 .PHONY : SpvTools.cpp.i
 
 SpvTools.s: SpvTools.cpp.s
@@ -372,7 +372,7 @@ SpvTools.s: SpvTools.cpp.s
 
 # target to generate assembly for a file
 SpvTools.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.s
 .PHONY : SpvTools.cpp.s
 
 disassemble.o: disassemble.cpp.o
@@ -381,7 +381,7 @@ disassemble.o: disassemble.cpp.o
 
 # target to build an object file
 disassemble.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o
 .PHONY : disassemble.cpp.o
 
 disassemble.i: disassemble.cpp.i
@@ -390,7 +390,7 @@ disassemble.i: disassemble.cpp.i
 
 # target to preprocess a source file
 disassemble.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.i
 .PHONY : disassemble.cpp.i
 
 disassemble.s: disassemble.cpp.s
@@ -399,7 +399,7 @@ disassemble.s: disassemble.cpp.s
 
 # target to generate assembly for a file
 disassemble.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.s
 .PHONY : disassemble.cpp.s
 
 doc.o: doc.cpp.o
@@ -408,8 +408,8 @@ doc.o: doc.cpp.o
 
 # target to build an object file
 doc.cpp.o:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.o
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.o
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o
 .PHONY : doc.cpp.o
 
 doc.i: doc.cpp.i
@@ -418,8 +418,8 @@ doc.i: doc.cpp.i
 
 # target to preprocess a source file
 doc.cpp.i:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.i
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.i
 .PHONY : doc.cpp.i
 
 doc.s: doc.cpp.s
@@ -428,8 +428,8 @@ doc.s: doc.cpp.s
 
 # target to generate assembly for a file
 doc.cpp.s:
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.s
-	cd /Storage/Files/build/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(MAKE) -f ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/build.make ext/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.s
 .PHONY : doc.cpp.s
 
 # Help Target
@@ -484,6 +484,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

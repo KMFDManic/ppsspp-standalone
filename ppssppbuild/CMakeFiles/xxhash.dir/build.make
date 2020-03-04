@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xxhash.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/xxhash.dir/progress.make
 include CMakeFiles/xxhash.dir/flags.make
 
 CMakeFiles/xxhash.dir/ext/xxhash.c.o: CMakeFiles/xxhash.dir/flags.make
-CMakeFiles/xxhash.dir/ext/xxhash.c.o: /Storage/Files/build/ppsspp/ext/xxhash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/xxhash.dir/ext/xxhash.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xxhash.dir/ext/xxhash.c.o   -c /Storage/Files/build/ppsspp/ext/xxhash.c
+CMakeFiles/xxhash.dir/ext/xxhash.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xxhash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/xxhash.dir/ext/xxhash.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xxhash.dir/ext/xxhash.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xxhash.c
 
 CMakeFiles/xxhash.dir/ext/xxhash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xxhash.dir/ext/xxhash.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/xxhash.c > CMakeFiles/xxhash.dir/ext/xxhash.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xxhash.c > CMakeFiles/xxhash.dir/ext/xxhash.c.i
 
 CMakeFiles/xxhash.dir/ext/xxhash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xxhash.dir/ext/xxhash.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/xxhash.c -o CMakeFiles/xxhash.dir/ext/xxhash.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xxhash.c -o CMakeFiles/xxhash.dir/ext/xxhash.c.s
 
 CMakeFiles/xxhash.dir/ext/xxhash.c.o.requires:
 
@@ -91,7 +91,7 @@ xxhash_EXTERNAL_OBJECTS =
 lib/libxxhash.a: CMakeFiles/xxhash.dir/ext/xxhash.c.o
 lib/libxxhash.a: CMakeFiles/xxhash.dir/build.make
 lib/libxxhash.a: CMakeFiles/xxhash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library lib/libxxhash.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library lib/libxxhash.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/xxhash.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xxhash.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/xxhash.dir/clean:
 .PHONY : CMakeFiles/xxhash.dir/clean
 
 CMakeFiles/xxhash.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/CMakeFiles/xxhash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/xxhash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xxhash.dir/depend
 

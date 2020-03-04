@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sfmt19937.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/sfmt19937.dir/progress.make
 include CMakeFiles/sfmt19937.dir/flags.make
 
 CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o: CMakeFiles/sfmt19937.dir/flags.make
-CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o: /Storage/Files/build/ppsspp/ext/sfmt19937/SFMT.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o   -c /Storage/Files/build/ppsspp/ext/sfmt19937/SFMT.c
+CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c
 
 CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/sfmt19937/SFMT.c > CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c > CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.i
 
 CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/sfmt19937/SFMT.c -o CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c -o CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.s
 
 CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o.requires:
 
@@ -91,7 +91,7 @@ sfmt19937_EXTERNAL_OBJECTS =
 lib/libsfmt19937.a: CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o
 lib/libsfmt19937.a: CMakeFiles/sfmt19937.dir/build.make
 lib/libsfmt19937.a: CMakeFiles/sfmt19937.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library lib/libsfmt19937.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library lib/libsfmt19937.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/sfmt19937.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfmt19937.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/sfmt19937.dir/clean:
 .PHONY : CMakeFiles/sfmt19937.dir/clean
 
 CMakeFiles/sfmt19937.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/CMakeFiles/sfmt19937.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/sfmt19937.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sfmt19937.dir/depend
 

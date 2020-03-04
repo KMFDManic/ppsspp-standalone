@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rg_etc1.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/rg_etc1.dir/progress.make
 include CMakeFiles/rg_etc1.dir/flags.make
 
 CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o: CMakeFiles/rg_etc1.dir/flags.make
-CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o: /Storage/Files/build/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o -c /Storage/Files/build/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp
+CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp
 
 CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp > CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp > CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.i
 
 CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp -o CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp -o CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.s
 
 CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o.requires:
 
@@ -91,7 +91,7 @@ rg_etc1_EXTERNAL_OBJECTS =
 lib/librg_etc1.a: CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o
 lib/librg_etc1.a: CMakeFiles/rg_etc1.dir/build.make
 lib/librg_etc1.a: CMakeFiles/rg_etc1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib/librg_etc1.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib/librg_etc1.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/rg_etc1.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rg_etc1.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/rg_etc1.dir/clean:
 .PHONY : CMakeFiles/rg_etc1.dir/clean
 
 CMakeFiles/rg_etc1.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/CMakeFiles/rg_etc1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/rg_etc1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rg_etc1.dir/depend
 

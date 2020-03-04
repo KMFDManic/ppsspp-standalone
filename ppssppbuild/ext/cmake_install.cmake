@@ -1,4 +1,4 @@
-# Install script for directory: /Storage/Files/build/ppsspp/ext
+# Install script for directory: /builds/modmyclassic/ports/ppsspp/ppsspp/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Storage/Files/build/ppssppbuild/ext/armips/cmake_install.cmake")
-  include("/Storage/Files/build/ppssppbuild/ext/glslang/cmake_install.cmake")
-  include("/Storage/Files/build/ppssppbuild/ext/snappy/cmake_install.cmake")
-  include("/Storage/Files/build/ppssppbuild/ext/udis86/cmake_install.cmake")
-  include("/Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/udis86/cmake_install.cmake")
+  include("/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Storage/Files/build/ppsspp/ext/glslang/OGLCompilersDLL
+# Install script for directory: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/OGLCompilersDLL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Storage/Files/build/ppssppbuild/lib/libOGLCompiler.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/builds/modmyclassic/ports/ppsspp/ppssppbuild/lib/libOGLCompiler.a")
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Storage/Files/build/ppsspp/ext/glslang/SPIRV
+# Install script for directory: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,30 +38,30 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Storage/Files/build/ppssppbuild/lib/libSPVRemapper.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/builds/modmyclassic/ports/ppsspp/ppssppbuild/lib/libSPVRemapper.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Storage/Files/build/ppssppbuild/lib/libSPIRV.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/builds/modmyclassic/ports/ppsspp/ppssppbuild/lib/libSPIRV.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/SPIRV" TYPE FILE FILES
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/bitutils.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/spirv.hpp"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.std.450.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.EXT.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GLSL.ext.KHR.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/GlslangToSpv.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/hex_float.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/Logger.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/SpvBuilder.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/spvIR.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/doc.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/SpvTools.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/disassemble.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/SPVRemapper.h"
-    "/Storage/Files/build/ppsspp/ext/glslang/SPIRV/doc.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/bitutils.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/spirv.hpp"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.std.450.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.EXT.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GLSL.ext.KHR.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/GlslangToSpv.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/hex_float.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/Logger.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SpvBuilder.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/spvIR.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SpvTools.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/disassemble.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.h"
+    "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.h"
     )
 endif()
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Utility rule file for GitVersion.
 
@@ -57,8 +57,8 @@ CMakeFiles/GitVersion: something_that_never_exists
 
 
 something_that_never_exists:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating something_that_never_exists"
-	/usr/bin/cmake -DSOURCE_DIR=/Storage/Files/build/ppsspp -P /Storage/Files/build/ppsspp/git-version.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating something_that_never_exists"
+	/usr/bin/cmake -DSOURCE_DIR=/builds/modmyclassic/ports/ppsspp/ppsspp -P /builds/modmyclassic/ports/ppsspp/ppsspp/git-version.cmake
 
 GitVersion: CMakeFiles/GitVersion
 GitVersion: something_that_never_exists
@@ -76,6 +76,6 @@ CMakeFiles/GitVersion.dir/clean:
 .PHONY : CMakeFiles/GitVersion.dir/clean
 
 CMakeFiles/GitVersion.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/CMakeFiles/GitVersion.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/GitVersion.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GitVersion.dir/depend
 

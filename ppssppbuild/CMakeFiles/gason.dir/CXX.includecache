@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/ext/native/ext/gason/gason.cpp
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp
 gason.h
-/Storage/Files/build/ppsspp/ext/native/ext/gason/gason.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.h
 stdlib.h
 -
 
-/Storage/Files/build/ppsspp/ext/native/ext/gason/gason.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.h
 stdint.h
 -
 stddef.h

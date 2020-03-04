@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gason.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/gason.dir/progress.make
 include CMakeFiles/gason.dir/flags.make
 
 CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o: CMakeFiles/gason.dir/flags.make
-CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o: /Storage/Files/build/ppsspp/ext/native/ext/gason/gason.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o -c /Storage/Files/build/ppsspp/ext/native/ext/gason/gason.cpp
+CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp
 
 CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/gason/gason.cpp > CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp > CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.i
 
 CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/gason/gason.cpp -o CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp -o CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.s
 
 CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o.requires:
 
@@ -91,7 +91,7 @@ gason_EXTERNAL_OBJECTS =
 lib/libgason.a: CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o
 lib/libgason.a: CMakeFiles/gason.dir/build.make
 lib/libgason.a: CMakeFiles/gason.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib/libgason.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib/libgason.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/gason.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gason.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/gason.dir/clean:
 .PHONY : CMakeFiles/gason.dir/clean
 
 CMakeFiles/gason.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/CMakeFiles/gason.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/gason.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gason.dir/depend
 

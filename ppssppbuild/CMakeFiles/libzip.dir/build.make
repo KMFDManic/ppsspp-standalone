@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include CMakeFiles/libzip.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/libzip.dir/progress.make
 include CMakeFiles/libzip.dir/flags.make
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/mkstemp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/mkstemp.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/mkstemp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/mkstemp.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/mkstemp.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/mkstemp.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/mkstemp.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/mkstemp.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/mkstemp.c.o.provides.build: CMakeFil
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_add.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_add.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_add.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_add.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_add.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_add.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add.c.o.provides.build: CMakeFil
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_add_dir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_add_dir.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_add_dir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_add_dir.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_add_dir.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_add_dir.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_add_dir.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_add_dir.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_add_dir.c.o.provides.build: CMak
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_close.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_close.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_close.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_close.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_close.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_close.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_close.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_close.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_close.c.o.provides.build: CMakeF
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_delete.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_delete.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_delete.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_delete.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_delete.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_delete.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_delete.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_delete.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_delete.c.o.provides.build: CMake
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_dirent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_dirent.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_dirent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_dirent.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_dirent.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_dirent.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_dirent.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_dirent.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_dirent.c.o.provides.build: CMake
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_entry_free.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_entry_free.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_entry_free.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_entry_free.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_entry_free.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_entry_free.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_entry_free.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_entry_free.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_free.c.o.provides.build: C
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_entry_new.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_entry_new.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_entry_new.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_entry_new.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_entry_new.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_entry_new.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_entry_new.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_entry_new.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_entry_new.c.o.provides.build: CM
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_err_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_err_str.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_err_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_err_str.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_err_str.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_err_str.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_err_str.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_err_str.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.o.requires:
 
@@ -274,17 +274,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_err_str.c.o.provides.build: CMak
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.o.requires:
 
@@ -298,17 +298,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error.c.o.provides.build: CMakeF
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_clear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_clear.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_clear.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_clear.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_clear.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_clear.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_clear.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_clear.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.o.requires:
 
@@ -322,17 +322,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_clear.c.o.provides.build: 
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_get.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_get.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_get.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_get.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_get.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_get.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_get.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_get.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.o.requires:
 
@@ -346,17 +346,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get.c.o.provides.build: CM
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_get_sys_type.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_get_sys_type.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_get_sys_type.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_get_sys_type.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_get_sys_type.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_get_sys_type.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_get_sys_type.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_get_sys_type.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.o.requires:
 
@@ -370,17 +370,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_get_sys_type.c.o.provides.
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_strerror.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_strerror.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_strerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_strerror.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_strerror.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_strerror.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_strerror.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_strerror.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.o.requires:
 
@@ -394,17 +394,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_strerror.c.o.provides.buil
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_to_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_to_str.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_to_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_to_str.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_to_str.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_to_str.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_error_to_str.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_error_to_str.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.o.requires:
 
@@ -418,17 +418,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_error_to_str.c.o.provides.build:
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fclose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fclose.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fclose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fclose.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fclose.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fclose.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fclose.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fclose.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.o.requires:
 
@@ -442,17 +442,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fclose.c.o.provides.build: CMake
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_error_clear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_error_clear.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_error_clear.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_error_clear.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_error_clear.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_error_clear.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_error_clear.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_error_clear.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.o.requires:
 
@@ -466,17 +466,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_clear.c.o.provides.bu
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_error_get.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_error_get.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_error_get.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_error_get.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_error_get.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_error_get.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_error_get.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_error_get.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.o.requires:
 
@@ -490,17 +490,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_error_get.c.o.provides.buil
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_get_offset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_get_offset.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_get_offset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_get_offset.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_get_offset.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_get_offset.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_get_offset.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_get_offset.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.o.requires:
 
@@ -514,17 +514,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_get_offset.c.o.provides.bui
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_strerror.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_strerror.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_strerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_strerror.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_strerror.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_strerror.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_file_strerror.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_file_strerror.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.o.requires:
 
@@ -538,17 +538,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_file_strerror.c.o.provides.build
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_filerange_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_filerange_crc.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_filerange_crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_filerange_crc.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_filerange_crc.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_filerange_crc.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_filerange_crc.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_filerange_crc.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.o.requires:
 
@@ -562,17 +562,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_filerange_crc.c.o.provides.build
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fopen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fopen.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fopen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fopen.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fopen.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fopen.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fopen.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fopen.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.o.requires:
 
@@ -586,17 +586,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen.c.o.provides.build: CMakeF
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fopen_index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fopen_index.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fopen_index.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fopen_index.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fopen_index.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fopen_index.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fopen_index.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fopen_index.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.o.requires:
 
@@ -610,17 +610,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fopen_index.c.o.provides.build: 
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fread.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fread.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fread.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fread.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_fread.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_fread.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.o.requires:
 
@@ -634,17 +634,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_fread.c.o.provides.build: CMakeF
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_free.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_free.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_free.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_free.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_free.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_free.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_free.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_free.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.o.requires:
 
@@ -658,17 +658,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_free.c.o.provides.build: CMakeFi
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_archive_comment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_archive_comment.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_archive_comment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_archive_comment.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_archive_comment.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_archive_comment.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_archive_comment.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_archive_comment.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.o.requires:
 
@@ -682,17 +682,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_comment.c.o.provides
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_archive_flag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_archive_flag.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_archive_flag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_archive_flag.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_archive_flag.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_archive_flag.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_archive_flag.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_archive_flag.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.o.requires:
 
@@ -706,17 +706,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_archive_flag.c.o.provides.bu
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_file_comment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_file_comment.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_file_comment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_file_comment.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_file_comment.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_file_comment.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_file_comment.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_file_comment.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.o.requires:
 
@@ -730,17 +730,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_file_comment.c.o.provides.bu
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_name.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_name.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_name.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_name.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_name.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_name.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_name.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_name.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.o.requires:
 
@@ -754,17 +754,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_name.c.o.provides.build: CMa
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_num_files.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_num_files.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_num_files.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_num_files.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_num_files.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_num_files.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_get_num_files.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_get_num_files.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.o.requires:
 
@@ -778,17 +778,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_get_num_files.c.o.provides.build
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_memdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_memdup.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_memdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_memdup.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_memdup.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_memdup.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_memdup.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_memdup.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.o.requires:
 
@@ -802,17 +802,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_memdup.c.o.provides.build: CMake
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_name_locate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_name_locate.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_name_locate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_name_locate.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_name_locate.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_name_locate.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_name_locate.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_name_locate.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.o.requires:
 
@@ -826,17 +826,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_name_locate.c.o.provides.build: 
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_new.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_new.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_new.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_new.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_new.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_new.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_new.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_new.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.o.requires:
 
@@ -850,17 +850,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_new.c.o.provides.build: CMakeFil
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_open.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_open.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_open.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_open.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_open.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_open.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_open.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_open.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.o.requires:
 
@@ -874,17 +874,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_open.c.o.provides.build: CMakeFi
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_rename.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_rename.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_rename.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_rename.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_rename.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_rename.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_rename.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_rename.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.o.requires:
 
@@ -898,17 +898,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_rename.c.o.provides.build: CMake
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_replace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_replace.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_replace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_replace.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_replace.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_replace.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_replace.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_replace.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.o.requires:
 
@@ -922,17 +922,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_replace.c.o.provides.build: CMak
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_archive_comment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_archive_comment.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_archive_comment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_archive_comment.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_archive_comment.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_archive_comment.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_archive_comment.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_archive_comment.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.o.requires:
 
@@ -946,17 +946,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_comment.c.o.provides
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_archive_flag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_archive_flag.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_archive_flag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_archive_flag.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_archive_flag.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_archive_flag.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_archive_flag.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_archive_flag.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.o.requires:
 
@@ -970,17 +970,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_archive_flag.c.o.provides.bu
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_file_comment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_file_comment.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_file_comment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_file_comment.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_file_comment.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_file_comment.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_file_comment.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_file_comment.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.o.requires:
 
@@ -994,17 +994,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_file_comment.c.o.provides.bu
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_name.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_name.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_name.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_name.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_name.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_name.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_set_name.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_set_name.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.o.requires:
 
@@ -1018,17 +1018,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_set_name.c.o.provides.build: CMa
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_buffer.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_buffer.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_buffer.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_buffer.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_buffer.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_buffer.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.o.requires:
 
@@ -1042,17 +1042,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_buffer.c.o.provides.build
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_file.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_file.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_file.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_file.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_file.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_file.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.o.requires:
 
@@ -1066,17 +1066,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_file.c.o.provides.build: 
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_filep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_filep.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_filep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_filep.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_filep.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_filep.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_filep.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_filep.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.o.requires:
 
@@ -1090,17 +1090,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_filep.c.o.provides.build:
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_free.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_free.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_free.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_free.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_free.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_free.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_free.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_free.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.o.requires:
 
@@ -1114,17 +1114,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_free.c.o.provides.build: 
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_function.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_function.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_function.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_function.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_function.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_function.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_function.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_function.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.o.requires:
 
@@ -1138,17 +1138,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_function.c.o.provides.bui
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_zip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_zip.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_zip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_zip.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_zip.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_zip.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_source_zip.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_source_zip.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.o.requires:
 
@@ -1162,17 +1162,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_source_zip.c.o.provides.build: C
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.o.requires:
 
@@ -1186,17 +1186,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat.c.o.provides.build: CMakeFi
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat_index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat_index.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat_index.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat_index.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat_index.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat_index.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat_index.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat_index.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.o.requires:
 
@@ -1210,17 +1210,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_index.c.o.provides.build: C
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat_init.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat_init.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat_init.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat_init.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_stat_init.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_stat_init.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.o.requires:
 
@@ -1234,17 +1234,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_stat_init.c.o.provides.build: CM
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_strerror.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_strerror.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_strerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_strerror.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_strerror.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_strerror.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_strerror.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_strerror.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.o.requires:
 
@@ -1258,17 +1258,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_strerror.c.o.provides.build: CMa
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.o.requires:
 
@@ -1282,17 +1282,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange.c.o.provides.build: CMa
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_all.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_all.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_all.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_all.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_all.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_all.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_all.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_all.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.o.requires:
 
@@ -1306,17 +1306,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_all.c.o.provides.build:
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_archive.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_archive.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_archive.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_archive.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_archive.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_archive.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_archive.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_archive.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.o.requires:
 
@@ -1330,17 +1330,17 @@ CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archive.c.o.provides.bu
 
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.o: CMakeFiles/libzip.dir/flags.make
-CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.o: /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.o   -c /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_data.c
+CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_data.c
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_data.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_data.c > CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.i
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/native/ext/libzip/zip_unchange_data.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libzip/zip_unchange_data.c -o CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.s
 
 CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.o.requires:
 
@@ -1469,7 +1469,7 @@ lib/liblibzip.a: CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_archiv
 lib/liblibzip.a: CMakeFiles/libzip.dir/ext/native/ext/libzip/zip_unchange_data.c.o
 lib/liblibzip.a: CMakeFiles/libzip.dir/build.make
 lib/liblibzip.a: CMakeFiles/libzip.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking C static library lib/liblibzip.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking C static library lib/liblibzip.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/libzip.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libzip.dir/link.txt --verbose=$(VERBOSE)
 
@@ -1540,6 +1540,6 @@ CMakeFiles/libzip.dir/clean:
 .PHONY : CMakeFiles/libzip.dir/clean
 
 CMakeFiles/libzip.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/CMakeFiles/libzip.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/libzip.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/libzip.dir/depend
 

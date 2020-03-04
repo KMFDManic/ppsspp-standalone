@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Storage/Files/build/ppsspp/ext/xxhash.c
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/xxhash.c
 ppsspp_config.h
-/Storage/Files/build/ppsspp/ext/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/ppsspp_config.h
 xxhash.h
-/Storage/Files/build/ppsspp/ext/xxhash.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/xxhash.h
 stdlib.h
 -
 string.h
@@ -18,11 +18,11 @@ string.h
 stdint.h
 -
 
-/Storage/Files/build/ppsspp/ext/xxhash.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ext/xxhash.h
 stddef.h
 -
 
-/Storage/Files/build/ppsspp/ppsspp_config.h
+/builds/modmyclassic/ports/ppsspp/ppsspp/ppsspp_config.h
 TargetConditionals.h
 -
 

@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cfg.cpp" "/Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cfg.cpp.o"
-  "/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross.cpp" "/Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cross.cpp.o"
-  "/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.cpp" "/Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cross_parsed_ir.cpp.o"
-  "/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_cross_util.cpp" "/Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cross_util.cpp.o"
-  "/Storage/Files/build/ppsspp/ext/SPIRV-Cross/spirv_parser.cpp" "/Storage/Files/build/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_parser.cpp.o"
+  "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cfg.cpp" "/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cfg.cpp.o"
+  "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross.cpp" "/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cross.cpp.o"
+  "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_parsed_ir.cpp" "/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cross_parsed_ir.cpp.o"
+  "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_cross_util.cpp" "/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_cross_util.cpp.o"
+  "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_parser.cpp" "/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-core.dir/__/SPIRV-Cross/spirv_parser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "GLEW_NO_GLU"
   "SPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS"
+  "USING_EGL"
   "USING_GLES2"
   "VK_USE_PLATFORM_WAYLAND_KHR"
   "_FILE_OFFSET_BITS=64"
@@ -23,17 +23,16 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "_XOPEN_SOURCE=700"
   "_XOPEN_SOURCE_EXTENDED"
   "__BSD_VISIBLE=1"
-  "__LIBRETRO__"
   "__STDC_CONSTANT_MACROS"
   "__STDC_LIMIT_MACROS"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/arm-linux-gnueabihf/psc_SDK"
-  "/Storage/Files/build/ppsspp/ext/native"
-  "/Storage/Files/build/ppsspp"
-  "/Storage/Files/build/ppsspp/ext/SPIRV-Cross-build/../SPIRV-Cross"
+  "/usr/local/include"
+  "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/native"
+  "/builds/modmyclassic/ports/ppsspp/ppsspp"
+  "/builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross-build/../SPIRV-Cross"
   )
 
 # Targets to which this target links.

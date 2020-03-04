@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xbrz.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/xbrz.dir/progress.make
 include CMakeFiles/xbrz.dir/flags.make
 
 CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o: CMakeFiles/xbrz.dir/flags.make
-CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o: /Storage/Files/build/ppsspp/ext/xbrz/xbrz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o -c /Storage/Files/build/ppsspp/ext/xbrz/xbrz.cpp
+CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp
 
 CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Storage/Files/build/ppsspp/ext/xbrz/xbrz.cpp > CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp > CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.i
 
 CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Storage/Files/build/ppsspp/ext/xbrz/xbrz.cpp -o CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp -o CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.s
 
 CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o.requires:
 
@@ -91,7 +91,7 @@ xbrz_EXTERNAL_OBJECTS =
 lib/libxbrz.a: CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o
 lib/libxbrz.a: CMakeFiles/xbrz.dir/build.make
 lib/libxbrz.a: CMakeFiles/xbrz.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib/libxbrz.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib/libxbrz.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/xbrz.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xbrz.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/xbrz.dir/clean:
 .PHONY : CMakeFiles/xbrz.dir/clean
 
 CMakeFiles/xbrz.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/CMakeFiles/xbrz.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/xbrz.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xbrz.dir/depend
 

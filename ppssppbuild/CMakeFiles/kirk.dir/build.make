@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Storage/Files/build/ppsspp
+CMAKE_SOURCE_DIR = /builds/modmyclassic/ports/ppsspp/ppsspp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Storage/Files/build/ppssppbuild
+CMAKE_BINARY_DIR = /builds/modmyclassic/ports/ppsspp/ppssppbuild
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kirk.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/kirk.dir/progress.make
 include CMakeFiles/kirk.dir/flags.make
 
 CMakeFiles/kirk.dir/ext/libkirk/AES.c.o: CMakeFiles/kirk.dir/flags.make
-CMakeFiles/kirk.dir/ext/libkirk/AES.c.o: /Storage/Files/build/ppsspp/ext/libkirk/AES.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/kirk.dir/ext/libkirk/AES.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/AES.c.o   -c /Storage/Files/build/ppsspp/ext/libkirk/AES.c
+CMakeFiles/kirk.dir/ext/libkirk/AES.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/AES.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/kirk.dir/ext/libkirk/AES.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/AES.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/AES.c
 
 CMakeFiles/kirk.dir/ext/libkirk/AES.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kirk.dir/ext/libkirk/AES.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/libkirk/AES.c > CMakeFiles/kirk.dir/ext/libkirk/AES.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/AES.c > CMakeFiles/kirk.dir/ext/libkirk/AES.c.i
 
 CMakeFiles/kirk.dir/ext/libkirk/AES.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kirk.dir/ext/libkirk/AES.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/libkirk/AES.c -o CMakeFiles/kirk.dir/ext/libkirk/AES.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/AES.c -o CMakeFiles/kirk.dir/ext/libkirk/AES.c.s
 
 CMakeFiles/kirk.dir/ext/libkirk/AES.c.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/kirk.dir/ext/libkirk/AES.c.o.provides.build: CMakeFiles/kirk.dir/ext/
 
 
 CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.o: CMakeFiles/kirk.dir/flags.make
-CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.o: /Storage/Files/build/ppsspp/ext/libkirk/amctrl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.o   -c /Storage/Files/build/ppsspp/ext/libkirk/amctrl.c
+CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/amctrl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/amctrl.c
 
 CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/libkirk/amctrl.c > CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/amctrl.c > CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.i
 
 CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/libkirk/amctrl.c -o CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/amctrl.c -o CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.s
 
 CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/kirk.dir/ext/libkirk/amctrl.c.o.provides.build: CMakeFiles/kirk.dir/e
 
 
 CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.o: CMakeFiles/kirk.dir/flags.make
-CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.o: /Storage/Files/build/ppsspp/ext/libkirk/SHA1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.o   -c /Storage/Files/build/ppsspp/ext/libkirk/SHA1.c
+CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/SHA1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/SHA1.c
 
 CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/libkirk/SHA1.c > CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/SHA1.c > CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.i
 
 CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/libkirk/SHA1.c -o CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/SHA1.c -o CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.s
 
 CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/kirk.dir/ext/libkirk/SHA1.c.o.provides.build: CMakeFiles/kirk.dir/ext
 
 
 CMakeFiles/kirk.dir/ext/libkirk/bn.c.o: CMakeFiles/kirk.dir/flags.make
-CMakeFiles/kirk.dir/ext/libkirk/bn.c.o: /Storage/Files/build/ppsspp/ext/libkirk/bn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/kirk.dir/ext/libkirk/bn.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/bn.c.o   -c /Storage/Files/build/ppsspp/ext/libkirk/bn.c
+CMakeFiles/kirk.dir/ext/libkirk/bn.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/bn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/kirk.dir/ext/libkirk/bn.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/bn.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/bn.c
 
 CMakeFiles/kirk.dir/ext/libkirk/bn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kirk.dir/ext/libkirk/bn.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/libkirk/bn.c > CMakeFiles/kirk.dir/ext/libkirk/bn.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/bn.c > CMakeFiles/kirk.dir/ext/libkirk/bn.c.i
 
 CMakeFiles/kirk.dir/ext/libkirk/bn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kirk.dir/ext/libkirk/bn.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/libkirk/bn.c -o CMakeFiles/kirk.dir/ext/libkirk/bn.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/bn.c -o CMakeFiles/kirk.dir/ext/libkirk/bn.c.s
 
 CMakeFiles/kirk.dir/ext/libkirk/bn.c.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/kirk.dir/ext/libkirk/bn.c.o.provides.build: CMakeFiles/kirk.dir/ext/l
 
 
 CMakeFiles/kirk.dir/ext/libkirk/ec.c.o: CMakeFiles/kirk.dir/flags.make
-CMakeFiles/kirk.dir/ext/libkirk/ec.c.o: /Storage/Files/build/ppsspp/ext/libkirk/ec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/kirk.dir/ext/libkirk/ec.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/ec.c.o   -c /Storage/Files/build/ppsspp/ext/libkirk/ec.c
+CMakeFiles/kirk.dir/ext/libkirk/ec.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/ec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/kirk.dir/ext/libkirk/ec.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/ec.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/ec.c
 
 CMakeFiles/kirk.dir/ext/libkirk/ec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kirk.dir/ext/libkirk/ec.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/libkirk/ec.c > CMakeFiles/kirk.dir/ext/libkirk/ec.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/ec.c > CMakeFiles/kirk.dir/ext/libkirk/ec.c.i
 
 CMakeFiles/kirk.dir/ext/libkirk/ec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kirk.dir/ext/libkirk/ec.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/libkirk/ec.c -o CMakeFiles/kirk.dir/ext/libkirk/ec.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/ec.c -o CMakeFiles/kirk.dir/ext/libkirk/ec.c.s
 
 CMakeFiles/kirk.dir/ext/libkirk/ec.c.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/kirk.dir/ext/libkirk/ec.c.o.provides.build: CMakeFiles/kirk.dir/ext/l
 
 
 CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.o: CMakeFiles/kirk.dir/flags.make
-CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.o: /Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.o   -c /Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.c
+CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.o"
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.c
 
 CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.c > CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.c > CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.i
 
 CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Storage/Files/build/ppsspp/ext/libkirk/kirk_engine.c -o CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/libkirk/kirk_engine.c -o CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.s
 
 CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.o.requires:
 
@@ -221,7 +221,7 @@ lib/libkirk.a: CMakeFiles/kirk.dir/ext/libkirk/ec.c.o
 lib/libkirk.a: CMakeFiles/kirk.dir/ext/libkirk/kirk_engine.c.o
 lib/libkirk.a: CMakeFiles/kirk.dir/build.make
 lib/libkirk.a: CMakeFiles/kirk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Storage/Files/build/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library lib/libkirk.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library lib/libkirk.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/kirk.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kirk.dir/link.txt --verbose=$(VERBOSE)
 
@@ -244,6 +244,6 @@ CMakeFiles/kirk.dir/clean:
 .PHONY : CMakeFiles/kirk.dir/clean
 
 CMakeFiles/kirk.dir/depend:
-	cd /Storage/Files/build/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Storage/Files/build/ppsspp /Storage/Files/build/ppsspp /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild /Storage/Files/build/ppssppbuild/CMakeFiles/kirk.dir/DependInfo.cmake --color=$(COLOR)
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppsspp /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild /builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles/kirk.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kirk.dir/depend
 
