@@ -10,11 +10,8 @@ stages:
 
 sony-pack-deploy:
   stage: sony-pack-deploy
-  image: "registry.gitlab.com/modmyclassic/docker-autodevops-buildenvs/mmc-crosscompiler-docker-image:latest_internal"
+  image: "registry.gitlab.com/modmyclassic/docker-autodevops-buildenvs/mmc-crosscompiler-docker-image:stripped_internal"
   script:
-    - apt-get update
-    - apt-get install -y cmake
-    - touch /usr/bin/arm-linux-gnueabihf-g++
     - . classic_set_env_psc_6
     - git submodule update --init --recursive
     - cd /builds/modmyclassic/ports/ppsspp/ppsspp/ffmpeg
@@ -22,7 +19,7 @@ sony-pack-deploy:
     - ./linux_armhf.sh
     - cd /builds/modmyclassic/ports/ppsspp/ppssppbuild
 #    - export CPPFLAGS="-DPNG_ARM_NEON_OPT=0"
-#    - cmake .
+    - cmake .
     - make -j4
     - arm-linux-gnueabihf-strip PPSSPPSDL
     - readelf -a PPSSPPSDL | grep -i SHARED
