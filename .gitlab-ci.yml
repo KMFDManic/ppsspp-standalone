@@ -18,6 +18,7 @@ sony-pack-deploy:
     - cat /builds/modmyclassic/ports/ppsspp/classic/custom_ffmpeg_armhf_make.sh > linux_armhf.sh
     - ./linux_armhf.sh
     - cd /builds/modmyclassic/ports/ppsspp/ppssppbuild
+    - sed -i 's/\/.git/\/..\/.git/g' ../ppsspp/git-version.cmake
 #    - export CPPFLAGS="-DPNG_ARM_NEON_OPT=0"
     - cmake .
     - make -j4
