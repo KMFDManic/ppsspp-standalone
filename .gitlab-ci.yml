@@ -23,6 +23,7 @@ sony-pack-deploy:
     - make -j4
     - arm-linux-gnueabihf-strip PPSSPPSDL
     - readelf -a PPSSPPSDL | grep -i SHARED
+    - mv ../classic/gamecontrollerdb.txt assets/
     - mv PPSSPPSDL assets ../classic/psc_eris/media/project_eris/etc/project_eris/SUP/launchers/ppsspp/
     - cd ../classic && make -f Makefile.pack_psc_eris
     - echo -e "cd /var/www/html/project_eris/mods/\nput *.mod" | sftp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.keys/release_private_key.pem docker@classicmodscloud.com
