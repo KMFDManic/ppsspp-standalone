@@ -4,8 +4,8 @@ BUILDTARGET := psc_eris
 
 PKG_PRETTY_NAME := PPSSPP
 PKG_NAME := ppsspp
-VERSION := 1.9.4
-GIT_COMMIT := $(shell echo "`git rev-parse --short HEAD``git diff-index --quiet HEAD --`")
+VERSION := 1.9.3
+GIT_COMMIT := $(shell echo "`git describe`")
 PKG_CREATOR := Hrydgard
 MAINTAINER := ModMyClassic <contact@modmyclassic.com>
 PLATFORM := SONYPSC
@@ -14,7 +14,7 @@ ifeq ($(DEPENDANT), 1)
 	DEPENDS :=
 endif
 
-PKG_TARGET := $(PKG_NAME)_$(VERSION)_$(PLATFORM)-$(GIT_COMMIT)
+PKG_TARGET := $(PKG_NAME)_$(GIT_COMMIT)_$(PLATFORM)
 
 all : $(PKG_TARGET).mod
 
