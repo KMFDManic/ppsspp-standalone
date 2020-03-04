@@ -60,15 +60,15 @@ include ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/flags.ma
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o: ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/flags.make
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSDependent.dir/ossource.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSDependent.dir/ossource.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp
 
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSDependent.dir/ossource.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp > CMakeFiles/OSDependent.dir/ossource.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp > CMakeFiles/OSDependent.dir/ossource.cpp.i
 
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSDependent.dir/ossource.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp -o CMakeFiles/OSDependent.dir/ossource.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang/OSDependent/Unix && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/OSDependent/Unix/ossource.cpp -o CMakeFiles/OSDependent.dir/ossource.cpp.s
 
 ext/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o.requires:
 

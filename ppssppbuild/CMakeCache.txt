@@ -39,18 +39,18 @@ CCACHE_FOUND:FILEPATH=CCACHE_FOUND-NOTFOUND
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //The ASM compiler
-CMAKE_ASM_COMPILER:FILEPATH=/usr/bin/arm-linux-gnueabihf-gcc-6
+CMAKE_ASM_COMPILER:FILEPATH=/usr/bin/arm-linux-gnueabihf-gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_ASM_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar
+CMAKE_ASM_COMPILER_AR:FILEPATH=/usr/bin/arm-linux-gnueabihf-gcc-ar
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_ASM_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib
+CMAKE_ASM_COMPILER_RANLIB:FILEPATH=/usr/bin/arm-linux-gnueabihf-ranlib
 
 //Flags used by the assembler during all build types.
-CMAKE_ASM_FLAGS:STRING=-fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
+CMAKE_ASM_FLAGS:STRING=fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
 
 //Flags used by the assembler during debug builds.
 CMAKE_ASM_FLAGS_DEBUG:STRING=-g
@@ -72,18 +72,18 @@ CMAKE_BUILD_TYPE:STRING=Release
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler.
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/arm-linux-gnueabihf-g++-6
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/arm-linux-gnueabihf-g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-6
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-8
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-6
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-8
 
 //Flags used by the compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
+CMAKE_CXX_FLAGS:STRING=fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
 
 //Flags used by the compiler during debug builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -99,18 +99,18 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler.
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/arm-linux-gnueabihf-gcc-6
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/arm-linux-gnueabihf-gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-6
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-8
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-6
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-8
 
 //Flags used by the compiler during all build types.
-CMAKE_C_FLAGS:STRING=-fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
+CMAKE_C_FLAGS:STRING=fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
 
 //Flags used by the compiler during debug builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -299,7 +299,7 @@ CVS_UPDATE_OPTIONS:STRING=-d -A -P
 Common_LIB_DEPENDS:STATIC=general;Ext::Snappy;general;SDL2::SDL2;
 
 //Dependencies for the target
-Core_LIB_DEPENDS:STATIC=general;Common;general;native;general;kirk;general;cityhash;general;sfmt19937;general;xbrz;general;xxhash;general;glslang;general;OGLCompiler;general;OSDependent;general;SPIRV;general;SPVRemapper;general;spirv-cross-glsl;general;armips;general;GLESv2;general;EGL;general;EGL;general;dl;general;FFmpeg::avcodec;general;FFmpeg::avformat;general;FFmpeg::avutil;general;FFmpeg::swresample;general;FFmpeg::swscale;general;/usr/lib/arm-linux-gnueabihf/lib_psc/libz.so;
+Core_LIB_DEPENDS:STATIC=general;Common;general;native;general;kirk;general;cityhash;general;sfmt19937;general;xbrz;general;xxhash;general;glslang;general;OGLCompiler;general;OSDependent;general;SPIRV;general;SPVRemapper;general;spirv-cross-glsl;general;armips;general;GLESv2;general;EGL;general;dl;general;FFmpeg::avcodec;general;FFmpeg::avformat;general;FFmpeg::avutil;general;FFmpeg::swresample;general;FFmpeg::swscale;general;/usr/arm-linux-gnueabihf/lib_psc/libz.so;
 
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
@@ -389,7 +389,7 @@ LIBRETRO:BOOL=OFF
 LIBZIP_INCLUDE_DIR:PATH=LIBZIP_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-LIBZIP_LIBRARY:FILEPATH=LIBZIP_LIBRARY-NOTFOUND
+LIBZIP_LIBRARY:FILEPATH=
 
 //Command to build the project
 MAKECOMMAND:STRING=/usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
@@ -434,7 +434,7 @@ OPENGL_glx_LIBRARY:FILEPATH=/usr/arm-linux-gnueabihf/lib_psc/libGLESv2_PVR_MESA.
 OPENGL_opengl_LIBRARY:FILEPATH=/usr/arm-linux-gnueabihf/lib_psc/libGLESv2.so.2.0.0
 
 //Path to a file.
-OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
+OPENGL_xmesa_INCLUDE_DIR:PATH=/usr/arm-linux-gnueabihf/psc_SDK/GLES2
 
 //Dependencies for target
 OSDependent_LIB_DEPENDS:STATIC=
@@ -468,7 +468,7 @@ SCPCOMMAND:FILEPATH=/usr/bin/scp
 SDL2_INCLUDE_DIR:PATH=/usr/arm-linux-gnueabihf/psc_SDK/SDL2
 
 //Path to a library.
-SDL2_LIBRARY:FILEPATH=/usr/arm-linux-gnueabihf/lib_psc/libSDL2-2.0.so.0
+SDL2_LIBRARY:FILEPATH=/usr/arm-linux-gnueabihf/lib_psc/libSDL2-2.0.so
 
 //Set to ON when targeting an x86 simulator of an ARM platform
 SIMULATOR:BOOL=OFF
@@ -537,7 +537,7 @@ USE_SYSTEM_SNAPPY:BOOL=OFF
 USE_WAYLAND_WSI:BOOL=ON
 
 //Set to ON if target environment uses EGL
-USING_EGL:BOOL=ON
+USING_EGL:BOOL=OFF
 
 //Set to ON if target environment uses fbdev (eg. Pandora)
 USING_FBDEV:BOOL=OFF
@@ -771,7 +771,7 @@ ZLIB_INCLUDE_DIR:PATH=/usr/include
 ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/arm-linux-gnueabihf/lib_psc/libz.so
+ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/arm-linux-gnueabihf/lib_psc/libz.so
 
 //Value Computed by CMake
 armips_BINARY_DIR:STATIC=/builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/armips
@@ -804,7 +804,7 @@ kirk_LIB_DEPENDS:STATIC=
 libzip_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
-native_LIB_DEPENDS:STATIC=general;libzip;general;png17;general;/usr/lib/arm-linux-gnueabihf/lib_psc/libz.so;general;rg_etc1;general;gason;general;udis86;general;rt;general;SDL2::SDL2;general;pthread;
+native_LIB_DEPENDS:STATIC=general;libzip;general;png17;general;/usr/arm-linux-gnueabihf/lib_psc/libz.so;general;rg_etc1;general;gason;general;udis86;general;rt;general;SDL2::SDL2;
 
 //Dependencies for target
 png17_LIB_DEPENDS:STATIC=
@@ -1064,7 +1064,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.6.9(3)]
 //Details about finding SDL2
-FIND_PACKAGE_MESSAGE_DETAILS_SDL2:INTERNAL=[/usr/arm-linux-gnueabihf/lib_psc/libSDL2-2.0.so.0][/usr/arm-linux-gnueabihf/psc_SDK/SDL2][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_SDL2:INTERNAL=[/usr/arm-linux-gnueabihf/lib_psc/libSDL2-2.0.so][/usr/arm-linux-gnueabihf/psc_SDK/SDL2][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding WAYLAND
@@ -1078,7 +1078,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_WAYLAND_EGL:INTERNAL=[/usr/local/lib/libwayland-egl
 //Details about finding WAYLAND_SERVER
 FIND_PACKAGE_MESSAGE_DETAILS_WAYLAND_SERVER:INTERNAL=[/usr/local/lib/libwayland-server.so][/usr/local/include][v()]
 //Details about finding ZLIB
-FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/arm-linux-gnueabihf/lib_psc/libz.so][/usr/include][v1.2.11()]
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/arm-linux-gnueabihf/lib_psc/libz.so][/usr/include][v1.2.11()]
 //ADVANCED property for variable: GITCOMMAND
 GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: HGCOMMAND

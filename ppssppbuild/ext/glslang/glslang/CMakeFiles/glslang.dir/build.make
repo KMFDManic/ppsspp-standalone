@@ -60,15 +60,15 @@ include ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/glslang_tab.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/glslang_tab.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/glslang_tab.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/glslang_tab.cpp > CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/glslang_tab.cpp > CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/glslang_tab.cpp -o CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/glslang_tab.cpp -o CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.o.requires:
 
@@ -84,15 +84,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/glslang_tab.cpp.o.
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/attribute.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/attribute.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/attribute.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/attribute.cpp > CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/attribute.cpp > CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/attribute.cpp -o CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/attribute.cpp -o CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.o.requires:
 
@@ -108,15 +108,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/attribute.cpp.o.pr
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Constant.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Constant.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Constant.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Constant.cpp > CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Constant.cpp > CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Constant.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Constant.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.o.requires:
 
@@ -132,15 +132,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Constant.cpp.o.pro
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/iomapper.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/iomapper.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/iomapper.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/iomapper.cpp > CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/iomapper.cpp > CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/iomapper.cpp -o CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/iomapper.cpp -o CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.o.requires:
 
@@ -156,15 +156,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/iomapper.cpp.o.pro
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/InfoSink.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/InfoSink.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/InfoSink.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/InfoSink.cpp > CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/InfoSink.cpp > CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/InfoSink.cpp -o CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/InfoSink.cpp -o CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.o.requires:
 
@@ -180,15 +180,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/InfoSink.cpp.o.pro
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Initialize.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Initialize.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Initialize.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Initialize.cpp > CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Initialize.cpp > CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Initialize.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Initialize.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.o.requires:
 
@@ -204,15 +204,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Initialize.cpp.o.p
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/IntermTraverse.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/IntermTraverse.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/IntermTraverse.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/IntermTraverse.cpp > CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/IntermTraverse.cpp > CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/IntermTraverse.cpp -o CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/IntermTraverse.cpp -o CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp.o.requires:
 
@@ -228,15 +228,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/IntermTraverse.cpp
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Intermediate.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Intermediate.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Intermediate.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Intermediate.cpp > CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Intermediate.cpp > CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Intermediate.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Intermediate.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.o.requires:
 
@@ -252,15 +252,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Intermediate.cpp.o
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseContextBase.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseContextBase.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseContextBase.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseContextBase.cpp > CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseContextBase.cpp > CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseContextBase.cpp -o CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseContextBase.cpp -o CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.cpp.o.requires:
 
@@ -276,15 +276,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseContextBase.c
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseHelper.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseHelper.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseHelper.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseHelper.cpp > CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseHelper.cpp > CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseHelper.cpp -o CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ParseHelper.cpp -o CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.o.requires:
 
@@ -300,15 +300,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ParseHelper.cpp.o.
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/PoolAlloc.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/PoolAlloc.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/PoolAlloc.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/PoolAlloc.cpp > CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/PoolAlloc.cpp > CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/PoolAlloc.cpp -o CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/PoolAlloc.cpp -o CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.o.requires:
 
@@ -324,15 +324,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/PoolAlloc.cpp.o.pr
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/RemoveTree.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/RemoveTree.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/RemoveTree.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/RemoveTree.cpp > CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/RemoveTree.cpp > CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/RemoveTree.cpp -o CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/RemoveTree.cpp -o CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.o.requires:
 
@@ -348,15 +348,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/RemoveTree.cpp.o.p
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Scan.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Scan.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Scan.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Scan.cpp > CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Scan.cpp > CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Scan.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Scan.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.o.requires:
 
@@ -372,15 +372,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Scan.cpp.o.provide
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ShaderLang.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ShaderLang.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ShaderLang.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ShaderLang.cpp > CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ShaderLang.cpp > CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ShaderLang.cpp -o CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/ShaderLang.cpp -o CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.o.requires:
 
@@ -396,15 +396,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/ShaderLang.cpp.o.p
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/SymbolTable.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/SymbolTable.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/SymbolTable.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/SymbolTable.cpp > CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/SymbolTable.cpp > CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/SymbolTable.cpp -o CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/SymbolTable.cpp -o CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.o.requires:
 
@@ -420,15 +420,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/SymbolTable.cpp.o.
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.cpp > CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.cpp > CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/Versions.cpp -o CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.o.requires:
 
@@ -444,15 +444,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/Versions.cpp.o.pro
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/intermOut.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/intermOut.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/intermOut.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/intermOut.cpp > CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/intermOut.cpp > CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/intermOut.cpp -o CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/intermOut.cpp -o CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.o.requires:
 
@@ -468,15 +468,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/intermOut.cpp.o.pr
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/limits.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/limits.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/limits.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/limits.cpp > CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/limits.cpp > CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/limits.cpp -o CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/limits.cpp -o CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.o.requires:
 
@@ -492,15 +492,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/limits.cpp.o.provi
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/linkValidate.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/linkValidate.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/linkValidate.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/linkValidate.cpp > CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/linkValidate.cpp > CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/linkValidate.cpp -o CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/linkValidate.cpp -o CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.o.requires:
 
@@ -516,15 +516,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/linkValidate.cpp.o
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/parseConst.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/parseConst.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/parseConst.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/parseConst.cpp > CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/parseConst.cpp > CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/parseConst.cpp -o CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/parseConst.cpp -o CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.o.requires:
 
@@ -540,15 +540,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/parseConst.cpp.o.p
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/reflection.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/reflection.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/reflection.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/reflection.cpp > CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/reflection.cpp > CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/reflection.cpp -o CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/reflection.cpp -o CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.o.requires:
 
@@ -564,15 +564,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/reflection.cpp.o.p
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cpp.o.requires:
 
@@ -588,15 +588,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/Pp.cp
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAtom.cpp.o.requires:
 
@@ -612,15 +612,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpAto
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpContext.cpp.o.requires:
 
@@ -636,15 +636,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpCon
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpScanner.cpp.o.requires:
 
@@ -660,15 +660,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpSca
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp > CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp -o CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTokens.cpp.o.requires:
 
@@ -684,15 +684,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/preprocessor/PpTok
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/propagateNoContraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/propagateNoContraction.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/propagateNoContraction.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/propagateNoContraction.cpp > CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/propagateNoContraction.cpp > CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/propagateNoContraction.cpp -o CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/MachineIndependent/propagateNoContraction.cpp -o CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/propagateNoContraction.cpp.o.requires:
 
@@ -708,15 +708,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/MachineIndependent/propagateNoContrac
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/CodeGen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/CodeGen.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/CodeGen.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/CodeGen.cpp > CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/CodeGen.cpp > CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/CodeGen.cpp -o CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/CodeGen.cpp -o CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.o.requires:
 
@@ -732,15 +732,15 @@ ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/CodeGen.cpp.o.provides
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.o: ext/glslang/glslang/CMakeFiles/glslang.dir/flags.make
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/Link.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/Link.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/Link.cpp
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/Link.cpp > CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/Link.cpp > CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.i
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/Link.cpp -o CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/glslang && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/glslang/GenericCodeGen/Link.cpp -o CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.s
 
 ext/glslang/glslang/CMakeFiles/glslang.dir/GenericCodeGen/Link.cpp.o.requires:
 

@@ -60,15 +60,15 @@ include CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/android/jni/TestRunner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/android/jni/TestRunner.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/android/jni/TestRunner.cpp
 
 CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/android/jni/TestRunner.cpp > CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/android/jni/TestRunner.cpp > CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/android/jni/TestRunner.cpp -o CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/android/jni/TestRunner.cpp -o CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/PPSSPPSDL.dir/android/jni/TestRunner.cpp.o.provides.build: CMakeFiles
 CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DiscordIntegration.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DiscordIntegration.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DiscordIntegration.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DiscordIntegration.cpp > CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DiscordIntegration.cpp > CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DiscordIntegration.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DiscordIntegration.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/DiscordIntegration.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/NativeApp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/NativeApp.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/NativeApp.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/NativeApp.cpp > CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/NativeApp.cpp > CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/NativeApp.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/NativeApp.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/NativeApp.cpp.o.provides.build: CMakeFiles/PPSSPPSDL
 CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/BackgroundAudio.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/BackgroundAudio.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/BackgroundAudio.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/BackgroundAudio.cpp > CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/BackgroundAudio.cpp > CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/BackgroundAudio.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/BackgroundAudio.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/BackgroundAudio.cpp.o.provides.build: CMakeFiles/PPS
 CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DevScreens.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DevScreens.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DevScreens.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DevScreens.cpp > CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DevScreens.cpp > CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DevScreens.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DevScreens.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/DevScreens.cpp.o.provides.build: CMakeFiles/PPSSPPSD
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutEditor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutEditor.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutEditor.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutEditor.cpp > CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutEditor.cpp > CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutEditor.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutEditor.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutEditor.cpp.o.provides.build: CMakeFiles
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/DisplayLayoutScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/DisplayLayoutScreen.cpp.o.provides.build: CMakeFiles
 CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/EmuScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/EmuScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/EmuScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/EmuScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/EmuScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/EmuScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/EmuScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/EmuScreen.cpp.o.provides.build: CMakeFiles/PPSSPPSDL
 CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameInfoCache.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameInfoCache.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameInfoCache.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameInfoCache.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameInfoCache.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameInfoCache.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameInfoCache.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/GameInfoCache.cpp.o.provides.build: CMakeFiles/PPSSP
 CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MainScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MainScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MainScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MainScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MainScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MainScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MainScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/MainScreen.cpp.o.provides.build: CMakeFiles/PPSSPPSD
 CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MiscScreens.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MiscScreens.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MiscScreens.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MiscScreens.cpp > CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MiscScreens.cpp > CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MiscScreens.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/MiscScreens.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/MiscScreens.cpp.o.provides.build: CMakeFiles/PPSSPPS
 CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/PauseScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/PauseScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/PauseScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/PauseScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/PauseScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/PauseScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/PauseScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/PauseScreen.cpp.o.provides.build: CMakeFiles/PPSSPPS
 CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.o.requires:
 
@@ -372,15 +372,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/GameScreen.cpp.o.provides.build: CMakeFiles/PPSSPPSD
 CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameSettingsScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameSettingsScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameSettingsScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameSettingsScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameSettingsScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameSettingsScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GameSettingsScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.o.requires:
 
@@ -396,15 +396,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/GameSettingsScreen.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GPUDriverTestScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GPUDriverTestScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GPUDriverTestScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GPUDriverTestScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GPUDriverTestScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GPUDriverTestScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GPUDriverTestScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.o.requires:
 
@@ -420,15 +420,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/GPUDriverTestScreen.cpp.o.provides.build: CMakeFiles
 CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltAnalogSettingsScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltAnalogSettingsScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltAnalogSettingsScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltAnalogSettingsScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltAnalogSettingsScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltAnalogSettingsScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltAnalogSettingsScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.o.requires:
 
@@ -444,15 +444,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/TiltAnalogSettingsScreen.cpp.o.provides.build: CMake
 CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltEventProcessor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltEventProcessor.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltEventProcessor.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltEventProcessor.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltEventProcessor.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltEventProcessor.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TiltEventProcessor.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.o.requires:
 
@@ -468,15 +468,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/TiltEventProcessor.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlLayoutScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlLayoutScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlLayoutScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlLayoutScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlLayoutScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlLayoutScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlLayoutScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.o.requires:
 
@@ -492,15 +492,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/TouchControlLayoutScreen.cpp.o.provides.build: CMake
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlVisibilityScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlVisibilityScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlVisibilityScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlVisibilityScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlVisibilityScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlVisibilityScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TouchControlVisibilityScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.o.requires:
 
@@ -516,15 +516,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/TouchControlVisibilityScreen.cpp.o.provides.build: C
 CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GamepadEmu.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GamepadEmu.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GamepadEmu.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GamepadEmu.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GamepadEmu.cpp > CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GamepadEmu.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/GamepadEmu.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.o.requires:
 
@@ -540,15 +540,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/GamepadEmu.cpp.o.provides.build: CMakeFiles/PPSSPPSD
 CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/OnScreenDisplay.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/OnScreenDisplay.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/OnScreenDisplay.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/OnScreenDisplay.cpp > CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/OnScreenDisplay.cpp > CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/OnScreenDisplay.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/OnScreenDisplay.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.o.requires:
 
@@ -564,15 +564,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/OnScreenDisplay.cpp.o.provides.build: CMakeFiles/PPS
 CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ControlMappingScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ControlMappingScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ControlMappingScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ControlMappingScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ControlMappingScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ControlMappingScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ControlMappingScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.o.requires:
 
@@ -588,15 +588,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/ControlMappingScreen.cpp.o.provides.build: CMakeFile
 CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/RemoteISOScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/RemoteISOScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/RemoteISOScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/RemoteISOScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/RemoteISOScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/RemoteISOScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/RemoteISOScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.o.requires:
 
@@ -612,15 +612,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/RemoteISOScreen.cpp.o.provides.build: CMakeFiles/PPS
 CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ReportScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ReportScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ReportScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ReportScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ReportScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ReportScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ReportScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.o.requires:
 
@@ -636,15 +636,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/ReportScreen.cpp.o.provides.build: CMakeFiles/PPSSPP
 CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/SavedataScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/SavedataScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/SavedataScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/SavedataScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/SavedataScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/SavedataScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/SavedataScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.o.requires:
 
@@ -660,15 +660,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/SavedataScreen.cpp.o.provides.build: CMakeFiles/PPSS
 CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/Store.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/Store.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/Store.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/Store.cpp > CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/Store.cpp > CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/Store.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/Store.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.o.requires:
 
@@ -684,15 +684,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/Store.cpp.o.provides.build: CMakeFiles/PPSSPPSDL.dir
 CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/CwCheatScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/CwCheatScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/CwCheatScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/CwCheatScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/CwCheatScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/CwCheatScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/CwCheatScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.o.requires:
 
@@ -708,15 +708,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/CwCheatScreen.cpp.o.provides.build: CMakeFiles/PPSSP
 CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/InstallZipScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/InstallZipScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/InstallZipScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/InstallZipScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/InstallZipScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/InstallZipScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/InstallZipScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.o.requires:
 
@@ -732,15 +732,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/InstallZipScreen.cpp.o.provides.build: CMakeFiles/PP
 CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ProfilerDraw.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ProfilerDraw.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ProfilerDraw.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ProfilerDraw.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ProfilerDraw.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ProfilerDraw.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ProfilerDraw.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.o.requires:
 
@@ -756,15 +756,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/ProfilerDraw.cpp.o.provides.build: CMakeFiles/PPSSPP
 CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ui_atlas.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ui_atlas.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ui_atlas.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ui_atlas.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ui_atlas.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ui_atlas.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ui_atlas.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.o.requires:
 
@@ -780,15 +780,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/ui_atlas.cpp.o.provides.build: CMakeFiles/PPSSPPSDL.
 CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TextureUtil.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TextureUtil.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TextureUtil.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TextureUtil.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TextureUtil.cpp > CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TextureUtil.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/TextureUtil.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.o.requires:
 
@@ -804,15 +804,15 @@ CMakeFiles/PPSSPPSDL.dir/UI/TextureUtil.cpp.o.provides.build: CMakeFiles/PPSSPPS
 CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.o: CMakeFiles/PPSSPPSDL.dir/flags.make
 CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ComboKeyMappingScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ComboKeyMappingScreen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ComboKeyMappingScreen.cpp
 
 CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ComboKeyMappingScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ComboKeyMappingScreen.cpp > CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.i
 
 CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ComboKeyMappingScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/UI/ComboKeyMappingScreen.cpp -o CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.s
 
 CMakeFiles/PPSSPPSDL.dir/UI/ComboKeyMappingScreen.cpp.o.requires:
 
@@ -900,7 +900,7 @@ PPSSPPSDL: lib/libCore.a
 PPSSPPSDL: lib/libCommon.a
 PPSSPPSDL: lib/libsnappy.a
 PPSSPPSDL: lib/libnative.a
-PPSSPPSDL: /usr/arm-linux-gnueabihf/lib_psc/libSDL2-2.0.so.0
+PPSSPPSDL: /usr/arm-linux-gnueabihf/lib_psc/libSDL2-2.0.so
 PPSSPPSDL: lib/liblibzip.a
 PPSSPPSDL: lib/libpng17.a
 PPSSPPSDL: lib/librg_etc1.a
@@ -924,7 +924,7 @@ PPSSPPSDL: /builds/modmyclassic/ports/ppsspp/ppsspp/ffmpeg/linux/armv7/lib/libav
 PPSSPPSDL: /builds/modmyclassic/ports/ppsspp/ppsspp/ffmpeg/linux/armv7/lib/libswresample.a
 PPSSPPSDL: /builds/modmyclassic/ports/ppsspp/ppsspp/ffmpeg/linux/armv7/lib/libswscale.a
 PPSSPPSDL: /builds/modmyclassic/ports/ppsspp/ppsspp/ffmpeg/linux/armv7/lib/libavutil.a
-PPSSPPSDL: /usr/lib/arm-linux-gnueabihf/lib_psc/libz.so
+PPSSPPSDL: /usr/arm-linux-gnueabihf/lib_psc/libz.so
 PPSSPPSDL: CMakeFiles/PPSSPPSDL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable PPSSPPSDL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PPSSPPSDL.dir/link.txt --verbose=$(VERBOSE)

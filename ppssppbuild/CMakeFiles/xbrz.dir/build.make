@@ -60,15 +60,15 @@ include CMakeFiles/xbrz.dir/flags.make
 CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o: CMakeFiles/xbrz.dir/flags.make
 CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp
 
 CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp > CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp > CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.i
 
 CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp -o CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/xbrz/xbrz.cpp -o CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.s
 
 CMakeFiles/xbrz.dir/ext/xbrz/xbrz.cpp.o.requires:
 

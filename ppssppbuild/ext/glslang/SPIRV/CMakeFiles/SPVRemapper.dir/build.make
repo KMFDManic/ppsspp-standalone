@@ -60,15 +60,15 @@ include ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/flags.make
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.o: ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/flags.make
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.cpp
 
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.cpp > CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.cpp > CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.i
 
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.cpp -o CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/SPVRemapper.cpp -o CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.s
 
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.o.requires:
 
@@ -84,15 +84,15 @@ ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/SPVRemapper.cpp.o.provides.build: e
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.o: ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/flags.make
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPVRemapper.dir/doc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SPVRemapper.dir/doc.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.cpp
 
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SPVRemapper.dir/doc.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.cpp > CMakeFiles/SPVRemapper.dir/doc.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.cpp > CMakeFiles/SPVRemapper.dir/doc.cpp.i
 
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SPVRemapper.dir/doc.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.cpp -o CMakeFiles/SPVRemapper.dir/doc.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/glslang/SPIRV && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/glslang/SPIRV/doc.cpp -o CMakeFiles/SPVRemapper.dir/doc.cpp.s
 
 ext/glslang/SPIRV/CMakeFiles/SPVRemapper.dir/doc.cpp.o.requires:
 

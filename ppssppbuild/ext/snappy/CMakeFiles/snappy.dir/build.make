@@ -60,15 +60,15 @@ include ext/snappy/CMakeFiles/snappy.dir/flags.make
 ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.o: ext/snappy/CMakeFiles/snappy.dir/flags.make
 ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snappy.dir/snappy-c.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snappy.dir/snappy-c.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.cpp
 
 ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snappy.dir/snappy-c.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.cpp > CMakeFiles/snappy.dir/snappy-c.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.cpp > CMakeFiles/snappy.dir/snappy-c.cpp.i
 
 ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snappy.dir/snappy-c.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.cpp -o CMakeFiles/snappy.dir/snappy-c.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy-c.cpp -o CMakeFiles/snappy.dir/snappy-c.cpp.s
 
 ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.o.requires:
 
@@ -84,15 +84,15 @@ ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.o.provides.build: ext/snappy/CMake
 ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.o: ext/snappy/CMakeFiles/snappy.dir/flags.make
 ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snappy.dir/snappy.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snappy.dir/snappy.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.cpp
 
 ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snappy.dir/snappy.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.cpp > CMakeFiles/snappy.dir/snappy.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.cpp > CMakeFiles/snappy.dir/snappy.cpp.i
 
 ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snappy.dir/snappy.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.cpp -o CMakeFiles/snappy.dir/snappy.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/snappy && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/snappy/snappy.cpp -o CMakeFiles/snappy.dir/snappy.cpp.s
 
 ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.o.requires:
 

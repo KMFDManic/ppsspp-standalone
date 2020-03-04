@@ -14,7 +14,7 @@ CostDataFile:
 Site: smithmedia
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-arm-linux-gnueabihf-g++-6
+BuildName: Linux-arm-linux-gnueabihf-g++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -72,8 +72,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/arm-linux-gnueabihf-g++-6
-CompilerVersion: 6.5.0
+Compiler: /usr/bin/arm-linux-gnueabihf-g++
+CompilerVersion: 8.3.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

@@ -60,15 +60,15 @@ include CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/png.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/png.c.o.provides.build: CMakeFiles/
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngerror.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngerror.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngerror.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngerror.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngerror.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngerror.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngerror.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngerror.c.o.provides.build: CMakeF
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngget.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngget.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngget.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngget.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngget.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngget.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngget.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngget.c.o.provides.build: CMakeFil
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngmem.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngmem.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngmem.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngmem.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngmem.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngmem.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngmem.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngmem.c.o.provides.build: CMakeFil
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpread.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpread.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpread.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpread.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpread.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpread.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngpread.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngpread.c.o.provides.build: CMakeF
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngread.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngread.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngread.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngread.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngread.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngread.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngread.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngread.c.o.provides.build: CMakeFi
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrio.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrio.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrio.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrio.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrio.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrio.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrio.c.o.provides.build: CMakeFil
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrtran.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrtran.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrtran.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrtran.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrtran.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrtran.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrtran.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrtran.c.o.provides.build: CMakeF
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrutil.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrutil.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrutil.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrutil.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrutil.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrutil.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngrutil.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngrutil.c.o.provides.build: CMakeF
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngset.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngset.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngset.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngset.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngset.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngset.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngset.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngset.c.o.provides.build: CMakeFil
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngtrans.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngtrans.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngtrans.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngtrans.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngtrans.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngtrans.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngtrans.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngtrans.c.o.provides.build: CMakeF
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwio.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwio.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwio.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwio.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwio.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwio.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwio.c.o.provides.build: CMakeFil
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwrite.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwrite.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwrite.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwrite.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwrite.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwrite.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwrite.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.o.requires:
 
@@ -372,15 +372,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwrite.c.o.provides.build: CMakeF
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwtran.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwtran.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwtran.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwtran.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwtran.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwtran.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwtran.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.o.requires:
 
@@ -396,15 +396,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwtran.c.o.provides.build: CMakeF
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwutil.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwutil.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwutil.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwutil.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwutil.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwutil.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/pngwutil.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.o.requires:
 
@@ -420,15 +420,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/pngwutil.c.o.provides.build: CMakeF
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/arm_init.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/arm_init.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/arm_init.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/arm_init.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/arm_init.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/arm_init.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/arm_init.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.o.requires:
 
@@ -444,7 +444,7 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/arm_init.c.o.provides.build: CM
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon.S.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon.S.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building ASM object CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon.S.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon.S.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon.S
+	/usr/bin/arm-linux-gnueabihf-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon.S.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon.S
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon.S.o.requires:
 
@@ -460,15 +460,15 @@ CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon.S.o.provides.build:
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.o: CMakeFiles/png17.dir/flags.make
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c > CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.i
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c -o CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.s
 
 CMakeFiles/png17.dir/ext/native/ext/libpng17/arm/filter_neon_intrinsics.c.o.requires:
 

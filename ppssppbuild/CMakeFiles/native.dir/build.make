@@ -60,15 +60,15 @@ include CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/SDL/SDLJoystick.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/SDL/SDLJoystick.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLJoystick.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/native.dir/SDL/SDLJoystick.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/SDL/SDLJoystick.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLJoystick.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/SDL/SDLJoystick.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLJoystick.cpp
 
 CMakeFiles/native.dir/SDL/SDLJoystick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/SDL/SDLJoystick.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLJoystick.cpp > CMakeFiles/native.dir/SDL/SDLJoystick.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLJoystick.cpp > CMakeFiles/native.dir/SDL/SDLJoystick.cpp.i
 
 CMakeFiles/native.dir/SDL/SDLJoystick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/SDL/SDLJoystick.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLJoystick.cpp -o CMakeFiles/native.dir/SDL/SDLJoystick.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLJoystick.cpp -o CMakeFiles/native.dir/SDL/SDLJoystick.cpp.s
 
 CMakeFiles/native.dir/SDL/SDLJoystick.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/native.dir/SDL/SDLJoystick.cpp.o.provides.build: CMakeFiles/native.di
 CMakeFiles/native.dir/SDL/SDLMain.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/SDL/SDLMain.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLMain.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/native.dir/SDL/SDLMain.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/SDL/SDLMain.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLMain.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/SDL/SDLMain.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLMain.cpp
 
 CMakeFiles/native.dir/SDL/SDLMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/SDL/SDLMain.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLMain.cpp > CMakeFiles/native.dir/SDL/SDLMain.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLMain.cpp > CMakeFiles/native.dir/SDL/SDLMain.cpp.i
 
 CMakeFiles/native.dir/SDL/SDLMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/SDL/SDLMain.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLMain.cpp -o CMakeFiles/native.dir/SDL/SDLMain.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLMain.cpp -o CMakeFiles/native.dir/SDL/SDLMain.cpp.s
 
 CMakeFiles/native.dir/SDL/SDLMain.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/native.dir/SDL/SDLMain.cpp.o.provides.build: CMakeFiles/native.dir/SD
 CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLGLGraphicsContext.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLGLGraphicsContext.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLGLGraphicsContext.cpp
 
 CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLGLGraphicsContext.cpp > CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLGLGraphicsContext.cpp > CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.i
 
 CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLGLGraphicsContext.cpp -o CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLGLGraphicsContext.cpp -o CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.s
 
 CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/native.dir/SDL/SDLGLGraphicsContext.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLVulkanGraphicsContext.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLVulkanGraphicsContext.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLVulkanGraphicsContext.cpp
 
 CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLVulkanGraphicsContext.cpp > CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLVulkanGraphicsContext.cpp > CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.i
 
 CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLVulkanGraphicsContext.cpp -o CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/SDL/SDLVulkanGraphicsContext.cpp -o CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.s
 
 CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/native.dir/SDL/SDLVulkanGraphicsContext.cpp.o.provides.build: CMakeFi
 CMakeFiles/native.dir/ext/native/base/backtrace.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/base/backtrace.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/backtrace.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/native.dir/ext/native/base/backtrace.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/backtrace.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/backtrace.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/backtrace.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/backtrace.cpp
 
 CMakeFiles/native.dir/ext/native/base/backtrace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/base/backtrace.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/backtrace.cpp > CMakeFiles/native.dir/ext/native/base/backtrace.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/backtrace.cpp > CMakeFiles/native.dir/ext/native/base/backtrace.cpp.i
 
 CMakeFiles/native.dir/ext/native/base/backtrace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/base/backtrace.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/backtrace.cpp -o CMakeFiles/native.dir/ext/native/base/backtrace.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/backtrace.cpp -o CMakeFiles/native.dir/ext/native/base/backtrace.cpp.s
 
 CMakeFiles/native.dir/ext/native/base/backtrace.cpp.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/native.dir/ext/native/base/backtrace.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/base/buffer.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/base/buffer.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/buffer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/native.dir/ext/native/base/buffer.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/buffer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/buffer.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/buffer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/buffer.cpp
 
 CMakeFiles/native.dir/ext/native/base/buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/base/buffer.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/buffer.cpp > CMakeFiles/native.dir/ext/native/base/buffer.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/buffer.cpp > CMakeFiles/native.dir/ext/native/base/buffer.cpp.i
 
 CMakeFiles/native.dir/ext/native/base/buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/base/buffer.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/buffer.cpp -o CMakeFiles/native.dir/ext/native/base/buffer.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/buffer.cpp -o CMakeFiles/native.dir/ext/native/base/buffer.cpp.s
 
 CMakeFiles/native.dir/ext/native/base/buffer.cpp.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/native.dir/ext/native/base/buffer.cpp.o.provides.build: CMakeFiles/na
 CMakeFiles/native.dir/ext/native/base/colorutil.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/base/colorutil.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/colorutil.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/native.dir/ext/native/base/colorutil.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/colorutil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/colorutil.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/colorutil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/colorutil.cpp
 
 CMakeFiles/native.dir/ext/native/base/colorutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/base/colorutil.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/colorutil.cpp > CMakeFiles/native.dir/ext/native/base/colorutil.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/colorutil.cpp > CMakeFiles/native.dir/ext/native/base/colorutil.cpp.i
 
 CMakeFiles/native.dir/ext/native/base/colorutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/base/colorutil.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/colorutil.cpp -o CMakeFiles/native.dir/ext/native/base/colorutil.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/colorutil.cpp -o CMakeFiles/native.dir/ext/native/base/colorutil.cpp.s
 
 CMakeFiles/native.dir/ext/native/base/colorutil.cpp.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/native.dir/ext/native/base/colorutil.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/base/display.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/base/display.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/display.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/native.dir/ext/native/base/display.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/display.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/display.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/display.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/display.cpp
 
 CMakeFiles/native.dir/ext/native/base/display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/base/display.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/display.cpp > CMakeFiles/native.dir/ext/native/base/display.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/display.cpp > CMakeFiles/native.dir/ext/native/base/display.cpp.i
 
 CMakeFiles/native.dir/ext/native/base/display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/base/display.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/display.cpp -o CMakeFiles/native.dir/ext/native/base/display.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/display.cpp -o CMakeFiles/native.dir/ext/native/base/display.cpp.s
 
 CMakeFiles/native.dir/ext/native/base/display.cpp.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/native.dir/ext/native/base/display.cpp.o.provides.build: CMakeFiles/n
 CMakeFiles/native.dir/ext/native/base/stringutil.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/base/stringutil.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/stringutil.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/native.dir/ext/native/base/stringutil.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/stringutil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/stringutil.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/stringutil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/stringutil.cpp
 
 CMakeFiles/native.dir/ext/native/base/stringutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/base/stringutil.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/stringutil.cpp > CMakeFiles/native.dir/ext/native/base/stringutil.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/stringutil.cpp > CMakeFiles/native.dir/ext/native/base/stringutil.cpp.i
 
 CMakeFiles/native.dir/ext/native/base/stringutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/base/stringutil.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/stringutil.cpp -o CMakeFiles/native.dir/ext/native/base/stringutil.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/stringutil.cpp -o CMakeFiles/native.dir/ext/native/base/stringutil.cpp.s
 
 CMakeFiles/native.dir/ext/native/base/stringutil.cpp.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/native.dir/ext/native/base/stringutil.cpp.o.provides.build: CMakeFile
 CMakeFiles/native.dir/ext/native/base/timeutil.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/base/timeutil.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/timeutil.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/native.dir/ext/native/base/timeutil.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/timeutil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/timeutil.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/base/timeutil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/timeutil.cpp
 
 CMakeFiles/native.dir/ext/native/base/timeutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/base/timeutil.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/timeutil.cpp > CMakeFiles/native.dir/ext/native/base/timeutil.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/timeutil.cpp > CMakeFiles/native.dir/ext/native/base/timeutil.cpp.i
 
 CMakeFiles/native.dir/ext/native/base/timeutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/base/timeutil.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/timeutil.cpp -o CMakeFiles/native.dir/ext/native/base/timeutil.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/base/timeutil.cpp -o CMakeFiles/native.dir/ext/native/base/timeutil.cpp.s
 
 CMakeFiles/native.dir/ext/native/base/timeutil.cpp.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/native.dir/ext/native/base/timeutil.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/data/base64.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/data/base64.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/base64.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/native.dir/ext/native/data/base64.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/data/base64.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/base64.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/data/base64.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/base64.cpp
 
 CMakeFiles/native.dir/ext/native/data/base64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/data/base64.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/base64.cpp > CMakeFiles/native.dir/ext/native/data/base64.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/base64.cpp > CMakeFiles/native.dir/ext/native/data/base64.cpp.i
 
 CMakeFiles/native.dir/ext/native/data/base64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/data/base64.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/base64.cpp -o CMakeFiles/native.dir/ext/native/data/base64.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/base64.cpp -o CMakeFiles/native.dir/ext/native/data/base64.cpp.s
 
 CMakeFiles/native.dir/ext/native/data/base64.cpp.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/native.dir/ext/native/data/base64.cpp.o.provides.build: CMakeFiles/na
 CMakeFiles/native.dir/ext/native/data/compression.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/data/compression.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/compression.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/native.dir/ext/native/data/compression.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/data/compression.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/compression.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/data/compression.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/compression.cpp
 
 CMakeFiles/native.dir/ext/native/data/compression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/data/compression.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/compression.cpp > CMakeFiles/native.dir/ext/native/data/compression.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/compression.cpp > CMakeFiles/native.dir/ext/native/data/compression.cpp.i
 
 CMakeFiles/native.dir/ext/native/data/compression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/data/compression.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/compression.cpp -o CMakeFiles/native.dir/ext/native/data/compression.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/data/compression.cpp -o CMakeFiles/native.dir/ext/native/data/compression.cpp.s
 
 CMakeFiles/native.dir/ext/native/data/compression.cpp.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/native.dir/ext/native/data/compression.cpp.o.provides.build: CMakeFil
 CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/chunk_file.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/chunk_file.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/chunk_file.cpp
 
 CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/chunk_file.cpp > CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/chunk_file.cpp > CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.i
 
 CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/chunk_file.cpp -o CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/chunk_file.cpp -o CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.s
 
 CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.o.requires:
 
@@ -372,15 +372,15 @@ CMakeFiles/native.dir/ext/native/file/chunk_file.cpp.o.provides.build: CMakeFile
 CMakeFiles/native.dir/ext/native/file/fd_util.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/file/fd_util.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/fd_util.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/native.dir/ext/native/file/fd_util.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/fd_util.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/fd_util.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/fd_util.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/fd_util.cpp
 
 CMakeFiles/native.dir/ext/native/file/fd_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/file/fd_util.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/fd_util.cpp > CMakeFiles/native.dir/ext/native/file/fd_util.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/fd_util.cpp > CMakeFiles/native.dir/ext/native/file/fd_util.cpp.i
 
 CMakeFiles/native.dir/ext/native/file/fd_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/file/fd_util.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/fd_util.cpp -o CMakeFiles/native.dir/ext/native/file/fd_util.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/fd_util.cpp -o CMakeFiles/native.dir/ext/native/file/fd_util.cpp.s
 
 CMakeFiles/native.dir/ext/native/file/fd_util.cpp.o.requires:
 
@@ -396,15 +396,15 @@ CMakeFiles/native.dir/ext/native/file/fd_util.cpp.o.provides.build: CMakeFiles/n
 CMakeFiles/native.dir/ext/native/file/file_util.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/file/file_util.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/file_util.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/native.dir/ext/native/file/file_util.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/file_util.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/file_util.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/file_util.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/file_util.cpp
 
 CMakeFiles/native.dir/ext/native/file/file_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/file/file_util.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/file_util.cpp > CMakeFiles/native.dir/ext/native/file/file_util.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/file_util.cpp > CMakeFiles/native.dir/ext/native/file/file_util.cpp.i
 
 CMakeFiles/native.dir/ext/native/file/file_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/file/file_util.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/file_util.cpp -o CMakeFiles/native.dir/ext/native/file/file_util.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/file_util.cpp -o CMakeFiles/native.dir/ext/native/file/file_util.cpp.s
 
 CMakeFiles/native.dir/ext/native/file/file_util.cpp.o.requires:
 
@@ -420,15 +420,15 @@ CMakeFiles/native.dir/ext/native/file/file_util.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/file/free.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/file/free.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/free.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/native.dir/ext/native/file/free.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/free.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/free.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/free.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/free.cpp
 
 CMakeFiles/native.dir/ext/native/file/free.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/file/free.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/free.cpp > CMakeFiles/native.dir/ext/native/file/free.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/free.cpp > CMakeFiles/native.dir/ext/native/file/free.cpp.i
 
 CMakeFiles/native.dir/ext/native/file/free.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/file/free.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/free.cpp -o CMakeFiles/native.dir/ext/native/file/free.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/free.cpp -o CMakeFiles/native.dir/ext/native/file/free.cpp.s
 
 CMakeFiles/native.dir/ext/native/file/free.cpp.o.requires:
 
@@ -444,15 +444,15 @@ CMakeFiles/native.dir/ext/native/file/free.cpp.o.provides.build: CMakeFiles/nati
 CMakeFiles/native.dir/ext/native/file/ini_file.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/file/ini_file.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/ini_file.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/native.dir/ext/native/file/ini_file.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/ini_file.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/ini_file.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/ini_file.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/ini_file.cpp
 
 CMakeFiles/native.dir/ext/native/file/ini_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/file/ini_file.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/ini_file.cpp > CMakeFiles/native.dir/ext/native/file/ini_file.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/ini_file.cpp > CMakeFiles/native.dir/ext/native/file/ini_file.cpp.i
 
 CMakeFiles/native.dir/ext/native/file/ini_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/file/ini_file.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/ini_file.cpp -o CMakeFiles/native.dir/ext/native/file/ini_file.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/ini_file.cpp -o CMakeFiles/native.dir/ext/native/file/ini_file.cpp.s
 
 CMakeFiles/native.dir/ext/native/file/ini_file.cpp.o.requires:
 
@@ -468,15 +468,15 @@ CMakeFiles/native.dir/ext/native/file/ini_file.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/file/path.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/file/path.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/path.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/native.dir/ext/native/file/path.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/path.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/path.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/path.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/path.cpp
 
 CMakeFiles/native.dir/ext/native/file/path.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/file/path.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/path.cpp > CMakeFiles/native.dir/ext/native/file/path.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/path.cpp > CMakeFiles/native.dir/ext/native/file/path.cpp.i
 
 CMakeFiles/native.dir/ext/native/file/path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/file/path.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/path.cpp -o CMakeFiles/native.dir/ext/native/file/path.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/path.cpp -o CMakeFiles/native.dir/ext/native/file/path.cpp.s
 
 CMakeFiles/native.dir/ext/native/file/path.cpp.o.requires:
 
@@ -492,15 +492,15 @@ CMakeFiles/native.dir/ext/native/file/path.cpp.o.provides.build: CMakeFiles/nati
 CMakeFiles/native.dir/ext/native/file/zip_read.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/file/zip_read.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/zip_read.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/native.dir/ext/native/file/zip_read.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/zip_read.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/zip_read.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/file/zip_read.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/zip_read.cpp
 
 CMakeFiles/native.dir/ext/native/file/zip_read.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/file/zip_read.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/zip_read.cpp > CMakeFiles/native.dir/ext/native/file/zip_read.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/zip_read.cpp > CMakeFiles/native.dir/ext/native/file/zip_read.cpp.i
 
 CMakeFiles/native.dir/ext/native/file/zip_read.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/file/zip_read.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/zip_read.cpp -o CMakeFiles/native.dir/ext/native/file/zip_read.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/file/zip_read.cpp -o CMakeFiles/native.dir/ext/native/file/zip_read.cpp.s
 
 CMakeFiles/native.dir/ext/native/file/zip_read.cpp.o.requires:
 
@@ -516,15 +516,15 @@ CMakeFiles/native.dir/ext/native/file/zip_read.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/gl_debug_log.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/gl_debug_log.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/gl_debug_log.cpp
 
 CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/gl_debug_log.cpp > CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/gl_debug_log.cpp > CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/gl_debug_log.cpp -o CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/gl_debug_log.cpp -o CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.o.requires:
 
@@ -540,15 +540,15 @@ CMakeFiles/native.dir/ext/native/gfx/gl_debug_log.cpp.o.provides.build: CMakeFil
 CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/texture_atlas.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/texture_atlas.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/texture_atlas.cpp
 
 CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/texture_atlas.cpp > CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/texture_atlas.cpp > CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/texture_atlas.cpp -o CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/texture_atlas.cpp -o CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.o.requires:
 
@@ -564,15 +564,15 @@ CMakeFiles/native.dir/ext/native/gfx/texture_atlas.cpp.o.provides.build: CMakeFi
 CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_shader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_shader.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_shader.cpp
 
 CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_shader.cpp > CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_shader.cpp > CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_shader.cpp -o CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_shader.cpp -o CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.o.requires:
 
@@ -588,15 +588,15 @@ CMakeFiles/native.dir/ext/native/gfx/d3d9_shader.cpp.o.provides.build: CMakeFile
 CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_state.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_state.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_state.cpp
 
 CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_state.cpp > CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_state.cpp > CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_state.cpp -o CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx/d3d9_state.cpp -o CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.o.requires:
 
@@ -612,15 +612,15 @@ CMakeFiles/native.dir/ext/native/gfx/d3d9_state.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_buffer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_buffer.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_buffer.cpp
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_buffer.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_buffer.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_buffer.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_buffer.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.o.requires:
 
@@ -636,15 +636,15 @@ CMakeFiles/native.dir/ext/native/gfx_es2/draw_buffer.cpp.o.provides.build: CMake
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text.cpp
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.o.requires:
 
@@ -660,15 +660,15 @@ CMakeFiles/native.dir/ext/native/gfx_es2/draw_text.cpp.o.provides.build: CMakeFi
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_win.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_win.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_win.cpp
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_win.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_win.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_win.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_win.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.o.requires:
 
@@ -684,15 +684,15 @@ CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_win.cpp.o.provides.build: CMa
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_qt.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_qt.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_qt.cpp
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_qt.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_qt.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_qt.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_qt.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.o.requires:
 
@@ -708,15 +708,15 @@ CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_qt.cpp.o.provides.build: CMak
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_android.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_android.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_android.cpp
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_android.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_android.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_android.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/draw_text_android.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.o.requires:
 
@@ -732,15 +732,15 @@ CMakeFiles/native.dir/ext/native/gfx_es2/draw_text_android.cpp.o.provides.build:
 CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gpu_features.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gpu_features.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gpu_features.cpp
 
 CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gpu_features.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gpu_features.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gpu_features.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gpu_features.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.o.requires:
 
@@ -756,15 +756,15 @@ CMakeFiles/native.dir/ext/native/gfx_es2/gpu_features.cpp.o.provides.build: CMak
 CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/glsl_program.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/glsl_program.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/glsl_program.cpp
 
 CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/glsl_program.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/glsl_program.cpp > CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.i
 
 CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/glsl_program.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/glsl_program.cpp -o CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.s
 
 CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.o.requires:
 
@@ -780,15 +780,15 @@ CMakeFiles/native.dir/ext/native/gfx_es2/glsl_program.cpp.o.provides.build: CMak
 CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gl3stub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gl3stub.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gl3stub.c
 
 CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gl3stub.c > CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gl3stub.c > CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.i
 
 CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gl3stub.c -o CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/gfx_es2/gl3stub.c -o CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.s
 
 CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.o.requires:
 
@@ -804,15 +804,15 @@ CMakeFiles/native.dir/ext/native/gfx_es2/gl3stub.c.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/i18n/i18n.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/i18n/i18n.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/i18n/i18n.cpp
 
 CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/i18n/i18n.cpp > CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/i18n/i18n.cpp > CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.i
 
 CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/i18n/i18n.cpp -o CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/i18n/i18n.cpp -o CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.s
 
 CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.o.requires:
 
@@ -828,15 +828,15 @@ CMakeFiles/native.dir/ext/native/i18n/i18n.cpp.o.provides.build: CMakeFiles/nati
 CMakeFiles/native.dir/ext/native/image/png_load.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/image/png_load.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/png_load.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/native.dir/ext/native/image/png_load.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/image/png_load.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/png_load.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/image/png_load.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/png_load.cpp
 
 CMakeFiles/native.dir/ext/native/image/png_load.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/image/png_load.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/png_load.cpp > CMakeFiles/native.dir/ext/native/image/png_load.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/png_load.cpp > CMakeFiles/native.dir/ext/native/image/png_load.cpp.i
 
 CMakeFiles/native.dir/ext/native/image/png_load.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/image/png_load.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/png_load.cpp -o CMakeFiles/native.dir/ext/native/image/png_load.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/png_load.cpp -o CMakeFiles/native.dir/ext/native/image/png_load.cpp.s
 
 CMakeFiles/native.dir/ext/native/image/png_load.cpp.o.requires:
 
@@ -852,15 +852,15 @@ CMakeFiles/native.dir/ext/native/image/png_load.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/image/zim_load.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/image/zim_load.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_load.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/native.dir/ext/native/image/zim_load.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/image/zim_load.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_load.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/image/zim_load.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_load.cpp
 
 CMakeFiles/native.dir/ext/native/image/zim_load.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/image/zim_load.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_load.cpp > CMakeFiles/native.dir/ext/native/image/zim_load.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_load.cpp > CMakeFiles/native.dir/ext/native/image/zim_load.cpp.i
 
 CMakeFiles/native.dir/ext/native/image/zim_load.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/image/zim_load.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_load.cpp -o CMakeFiles/native.dir/ext/native/image/zim_load.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_load.cpp -o CMakeFiles/native.dir/ext/native/image/zim_load.cpp.s
 
 CMakeFiles/native.dir/ext/native/image/zim_load.cpp.o.requires:
 
@@ -876,15 +876,15 @@ CMakeFiles/native.dir/ext/native/image/zim_load.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/image/zim_save.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/image/zim_save.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_save.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/native.dir/ext/native/image/zim_save.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/image/zim_save.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_save.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/image/zim_save.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_save.cpp
 
 CMakeFiles/native.dir/ext/native/image/zim_save.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/image/zim_save.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_save.cpp > CMakeFiles/native.dir/ext/native/image/zim_save.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_save.cpp > CMakeFiles/native.dir/ext/native/image/zim_save.cpp.i
 
 CMakeFiles/native.dir/ext/native/image/zim_save.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/image/zim_save.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_save.cpp -o CMakeFiles/native.dir/ext/native/image/zim_save.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/image/zim_save.cpp -o CMakeFiles/native.dir/ext/native/image/zim_save.cpp.s
 
 CMakeFiles/native.dir/ext/native/image/zim_save.cpp.o.requires:
 
@@ -900,15 +900,15 @@ CMakeFiles/native.dir/ext/native/image/zim_save.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/gesture_detector.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/gesture_detector.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/gesture_detector.cpp
 
 CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/gesture_detector.cpp > CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/gesture_detector.cpp > CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.i
 
 CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/gesture_detector.cpp -o CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/gesture_detector.cpp -o CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.s
 
 CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.o.requires:
 
@@ -924,15 +924,15 @@ CMakeFiles/native.dir/ext/native/input/gesture_detector.cpp.o.provides.build: CM
 CMakeFiles/native.dir/ext/native/input/input_state.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/input/input_state.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/input_state.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/native.dir/ext/native/input/input_state.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/input/input_state.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/input_state.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/input/input_state.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/input_state.cpp
 
 CMakeFiles/native.dir/ext/native/input/input_state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/input/input_state.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/input_state.cpp > CMakeFiles/native.dir/ext/native/input/input_state.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/input_state.cpp > CMakeFiles/native.dir/ext/native/input/input_state.cpp.i
 
 CMakeFiles/native.dir/ext/native/input/input_state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/input/input_state.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/input_state.cpp -o CMakeFiles/native.dir/ext/native/input/input_state.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/input/input_state.cpp -o CMakeFiles/native.dir/ext/native/input/input_state.cpp.s
 
 CMakeFiles/native.dir/ext/native/input/input_state.cpp.o.requires:
 
@@ -948,15 +948,15 @@ CMakeFiles/native.dir/ext/native/input/input_state.cpp.o.provides.build: CMakeFi
 CMakeFiles/native.dir/ext/native/json/json_reader.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/json/json_reader.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_reader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/native.dir/ext/native/json/json_reader.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/json/json_reader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_reader.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/json/json_reader.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_reader.cpp
 
 CMakeFiles/native.dir/ext/native/json/json_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/json/json_reader.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_reader.cpp > CMakeFiles/native.dir/ext/native/json/json_reader.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_reader.cpp > CMakeFiles/native.dir/ext/native/json/json_reader.cpp.i
 
 CMakeFiles/native.dir/ext/native/json/json_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/json/json_reader.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_reader.cpp -o CMakeFiles/native.dir/ext/native/json/json_reader.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_reader.cpp -o CMakeFiles/native.dir/ext/native/json/json_reader.cpp.s
 
 CMakeFiles/native.dir/ext/native/json/json_reader.cpp.o.requires:
 
@@ -972,15 +972,15 @@ CMakeFiles/native.dir/ext/native/json/json_reader.cpp.o.provides.build: CMakeFil
 CMakeFiles/native.dir/ext/native/json/json_writer.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/json/json_writer.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_writer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/native.dir/ext/native/json/json_writer.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/json/json_writer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_writer.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/json/json_writer.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_writer.cpp
 
 CMakeFiles/native.dir/ext/native/json/json_writer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/json/json_writer.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_writer.cpp > CMakeFiles/native.dir/ext/native/json/json_writer.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_writer.cpp > CMakeFiles/native.dir/ext/native/json/json_writer.cpp.i
 
 CMakeFiles/native.dir/ext/native/json/json_writer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/json/json_writer.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_writer.cpp -o CMakeFiles/native.dir/ext/native/json/json_writer.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/json/json_writer.cpp -o CMakeFiles/native.dir/ext/native/json/json_writer.cpp.s
 
 CMakeFiles/native.dir/ext/native/json/json_writer.cpp.o.requires:
 
@@ -996,15 +996,15 @@ CMakeFiles/native.dir/ext/native/json/json_writer.cpp.o.provides.build: CMakeFil
 CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_math.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_math.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_math.c
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_math.c > CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_math.c > CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.i
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_math.c -o CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_math.c -o CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.s
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.o.requires:
 
@@ -1020,15 +1020,15 @@ CMakeFiles/native.dir/ext/native/math/fast/fast_math.c.o.provides.build: CMakeFi
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix.c
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix.c > CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix.c > CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.i
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix.c -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix.c -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.s
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.o.requires:
 
@@ -1044,7 +1044,7 @@ CMakeFiles/native.dir/ext/native/math/fast/fast_matrix.c.o.provides.build: CMake
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_neon.S.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_neon.S.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_neon.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_neon.S.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_neon.S.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_neon.S
+	/usr/bin/arm-linux-gnueabihf-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_neon.S.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_neon.S
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_neon.S.o.requires:
 
@@ -1060,15 +1060,15 @@ CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_neon.S.o.provides.build: 
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_sse.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_sse.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_sse.c
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_sse.c > CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_sse.c > CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.i
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_sse.c -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/fast/fast_matrix_sse.c -o CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.s
 
 CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.o.requires:
 
@@ -1084,15 +1084,15 @@ CMakeFiles/native.dir/ext/native/math/fast/fast_matrix_sse.c.o.provides.build: C
 CMakeFiles/native.dir/ext/native/math/dataconv.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/dataconv.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/dataconv.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/native.dir/ext/native/math/dataconv.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/dataconv.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/dataconv.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/dataconv.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/dataconv.cpp
 
 CMakeFiles/native.dir/ext/native/math/dataconv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/math/dataconv.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/dataconv.cpp > CMakeFiles/native.dir/ext/native/math/dataconv.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/dataconv.cpp > CMakeFiles/native.dir/ext/native/math/dataconv.cpp.i
 
 CMakeFiles/native.dir/ext/native/math/dataconv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/math/dataconv.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/dataconv.cpp -o CMakeFiles/native.dir/ext/native/math/dataconv.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/dataconv.cpp -o CMakeFiles/native.dir/ext/native/math/dataconv.cpp.s
 
 CMakeFiles/native.dir/ext/native/math/dataconv.cpp.o.requires:
 
@@ -1108,15 +1108,15 @@ CMakeFiles/native.dir/ext/native/math/dataconv.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/math/curves.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/curves.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/curves.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/native.dir/ext/native/math/curves.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/curves.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/curves.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/curves.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/curves.cpp
 
 CMakeFiles/native.dir/ext/native/math/curves.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/math/curves.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/curves.cpp > CMakeFiles/native.dir/ext/native/math/curves.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/curves.cpp > CMakeFiles/native.dir/ext/native/math/curves.cpp.i
 
 CMakeFiles/native.dir/ext/native/math/curves.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/math/curves.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/curves.cpp -o CMakeFiles/native.dir/ext/native/math/curves.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/curves.cpp -o CMakeFiles/native.dir/ext/native/math/curves.cpp.s
 
 CMakeFiles/native.dir/ext/native/math/curves.cpp.o.requires:
 
@@ -1132,15 +1132,15 @@ CMakeFiles/native.dir/ext/native/math/curves.cpp.o.provides.build: CMakeFiles/na
 CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/expression_parser.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/expression_parser.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/expression_parser.cpp
 
 CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/expression_parser.cpp > CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/expression_parser.cpp > CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.i
 
 CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/expression_parser.cpp -o CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/expression_parser.cpp -o CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.s
 
 CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.o.requires:
 
@@ -1156,15 +1156,15 @@ CMakeFiles/native.dir/ext/native/math/expression_parser.cpp.o.provides.build: CM
 CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/matrix4x4.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/matrix4x4.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/matrix4x4.cpp
 
 CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/matrix4x4.cpp > CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/matrix4x4.cpp > CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.i
 
 CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/matrix4x4.cpp -o CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/matrix4x4.cpp -o CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.s
 
 CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.o.requires:
 
@@ -1180,15 +1180,15 @@ CMakeFiles/native.dir/ext/native/math/lin/matrix4x4.cpp.o.provides.build: CMakeF
 CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/plane.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/plane.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/plane.cpp
 
 CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/plane.cpp > CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/plane.cpp > CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.i
 
 CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/plane.cpp -o CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/plane.cpp -o CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.s
 
 CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.o.requires:
 
@@ -1204,15 +1204,15 @@ CMakeFiles/native.dir/ext/native/math/lin/plane.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/quat.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/quat.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/quat.cpp
 
 CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/quat.cpp > CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/quat.cpp > CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.i
 
 CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/quat.cpp -o CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/quat.cpp -o CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.s
 
 CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.o.requires:
 
@@ -1228,15 +1228,15 @@ CMakeFiles/native.dir/ext/native/math/lin/quat.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/vec3.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/vec3.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/vec3.cpp
 
 CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/vec3.cpp > CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/vec3.cpp > CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.i
 
 CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/vec3.cpp -o CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/lin/vec3.cpp -o CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.s
 
 CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.o.requires:
 
@@ -1252,15 +1252,15 @@ CMakeFiles/native.dir/ext/native/math/lin/vec3.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/math/math_util.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/math/math_util.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/math_util.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/native.dir/ext/native/math/math_util.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/math_util.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/math_util.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/math/math_util.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/math_util.cpp
 
 CMakeFiles/native.dir/ext/native/math/math_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/math/math_util.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/math_util.cpp > CMakeFiles/native.dir/ext/native/math/math_util.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/math_util.cpp > CMakeFiles/native.dir/ext/native/math/math_util.cpp.i
 
 CMakeFiles/native.dir/ext/native/math/math_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/math/math_util.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/math_util.cpp -o CMakeFiles/native.dir/ext/native/math/math_util.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/math/math_util.cpp -o CMakeFiles/native.dir/ext/native/math/math_util.cpp.s
 
 CMakeFiles/native.dir/ext/native/math/math_util.cpp.o.requires:
 
@@ -1276,15 +1276,15 @@ CMakeFiles/native.dir/ext/native/math/math_util.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/net/http_client.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/net/http_client.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_client.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/native.dir/ext/native/net/http_client.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/http_client.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_client.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/http_client.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_client.cpp
 
 CMakeFiles/native.dir/ext/native/net/http_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/net/http_client.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_client.cpp > CMakeFiles/native.dir/ext/native/net/http_client.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_client.cpp > CMakeFiles/native.dir/ext/native/net/http_client.cpp.i
 
 CMakeFiles/native.dir/ext/native/net/http_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/net/http_client.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_client.cpp -o CMakeFiles/native.dir/ext/native/net/http_client.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_client.cpp -o CMakeFiles/native.dir/ext/native/net/http_client.cpp.s
 
 CMakeFiles/native.dir/ext/native/net/http_client.cpp.o.requires:
 
@@ -1300,15 +1300,15 @@ CMakeFiles/native.dir/ext/native/net/http_client.cpp.o.provides.build: CMakeFile
 CMakeFiles/native.dir/ext/native/net/http_headers.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/net/http_headers.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_headers.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/native.dir/ext/native/net/http_headers.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/http_headers.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_headers.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/http_headers.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_headers.cpp
 
 CMakeFiles/native.dir/ext/native/net/http_headers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/net/http_headers.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_headers.cpp > CMakeFiles/native.dir/ext/native/net/http_headers.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_headers.cpp > CMakeFiles/native.dir/ext/native/net/http_headers.cpp.i
 
 CMakeFiles/native.dir/ext/native/net/http_headers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/net/http_headers.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_headers.cpp -o CMakeFiles/native.dir/ext/native/net/http_headers.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_headers.cpp -o CMakeFiles/native.dir/ext/native/net/http_headers.cpp.s
 
 CMakeFiles/native.dir/ext/native/net/http_headers.cpp.o.requires:
 
@@ -1324,15 +1324,15 @@ CMakeFiles/native.dir/ext/native/net/http_headers.cpp.o.provides.build: CMakeFil
 CMakeFiles/native.dir/ext/native/net/http_server.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/net/http_server.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_server.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/native.dir/ext/native/net/http_server.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/http_server.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_server.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/http_server.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_server.cpp
 
 CMakeFiles/native.dir/ext/native/net/http_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/net/http_server.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_server.cpp > CMakeFiles/native.dir/ext/native/net/http_server.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_server.cpp > CMakeFiles/native.dir/ext/native/net/http_server.cpp.i
 
 CMakeFiles/native.dir/ext/native/net/http_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/net/http_server.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_server.cpp -o CMakeFiles/native.dir/ext/native/net/http_server.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/http_server.cpp -o CMakeFiles/native.dir/ext/native/net/http_server.cpp.s
 
 CMakeFiles/native.dir/ext/native/net/http_server.cpp.o.requires:
 
@@ -1348,15 +1348,15 @@ CMakeFiles/native.dir/ext/native/net/http_server.cpp.o.provides.build: CMakeFile
 CMakeFiles/native.dir/ext/native/net/resolve.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/net/resolve.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/resolve.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/native.dir/ext/native/net/resolve.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/resolve.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/resolve.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/resolve.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/resolve.cpp
 
 CMakeFiles/native.dir/ext/native/net/resolve.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/net/resolve.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/resolve.cpp > CMakeFiles/native.dir/ext/native/net/resolve.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/resolve.cpp > CMakeFiles/native.dir/ext/native/net/resolve.cpp.i
 
 CMakeFiles/native.dir/ext/native/net/resolve.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/net/resolve.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/resolve.cpp -o CMakeFiles/native.dir/ext/native/net/resolve.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/resolve.cpp -o CMakeFiles/native.dir/ext/native/net/resolve.cpp.s
 
 CMakeFiles/native.dir/ext/native/net/resolve.cpp.o.requires:
 
@@ -1372,15 +1372,15 @@ CMakeFiles/native.dir/ext/native/net/resolve.cpp.o.provides.build: CMakeFiles/na
 CMakeFiles/native.dir/ext/native/net/sinks.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/net/sinks.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/sinks.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/native.dir/ext/native/net/sinks.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/sinks.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/sinks.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/sinks.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/sinks.cpp
 
 CMakeFiles/native.dir/ext/native/net/sinks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/net/sinks.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/sinks.cpp > CMakeFiles/native.dir/ext/native/net/sinks.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/sinks.cpp > CMakeFiles/native.dir/ext/native/net/sinks.cpp.i
 
 CMakeFiles/native.dir/ext/native/net/sinks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/net/sinks.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/sinks.cpp -o CMakeFiles/native.dir/ext/native/net/sinks.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/sinks.cpp -o CMakeFiles/native.dir/ext/native/net/sinks.cpp.s
 
 CMakeFiles/native.dir/ext/native/net/sinks.cpp.o.requires:
 
@@ -1396,15 +1396,15 @@ CMakeFiles/native.dir/ext/native/net/sinks.cpp.o.provides.build: CMakeFiles/nati
 CMakeFiles/native.dir/ext/native/net/url.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/net/url.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/url.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/native.dir/ext/native/net/url.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/url.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/url.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/url.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/url.cpp
 
 CMakeFiles/native.dir/ext/native/net/url.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/net/url.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/url.cpp > CMakeFiles/native.dir/ext/native/net/url.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/url.cpp > CMakeFiles/native.dir/ext/native/net/url.cpp.i
 
 CMakeFiles/native.dir/ext/native/net/url.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/net/url.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/url.cpp -o CMakeFiles/native.dir/ext/native/net/url.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/url.cpp -o CMakeFiles/native.dir/ext/native/net/url.cpp.s
 
 CMakeFiles/native.dir/ext/native/net/url.cpp.o.requires:
 
@@ -1420,15 +1420,15 @@ CMakeFiles/native.dir/ext/native/net/url.cpp.o.provides.build: CMakeFiles/native
 CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/websocket_server.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/websocket_server.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/websocket_server.cpp
 
 CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/websocket_server.cpp > CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/websocket_server.cpp > CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.i
 
 CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/websocket_server.cpp -o CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/net/websocket_server.cpp -o CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.s
 
 CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.o.requires:
 
@@ -1444,15 +1444,15 @@ CMakeFiles/native.dir/ext/native/net/websocket_server.cpp.o.provides.build: CMak
 CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/profiler/profiler.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/profiler/profiler.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/profiler/profiler.cpp
 
 CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/profiler/profiler.cpp > CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/profiler/profiler.cpp > CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.i
 
 CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/profiler/profiler.cpp -o CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/profiler/profiler.cpp -o CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.s
 
 CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.o.requires:
 
@@ -1468,15 +1468,15 @@ CMakeFiles/native.dir/ext/native/profiler/profiler.cpp.o.provides.build: CMakeFi
 CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d.cpp
 
 CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d.cpp > CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d.cpp > CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.i
 
 CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d.cpp -o CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d.cpp -o CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.s
 
 CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.o.requires:
 
@@ -1492,15 +1492,15 @@ CMakeFiles/native.dir/ext/native/thin3d/thin3d.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_gl.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_gl.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_gl.cpp
 
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_gl.cpp > CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_gl.cpp > CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.i
 
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_gl.cpp -o CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_gl.cpp -o CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.s
 
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.o.requires:
 
@@ -1516,15 +1516,15 @@ CMakeFiles/native.dir/ext/native/thin3d/thin3d_gl.cpp.o.provides.build: CMakeFil
 CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLRenderManager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLRenderManager.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLRenderManager.cpp
 
 CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLRenderManager.cpp > CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLRenderManager.cpp > CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.i
 
 CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLRenderManager.cpp -o CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLRenderManager.cpp -o CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.s
 
 CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.o.requires:
 
@@ -1540,15 +1540,15 @@ CMakeFiles/native.dir/ext/native/thin3d/GLRenderManager.cpp.o.provides.build: CM
 CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLQueueRunner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLQueueRunner.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLQueueRunner.cpp
 
 CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLQueueRunner.cpp > CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLQueueRunner.cpp > CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.i
 
 CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLQueueRunner.cpp -o CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/GLQueueRunner.cpp -o CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.s
 
 CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.o.requires:
 
@@ -1564,15 +1564,15 @@ CMakeFiles/native.dir/ext/native/thin3d/GLQueueRunner.cpp.o.provides.build: CMak
 CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/DataFormatGL.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/DataFormatGL.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/DataFormatGL.cpp
 
 CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/DataFormatGL.cpp > CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/DataFormatGL.cpp > CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.i
 
 CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/DataFormatGL.cpp -o CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/DataFormatGL.cpp -o CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.s
 
 CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.o.requires:
 
@@ -1588,15 +1588,15 @@ CMakeFiles/native.dir/ext/native/thin3d/DataFormatGL.cpp.o.provides.build: CMake
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_vulkan.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_vulkan.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_vulkan.cpp
 
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_vulkan.cpp > CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_vulkan.cpp > CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.i
 
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_vulkan.cpp -o CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/thin3d_vulkan.cpp -o CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.s
 
 CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.o.requires:
 
@@ -1612,15 +1612,15 @@ CMakeFiles/native.dir/ext/native/thin3d/thin3d_vulkan.cpp.o.provides.build: CMak
 CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanRenderManager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanRenderManager.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanRenderManager.cpp
 
 CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanRenderManager.cpp > CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanRenderManager.cpp > CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.i
 
 CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanRenderManager.cpp -o CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanRenderManager.cpp -o CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.s
 
 CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.o.requires:
 
@@ -1636,15 +1636,15 @@ CMakeFiles/native.dir/ext/native/thin3d/VulkanRenderManager.cpp.o.provides.build
 CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanQueueRunner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanQueueRunner.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanQueueRunner.cpp
 
 CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanQueueRunner.cpp > CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanQueueRunner.cpp > CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.i
 
 CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanQueueRunner.cpp -o CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thin3d/VulkanQueueRunner.cpp -o CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.s
 
 CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.o.requires:
 
@@ -1660,15 +1660,15 @@ CMakeFiles/native.dir/ext/native/thin3d/VulkanQueueRunner.cpp.o.provides.build: 
 CMakeFiles/native.dir/ext/native/thread/executor.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thread/executor.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/executor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/native.dir/ext/native/thread/executor.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thread/executor.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/executor.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thread/executor.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/executor.cpp
 
 CMakeFiles/native.dir/ext/native/thread/executor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thread/executor.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/executor.cpp > CMakeFiles/native.dir/ext/native/thread/executor.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/executor.cpp > CMakeFiles/native.dir/ext/native/thread/executor.cpp.i
 
 CMakeFiles/native.dir/ext/native/thread/executor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thread/executor.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/executor.cpp -o CMakeFiles/native.dir/ext/native/thread/executor.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/executor.cpp -o CMakeFiles/native.dir/ext/native/thread/executor.cpp.s
 
 CMakeFiles/native.dir/ext/native/thread/executor.cpp.o.requires:
 
@@ -1684,15 +1684,15 @@ CMakeFiles/native.dir/ext/native/thread/executor.cpp.o.provides.build: CMakeFile
 CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/prioritizedworkqueue.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/prioritizedworkqueue.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/prioritizedworkqueue.cpp
 
 CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/prioritizedworkqueue.cpp > CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/prioritizedworkqueue.cpp > CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.i
 
 CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/prioritizedworkqueue.cpp -o CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/prioritizedworkqueue.cpp -o CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.s
 
 CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.o.requires:
 
@@ -1708,15 +1708,15 @@ CMakeFiles/native.dir/ext/native/thread/prioritizedworkqueue.cpp.o.provides.buil
 CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadutil.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadutil.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadutil.cpp
 
 CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadutil.cpp > CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadutil.cpp > CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.i
 
 CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadutil.cpp -o CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadutil.cpp -o CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.s
 
 CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.o.requires:
 
@@ -1732,15 +1732,15 @@ CMakeFiles/native.dir/ext/native/thread/threadutil.cpp.o.provides.build: CMakeFi
 CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadpool.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadpool.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadpool.cpp
 
 CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadpool.cpp > CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadpool.cpp > CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.i
 
 CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadpool.cpp -o CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/thread/threadpool.cpp -o CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.s
 
 CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.o.requires:
 
@@ -1756,15 +1756,15 @@ CMakeFiles/native.dir/ext/native/thread/threadpool.cpp.o.provides.build: CMakeFi
 CMakeFiles/native.dir/ext/native/ui/screen.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/ui/screen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/screen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/native.dir/ext/native/ui/screen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/screen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/screen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/screen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/screen.cpp
 
 CMakeFiles/native.dir/ext/native/ui/screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/ui/screen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/screen.cpp > CMakeFiles/native.dir/ext/native/ui/screen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/screen.cpp > CMakeFiles/native.dir/ext/native/ui/screen.cpp.i
 
 CMakeFiles/native.dir/ext/native/ui/screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/ui/screen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/screen.cpp -o CMakeFiles/native.dir/ext/native/ui/screen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/screen.cpp -o CMakeFiles/native.dir/ext/native/ui/screen.cpp.s
 
 CMakeFiles/native.dir/ext/native/ui/screen.cpp.o.requires:
 
@@ -1780,15 +1780,15 @@ CMakeFiles/native.dir/ext/native/ui/screen.cpp.o.provides.build: CMakeFiles/nati
 CMakeFiles/native.dir/ext/native/ui/ui.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/ui/ui.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/native.dir/ext/native/ui/ui.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/ui.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/ui.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui.cpp
 
 CMakeFiles/native.dir/ext/native/ui/ui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/ui/ui.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui.cpp > CMakeFiles/native.dir/ext/native/ui/ui.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui.cpp > CMakeFiles/native.dir/ext/native/ui/ui.cpp.i
 
 CMakeFiles/native.dir/ext/native/ui/ui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/ui/ui.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui.cpp -o CMakeFiles/native.dir/ext/native/ui/ui.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui.cpp -o CMakeFiles/native.dir/ext/native/ui/ui.cpp.s
 
 CMakeFiles/native.dir/ext/native/ui/ui.cpp.o.requires:
 
@@ -1804,15 +1804,15 @@ CMakeFiles/native.dir/ext/native/ui/ui.cpp.o.provides.build: CMakeFiles/native.d
 CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_context.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_context.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_context.cpp
 
 CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_context.cpp > CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_context.cpp > CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.i
 
 CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_context.cpp -o CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_context.cpp -o CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.s
 
 CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.o.requires:
 
@@ -1828,15 +1828,15 @@ CMakeFiles/native.dir/ext/native/ui/ui_context.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_screen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_screen.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_screen.cpp
 
 CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_screen.cpp > CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_screen.cpp > CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.i
 
 CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_screen.cpp -o CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_screen.cpp -o CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.s
 
 CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.o.requires:
 
@@ -1852,15 +1852,15 @@ CMakeFiles/native.dir/ext/native/ui/ui_screen.cpp.o.provides.build: CMakeFiles/n
 CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_tween.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_tween.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_tween.cpp
 
 CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_tween.cpp > CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_tween.cpp > CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.i
 
 CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_tween.cpp -o CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/ui_tween.cpp -o CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.s
 
 CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.o.requires:
 
@@ -1876,15 +1876,15 @@ CMakeFiles/native.dir/ext/native/ui/ui_tween.cpp.o.provides.build: CMakeFiles/na
 CMakeFiles/native.dir/ext/native/ui/view.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/ui/view.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/view.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/native.dir/ext/native/ui/view.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/view.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/view.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/view.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/view.cpp
 
 CMakeFiles/native.dir/ext/native/ui/view.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/ui/view.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/view.cpp > CMakeFiles/native.dir/ext/native/ui/view.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/view.cpp > CMakeFiles/native.dir/ext/native/ui/view.cpp.i
 
 CMakeFiles/native.dir/ext/native/ui/view.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/ui/view.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/view.cpp -o CMakeFiles/native.dir/ext/native/ui/view.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/view.cpp -o CMakeFiles/native.dir/ext/native/ui/view.cpp.s
 
 CMakeFiles/native.dir/ext/native/ui/view.cpp.o.requires:
 
@@ -1900,15 +1900,15 @@ CMakeFiles/native.dir/ext/native/ui/view.cpp.o.provides.build: CMakeFiles/native
 CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/viewgroup.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/viewgroup.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/viewgroup.cpp
 
 CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/viewgroup.cpp > CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/viewgroup.cpp > CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.i
 
 CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/viewgroup.cpp -o CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ui/viewgroup.cpp -o CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.s
 
 CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.o.requires:
 
@@ -1924,15 +1924,15 @@ CMakeFiles/native.dir/ext/native/ui/viewgroup.cpp.o.provides.build: CMakeFiles/n
 CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/hash/hash.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/hash/hash.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/hash/hash.cpp
 
 CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/hash/hash.cpp > CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/hash/hash.cpp > CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.i
 
 CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/hash/hash.cpp -o CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/hash/hash.cpp -o CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.s
 
 CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.o.requires:
 
@@ -1948,15 +1948,15 @@ CMakeFiles/native.dir/ext/native/util/hash/hash.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/utf8.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/utf8.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/utf8.cpp
 
 CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/utf8.cpp > CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/utf8.cpp > CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.i
 
 CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/utf8.cpp -o CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/utf8.cpp -o CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.s
 
 CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.o.requires:
 
@@ -1972,15 +1972,15 @@ CMakeFiles/native.dir/ext/native/util/text/utf8.cpp.o.provides.build: CMakeFiles
 CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/parsers.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/parsers.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/parsers.cpp
 
 CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/parsers.cpp > CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/parsers.cpp > CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.i
 
 CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/parsers.cpp -o CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/parsers.cpp -o CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.s
 
 CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.o.requires:
 
@@ -1996,15 +1996,15 @@ CMakeFiles/native.dir/ext/native/util/text/parsers.cpp.o.provides.build: CMakeFi
 CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/wrap_text.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/wrap_text.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/wrap_text.cpp
 
 CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/wrap_text.cpp > CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/wrap_text.cpp > CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.i
 
 CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/wrap_text.cpp -o CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/util/text/wrap_text.cpp -o CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.s
 
 CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.o.requires:
 
@@ -2020,15 +2020,15 @@ CMakeFiles/native.dir/ext/native/util/text/wrap_text.cpp.o.provides.build: CMake
 CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpgd.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpgd.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpgd.cpp
 
 CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpgd.cpp > CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpgd.cpp > CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.i
 
 CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpgd.cpp -o CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpgd.cpp -o CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.s
 
 CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.o.requires:
 
@@ -2044,15 +2044,15 @@ CMakeFiles/native.dir/ext/native/ext/jpge/jpgd.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.o: CMakeFiles/native.dir/flags.make
 CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpge.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpge.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpge.cpp
 
 CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpge.cpp > CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpge.cpp > CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.i
 
 CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpge.cpp -o CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/jpge/jpge.cpp -o CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.s
 
 CMakeFiles/native.dir/ext/native/ext/jpge/jpge.cpp.o.requires:
 

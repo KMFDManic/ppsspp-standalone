@@ -60,15 +60,15 @@ include ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-glsl.dir/flags.make
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.o: ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-glsl.dir/flags.make
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_glsl.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.o"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_glsl.cpp
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_glsl.cpp
 
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.i"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_glsl.cpp > CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.i
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_glsl.cpp > CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.i
 
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.s"
-	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_glsl.cpp -o CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.s
+	cd /builds/modmyclassic/ports/ppsspp/ppssppbuild/ext/SPIRV-Cross-build && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/SPIRV-Cross/spirv_glsl.cpp -o CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.s
 
 ext/SPIRV-Cross-build/CMakeFiles/spirv-cross-glsl.dir/__/SPIRV-Cross/spirv_glsl.cpp.o.requires:
 

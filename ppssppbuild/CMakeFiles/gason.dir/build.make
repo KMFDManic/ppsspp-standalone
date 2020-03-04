@@ -60,15 +60,15 @@ include CMakeFiles/gason.dir/flags.make
 CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o: CMakeFiles/gason.dir/flags.make
 CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp
 
 CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp > CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp > CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.i
 
 CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp -o CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/gason/gason.cpp -o CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.s
 
 CMakeFiles/gason.dir/ext/native/ext/gason/gason.cpp.o.requires:
 

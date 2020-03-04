@@ -60,15 +60,15 @@ include CMakeFiles/sfmt19937.dir/flags.make
 CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o: CMakeFiles/sfmt19937.dir/flags.make
 CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o   -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c
 
 CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.i"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c > CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.i
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c > CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.i
 
 CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.s"
-	/usr/bin/arm-linux-gnueabihf-gcc-6 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c -o CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.s
+	/usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/sfmt19937/SFMT.c -o CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.s
 
 CMakeFiles/sfmt19937.dir/ext/sfmt19937/SFMT.c.o.requires:
 

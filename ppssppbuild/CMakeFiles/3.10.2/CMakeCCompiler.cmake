@@ -1,7 +1,7 @@
-set(CMAKE_C_COMPILER "/usr/bin/arm-linux-gnueabihf-gcc-6")
+set(CMAKE_C_COMPILER "/usr/bin/arm-linux-gnueabihf-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
-set(CMAKE_C_COMPILER_VERSION "6.5.0")
+set(CMAKE_C_COMPILER_VERSION "8.3.0")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")
@@ -17,9 +17,9 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "/usr/bin/ar")
-set(CMAKE_C_COMPILER_AR "/usr/bin/gcc-ar-6")
+set(CMAKE_C_COMPILER_AR "/usr/bin/gcc-ar-8")
 set(CMAKE_RANLIB "/usr/bin/ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/usr/bin/gcc-ranlib-6")
+set(CMAKE_C_COMPILER_RANLIB "/usr/bin/gcc-ranlib-8")
 set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -69,5 +69,5 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc-cross/arm-linux-gnueabihf/6;/usr/arm-linux-gnueabihf/lib;/lib/arm-linux-gnueabihf;/lib;/usr/lib/arm-linux-gnueabihf;/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc-cross/arm-linux-gnueabihf/8;/usr/arm-linux-gnueabihf/lib;/lib/arm-linux-gnueabihf;/lib;/usr/lib/arm-linux-gnueabihf;/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

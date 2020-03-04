@@ -60,15 +60,15 @@ include CMakeFiles/rg_etc1.dir/flags.make
 CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o: CMakeFiles/rg_etc1.dir/flags.make
 CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp
 
 CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp > CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp > CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.i
 
 CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp -o CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/rg_etc1/rg_etc1.cpp -o CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.s
 
 CMakeFiles/rg_etc1.dir/ext/native/ext/rg_etc1/rg_etc1.cpp.o.requires:
 

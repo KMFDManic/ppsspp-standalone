@@ -60,15 +60,15 @@ include CMakeFiles/cityhash.dir/flags.make
 CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.o: CMakeFiles/cityhash.dir/flags.make
 CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.o: /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/cityhash/city.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/builds/modmyclassic/ports/ppsspp/ppssppbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++-6  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/cityhash/city.cpp
+	/usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.o -c /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/cityhash/city.cpp
 
 CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/cityhash/city.cpp > CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/cityhash/city.cpp > CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.i
 
 CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++-6 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/cityhash/city.cpp -o CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /builds/modmyclassic/ports/ppsspp/ppsspp/ext/native/ext/cityhash/city.cpp -o CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.s
 
 CMakeFiles/cityhash.dir/ext/native/ext/cityhash/city.cpp.o.requires:
 
