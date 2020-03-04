@@ -50,7 +50,7 @@ CMAKE_ASM_COMPILER_AR:FILEPATH=/usr/bin/arm-linux-gnueabihf-gcc-ar
 CMAKE_ASM_COMPILER_RANLIB:FILEPATH=/usr/bin/arm-linux-gnueabihf-ranlib
 
 //Flags used by the assembler during all build types.
-CMAKE_ASM_FLAGS:STRING=fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
+CMAKE_ASM_FLAGS:STRING=-fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
 
 //Flags used by the assembler during debug builds.
 CMAKE_ASM_FLAGS_DEBUG:STRING=-g
@@ -83,7 +83,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-8
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-8
 
 //Flags used by the compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
+CMAKE_CXX_FLAGS:STRING=-fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
 
 //Flags used by the compiler during debug builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -110,7 +110,7 @@ CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-8
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-8
 
 //Flags used by the compiler during all build types.
-CMAKE_C_FLAGS:STRING=fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
+CMAKE_C_FLAGS:STRING=-fPIC -mfloat-abi=hard -marm -mtune=cortex-a7 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -fomit-frame-pointer -ftree-vectorize -mvectorize-with-neon-quad -ffast-math -DARM_NEON -D__ARM_PCS_VFP
 
 //Flags used by the compiler during debug builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
