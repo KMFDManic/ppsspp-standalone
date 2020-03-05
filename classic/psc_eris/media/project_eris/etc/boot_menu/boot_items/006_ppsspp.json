@@ -1,0 +1,7 @@
+{
+  "autoBoot": false,
+  "default": false,
+  "hoverTexture": "PPSSPP_Hover.png",
+  "launchCommand": "sh /media/project_eris/opt/ppsspp/launch.sh",
+  "texture": "PPSSPP.png"
+}
