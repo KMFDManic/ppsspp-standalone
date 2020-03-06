@@ -189,7 +189,6 @@ bool UIScreen::axis(const AxisInput &axis) {
 	// Simple translation of hat to keys for Shield and other modern pads.
 	// TODO: Use some variant of keymap?
 	int flags = 0;
-  cout << "[DEBUG](MAIN UI) Detected Joystick movement, axisId: " << axis.axisId << "\n";
 	if (axis.axisId == JOYSTICK_AXIS_HAT_X) {
 		if (axis.value < -0.7f)
 			flags |= PAD_BUTTON_LEFT;
@@ -205,13 +204,13 @@ bool UIScreen::axis(const AxisInput &axis) {
 	}
 
   // PSC: Translate the Axis 0,1 of the PSC dpad to menu movement
-  if (axis.axisId == JOYSTICK_AXIS_X) {
+  if (axis.axisId == 0) {
 		if (axis.value < -0.7f)
 			flags |= PAD_BUTTON_LEFT;
 		if (axis.value > 0.7f)
 			flags |= PAD_BUTTON_RIGHT;
 	}
-	if (axis.axisId == JOYSTICK_AXIS_Y) {
+	if (axis.axisId == 1) {
 		if (axis.value < -0.7f)
 			flags |= PAD_BUTTON_UP;
 		if (axis.value > 0.7f)
