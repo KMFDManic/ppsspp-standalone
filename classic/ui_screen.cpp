@@ -199,23 +199,21 @@ bool UIScreen::axis(const AxisInput &axis) {
 		if (axis.value < -0.7f)
 			flags |= PAD_BUTTON_UP;
 		if (axis.value > 0.7f)
-			flags |= PAD_BUTT
-      ON_DOWN;
+			flags |= PAD_BUTTON_DOWN;
 	}
 
   // PSC: Translate the Axis 0,1 of the PSC dpad to menu movement
-  if (axis.axisId == 0) {
+  if (axis.axisId == JOYSTICK_AXIS_X) {
 		if (axis.value < -0.7f)
 			flags |= PAD_BUTTON_LEFT;
 		if (axis.value > 0.7f)
 			flags |= PAD_BUTTON_RIGHT;
 	}
-	if (axis.axisId == 1) {
+	if (axis.axisId == JOYSTICK_AXIS_Y) {
 		if (axis.value < -0.7f)
 			flags |= PAD_BUTTON_UP;
 		if (axis.value > 0.7f)
-			flags |= PAD_BUTT
-      ON_DOWN;
+			flags |= PAD_BUTTON_DOWN;
 	}
 
 	// Yeah yeah, this should be table driven..
