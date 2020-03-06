@@ -11,6 +11,9 @@
 #include "gfx_es2/draw_buffer.h"
 
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 static const bool ClickDebug = false;
 
