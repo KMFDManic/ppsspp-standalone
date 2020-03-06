@@ -519,8 +519,11 @@ int main(int argc, char *argv[]) {
   // Hardcode the width and height because we have to restart weston and restarting
   // weston on the PSC confuses the hell out of SDL and it doesn't return the correct
   // resolution for the device.
-	g_DesktopWidth = 1280;
-	g_DesktopHeight = 720;
+  displayMode.w = 1280;
+  displayMode.h = 720;
+	
+  g_DesktopWidth = displayMode.w;
+	g_DesktopHeight = displayMode.h;
 	g_RefreshRate = displayMode.refresh_rate;
 
 	SDL_GL_SetAttribute(SDL_GL_RED_SIZE, 8);
@@ -551,7 +554,7 @@ int main(int argc, char *argv[]) {
 	} else {
 		// set a sensible default resolution (2x)
 		pixel_xres = g_DesktopWidth;
-		pixel_yres = g_DesktopWidth;
+		pixel_yres = 272 * 2 * set_scale;
 		if (portrait) {
 			std::swap(pixel_xres, pixel_yres);
 		}

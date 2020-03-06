@@ -14,7 +14,7 @@ sony-pack-deploy:
   script:
     - . classic_set_env_psc_6
     - git submodule update --init --recursive
-    - cp -f classic/SDLJoystick.cpp ppsspp/SDL/
+#    - cp -f classic/SDLJoystick.cpp ppsspp/SDL/
     - cp -f classic/SDLMain.cpp ppsspp/SDL/
     - cp -f classic/MiscScreens.cpp ppsspp/UI/
     - cp -f classic/ui_screen.cpp ppsspp/ext/native/ui/
