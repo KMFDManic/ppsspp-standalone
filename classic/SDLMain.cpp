@@ -550,8 +550,8 @@ int main(int argc, char *argv[]) {
 		g_Config.bFullScreen = true;
 	} else {
 		// set a sensible default resolution (2x)
-		pixel_xres = 480 * 2 * set_scale;
-		pixel_yres = 272 * 2 * set_scale;
+		pixel_xres = g_DesktopWidth;
+		pixel_yres = g_DesktopWidth;
 		if (portrait) {
 			std::swap(pixel_xres, pixel_yres);
 		}
