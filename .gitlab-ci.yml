@@ -15,6 +15,8 @@ sony-pack-deploy:
     - . classic_set_env_psc_6
     - git submodule update --init --recursive
     - cp -f classic/SDLJoystick.cpp ppsspp/SDL/
+    - cp -f classic/SDLMain.cpp ppsspp/SDL/
+    - cp -f classic/ui_screen.cpp ppsspp/ext/native/ui/
     - cd /builds/modmyclassic/ports/ppsspp/ppsspp/ffmpeg
     - cat /builds/modmyclassic/ports/ppsspp/classic/custom_ffmpeg_armhf_make.sh > linux_armhf.sh
     - ./linux_armhf.sh
